@@ -1,0 +1,53 @@
+name: Fork listed repositories
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Preview the fork plan without creating repositories.
+        required: true
+        type: boolean
+        default: true
+      target_org:
+        description: Organization that will receive the forks.
+        required: true
+        type: string
+        default: WebRPG-org
+      limit:
+        description: Maximum unique source repositories to process. Use 0 for all.
+        required: true
+        type: string
+        default: "0"
+      default_branch_only:
+        description: Fork only the source repository default branch.
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: fork-listed-repos-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  fork:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out index
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fork repositories
+        env:
+          WEBRPG_FORK_TOKEN: ${{ secrets.WEBRPG_FORK_TOKEN }}
+          TARGET_ORG: ${{ inputs.target_org }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          LIMIT: ${{ inputs.limit }}
+          DEFAULT_BRANCH_ONLY: ${{ inputs.default_branch_only }}
+        run: node scripts/fork-listed-repos.mjs
