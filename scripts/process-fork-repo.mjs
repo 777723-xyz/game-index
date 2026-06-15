@@ -113,9 +113,30 @@ async function run() {
   result.entryPath = detection.entryPath;
   result.projectRoot = detection.projectRoot;
   result.pagesUrl = getPagesUrl();
-  result.cover = findCover(files, detection.projectRoot);
 
+  const coverResult = findCover(files, detection.projectRoot);
   const updates = new Map();
+
+  if (coverResult) {
+    result.cover = coverResult.pagesUrl;
+    result.coverPath = coverResult.coverPath;
+
+    if (coverResult.needsDecrypt) {
+      // Decrypt .rpgmvp and submit cover.png in the same commit
+      try {
+        const pngBuffer = await decryptRpgmvp(targetOrg, repoName, coverResult.coverFile.sha);
+        // Store for later commit
+        result.coverPngBuffer = pngBuffer;
+        console.log(`[cover] Will commit cover.png (${pngBuffer.length} bytes) from ${coverResult.coverPath}`);
+      } catch (error) {
+        console.log(`[cover] Failed to decrypt ${coverResult.coverPath}: ${error.message}`);
+        // Fall back to the original rpgmvp URL as cover reference
+      }
+    }
+  } else {
+    result.cover = null;
+  }
+
   for (const filePath of detection.htmlPathsToPatch) {
     const original = htmlByPath.get(filePath);
     if (original === undefined) {
@@ -152,6 +173,13 @@ async function run() {
     return;
   }
 
+  // If cover is a .rpgmvp that was decrypted, add cover.png to the commit
+  if (result.coverPngBuffer && !dryRun) {
+    updates.set("cover.png", result.coverPngBuffer);
+    result.cover = `${getPagesUrl()}cover.png`;
+    console.log(`[cover] Added cover.png to commit`);
+  }
+
   if (updates.size > 0) {
     await commitHtmlUpdates({
       branch,
@@ -159,7 +187,8 @@ async function run() {
       baseTreeSha: headCommit.tree.sha,
       updates,
     });
-    console.log(`[updated] ${updates.size} HTML files in ${targetOrg}/${repoName}`);
+    const fileTypes = [...updates.keys()].map((k) => k.endsWith(".png") ? "cover.png" : k).join(", ");
+    console.log(`[updated] ${updates.size} file(s) in ${targetOrg}/${repoName}: ${fileTypes}`);
   } else {
     console.log(`[skip] HTML already prepared in ${targetOrg}/${repoName}`);
   }
@@ -361,65 +390,90 @@ function getScriptSources(content) {
 }
 
 function findCover(files, projectRoot) {
-  const images = files
-    .filter((file) => /\.(png|jpe?g|webp)$/i.test(file.path))
+  const lowerRoot = projectRoot.toLowerCase();
+  const imageFiles = files
+    .filter((file) => /\.(png|jpe?g|webp|rpgmvp)$/i.test(file.path))
     .filter((file) => !shouldSkipPath(file.path));
-  const lowerToPath = new Map(images.map((file) => [file.path.toLowerCase(), file.path]));
-  const exactCandidates = [
-    "icon/icon.png",
-    "icon/icon.jpg",
-    "icon/icon.jpeg",
-    "icon/icon.webp",
-    "www/icon/icon.png",
-    "www/icon/icon.jpg",
-    "img/titles1/title.png",
-    "img/titles1/title.jpg",
-    "img/titles1/title.webp",
-    "img/titles2/title.png",
-    "img/pictures/title.png",
-  ].map((relativePath) => normalizeRepoPath(`${projectRoot}${relativePath}`));
 
-  for (const candidate of exactCandidates) {
-    const match = lowerToPath.get(candidate.toLowerCase());
-    if (match) {
-      return pathToPagesUrl(match);
-    }
+  // Priority 1: img/titles1/ directory
+  const titles1 = imageFiles.filter((f) => {
+    const rel = f.path.toLowerCase().slice(lowerRoot.length);
+    return rel.startsWith("img/titles1/");
+  }).sort((a, b) => a.path.localeCompare(b.path, "en"));
+  if (titles1.length > 0) {
+    return {
+      coverFile: titles1[0],
+      coverPath: titles1[0].path,
+      pagesUrl: pathToPagesUrl(titles1[0].path),
+      needsDecrypt: titles1[0].path.toLowerCase().endsWith(".rpgmvp"),
+    };
   }
 
-  const rootLower = projectRoot.toLowerCase();
-  const ranked = images
-    .filter((file) => file.path.toLowerCase().startsWith(rootLower))
-    .filter((file) => /(^|\/)(icon|img\/titles1|img\/titles2|img\/pictures)\//i.test(file.path.slice(projectRoot.length)))
-    .map((file) => ({
-      file,
-      score: scoreCoverPath(file.path, file.size || 0),
-    }))
-    .sort((left, right) => right.score - left.score || right.file.size - left.file.size || left.file.path.localeCompare(right.file.path, "en"));
+  // Priority 2: img/titles2/ directory
+  const titles2 = imageFiles.filter((f) => {
+    const rel = f.path.toLowerCase().slice(lowerRoot.length);
+    return rel.startsWith("img/titles2/");
+  }).sort((a, b) => a.path.localeCompare(b.path, "en"));
+  if (titles2.length > 0) {
+    return {
+      coverFile: titles2[0],
+      coverPath: titles2[0].path,
+      pagesUrl: pathToPagesUrl(titles2[0].path),
+      needsDecrypt: titles2[0].path.toLowerCase().endsWith(".rpgmvp"),
+    };
+  }
 
-  return ranked[0] ? pathToPagesUrl(ranked[0].file.path) : null;
+  // No titles cover found
+  return null;
 }
 
-function scoreCoverPath(filePath, size) {
-  const lower = filePath.toLowerCase();
-  let score = Math.min(size / 10000, 25);
+async function decryptRpgmvp(org, repo, fileSha) {
+  // Download blob content
+  const blob = await githubRequest(
+    `/repos/${encodeURIComponent(org)}/${encodeURIComponent(repo)}/git/blobs/${fileSha}`,
+  );
+  const raw = Buffer.from(blob.content, blob.encoding);
 
-  if (lower.includes("/icon/")) score += 40;
-  if (lower.includes("/titles1/")) score += 35;
-  if (lower.includes("/titles2/")) score += 25;
-  if (lower.includes("/pictures/")) score += 15;
-  if (/(^|\/)(title|title1|logo|icon)\.(png|jpe?g|webp)$/i.test(filePath)) score += 20;
+  // RPG Maker MV .rpgmvp format:
+  // First 32 bytes: custom header (includes signature, version, flags, dimensions)
+  // After 32 bytes: the actual image data with PNG header stripped (first 16 bytes removed)
+  // To convert: prepend standard PNG header (16 bytes) + skip first 32 bytes of .rpgmvp
 
-  return score;
+  if (raw.length < 32) {
+    throw new Error("Invalid .rpgmvp file: too short");
+  }
+
+  const magic = raw.subarray(0, 5).toString();
+  if (magic !== "RPGMV") {
+    throw new Error(`Invalid .rpgmvp magic: ${magic}`);
+  }
+
+  // Standard PNG header bytes
+  const pngHeader = Buffer.from([0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A, 0x00, 0x00, 0x00, 0x0D, 0x49, 0x48, 0x44, 0x52]);
+  const pixelData = Buffer.concat([pngHeader, raw.subarray(32)]);
+
+  // Verify it's a valid PNG
+  if (pixelData[0] !== 0x89 || pixelData[1] !== 0x50 || pixelData[2] !== 0x4E || pixelData[3] !== 0x47) {
+    throw new Error(`Decrypted data is not a valid PNG (starts with: ${pixelData.subarray(0, 4).toString("hex")})`);
+  }
+
+  console.log(`[cover] Decrypted .rpgmvp to PNG (${pixelData.length} bytes)`);
+  return pixelData;
 }
 
 async function commitHtmlUpdates({ branch, baseCommitSha, baseTreeSha, updates }) {
   const treeEntries = [];
 
   for (const [filePath, content] of updates) {
+    // content can be a string (HTML) or a Buffer (binary, e.g. cover.png)
+    const base64Content = Buffer.isBuffer(content)
+      ? content.toString("base64")
+      : Buffer.from(content, "utf8").toString("base64");
+
     const blob = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/blobs`, {
       method: "POST",
       body: {
-        content: Buffer.from(content, "utf8").toString("base64"),
+        content: base64Content,
         encoding: "base64",
       },
       ok: [201],
