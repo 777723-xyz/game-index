@@ -125,6 +125,7 @@ if (failed > 0) {
 
 function getUniqueSources(entries) {
   const bySource = new Map();
+  const seenRepoNames = new Set();
 
   for (const entry of entries) {
     if (!includeInvalid && isInvalidEntry(entry)) {
@@ -137,6 +138,12 @@ function getUniqueSources(entries) {
 
     const source = `${entry.owner}/${entry.name}`;
     const sourceKey = source.toLowerCase();
+    const repoNameKey = String(entry.name).toLowerCase();
+
+    if (seenRepoNames.has(repoNameKey)) {
+      continue;
+    }
+    seenRepoNames.add(repoNameKey);
 
     if (!bySource.has(sourceKey)) {
       bySource.set(sourceKey, {
@@ -181,7 +188,7 @@ function makeForkName(owner, name) {
 }
 
 function isInvalidEntry(entry) {
-  return ["invalid_structure", "deleted_invalid_structure"].includes(entry.status);
+  return ["invalid_structure", "deleted_invalid_structure", "duplicate_name"].includes(entry.status);
 }
 
 async function loadExistingOrgRepos(org) {

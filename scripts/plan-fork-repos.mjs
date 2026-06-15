@@ -48,10 +48,21 @@ async function loadOrgRepos(org) {
 
 function getUniqueSources(entries) {
   const bySource = new Map();
+  const seenRepoNames = new Set();
 
   for (const entry of entries) {
+    if (isSkippedEntry(entry)) {
+      continue;
+    }
+
     const source = `${entry.owner}/${entry.name}`;
     const sourceKey = source.toLowerCase();
+    const repoNameKey = String(entry.name).toLowerCase();
+
+    if (seenRepoNames.has(repoNameKey)) {
+      continue;
+    }
+    seenRepoNames.add(repoNameKey);
 
     if (!bySource.has(sourceKey)) {
       bySource.set(sourceKey, {
@@ -92,6 +103,10 @@ function makeForkName(owner, name) {
   }
 
   return `${safe.slice(0, 91).replace(/[.-]+$/g, "")}-${shortHash(raw)}`;
+}
+
+function isSkippedEntry(entry) {
+  return ["invalid_structure", "deleted_invalid_structure", "duplicate_name"].includes(entry.status);
 }
 
 async function githubRequest(path, options = {}) {

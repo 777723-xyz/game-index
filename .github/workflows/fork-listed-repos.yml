@@ -1,58 +1,22 @@
 name: Fork listed repositories
 
 on:
-  workflow_dispatch:
-    inputs:
-      dry_run:
-        description: Preview the fork plan without creating repositories.
-        required: true
-        type: boolean
-        default: true
-      target_org:
-        description: Organization that will receive the forks.
-        required: true
-        type: string
-        default: WebRPG-org
-      limit:
-        description: Maximum unique source repositories to process. Use 0 for all.
-        required: true
-        type: string
-        default: "0"
-      default_branch_only:
-        description: Fork only the source repository default branch.
-        required: true
-        type: boolean
-        default: false
-      include_invalid:
-        description: Include entries previously marked invalid_structure.
-        required: true
-        type: boolean
-        default: false
-      create_delay_seconds:
-        description: Seconds to wait between fork creation requests.
-        required: true
-        type: string
-        default: "20"
-      retry_limit:
-        description: Number of retries for secondary rate-limit errors.
-        required: true
-        type: string
-        default: "5"
-      retry_base_delay_seconds:
-        description: Initial retry delay for secondary rate-limit errors.
-        required: true
-        type: string
-        default: "60"
+  workflow_run:
+    workflows:
+      - Index GitHub RPG Maker repositories
+    types:
+      - completed
 
 permissions:
   contents: read
 
 concurrency:
-  group: fork-listed-repos-${{ github.ref }}
+  group: fork-listed-repos
   cancel-in-progress: false
 
 jobs:
   fork:
+    if: github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Check out index
@@ -66,12 +30,12 @@ jobs:
       - name: Fork repositories
         env:
           WEBRPG_FORK_TOKEN: ${{ secrets.WEBRPG_FORK_TOKEN }}
-          TARGET_ORG: ${{ inputs.target_org }}
-          DRY_RUN: ${{ inputs.dry_run }}
-          LIMIT: ${{ inputs.limit }}
-          DEFAULT_BRANCH_ONLY: ${{ inputs.default_branch_only }}
-          INCLUDE_INVALID: ${{ inputs.include_invalid }}
-          CREATE_DELAY_SECONDS: ${{ inputs.create_delay_seconds }}
-          RETRY_LIMIT: ${{ inputs.retry_limit }}
-          RETRY_BASE_DELAY_SECONDS: ${{ inputs.retry_base_delay_seconds }}
+          TARGET_ORG: WebRPG-org
+          DRY_RUN: "false"
+          LIMIT: "0"
+          DEFAULT_BRANCH_ONLY: "false"
+          INCLUDE_INVALID: "false"
+          CREATE_DELAY_SECONDS: "30"
+          RETRY_LIMIT: "5"
+          RETRY_BASE_DELAY_SECONDS: "60"
         run: node scripts/fork-listed-repos.mjs

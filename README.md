@@ -10,9 +10,11 @@ The list is sorted by `title`. Language metadata is intentionally omitted until 
 
 ## Fork Workflow
 
-The `Fork listed repositories` workflow reads `list.json`, deduplicates source repositories, and forks missing repositories into `WebRPG-org`.
+The `Index GitHub RPG Maker repositories` workflow runs daily and searches GitHub code for RPG Maker MV/MZ web entry files. It adds repositories that are not already in `list.json`.
 
-The workflow is manually triggered and defaults to dry-run mode. To create forks, add a repository or organization secret named `WEBRPG_FORK_TOKEN`, then run the workflow with `dry_run` set to `false`.
+The `Fork listed repositories` workflow runs automatically after the index workflow succeeds. It reads `list.json`, deduplicates source repositories, and forks missing repositories into `WebRPG-org`.
+
+Add a repository or organization secret named `WEBRPG_FORK_TOKEN` to create forks. The same token can be used for code search, or you can add a separate `WEBRPG_SEARCH_TOKEN`.
 
 The token must belong to a user or app that can create repositories in `WebRPG-org`. For fine-grained tokens, GitHub documents the fork endpoint as requiring repository `Administration` write permission and `Contents` read permission.
 
@@ -22,7 +24,14 @@ The workflow waits between fork creation requests to avoid GitHub secondary rate
 - `retry_limit`: `5`
 - `retry_base_delay_seconds`: `60`
 
-If GitHub still reports that requests were submitted too quickly, rerun the workflow with `create_delay_seconds` set to `30` or `60`. Existing forks are detected and skipped.
+If GitHub still reports that requests were submitted too quickly, increase `CREATE_DELAY_SECONDS` in `.github/workflows/fork-listed-repos.yml`. Existing forks are detected and skipped.
+
+Repositories are skipped when:
+
+- The source repository is already forked into `WebRPG-org`.
+- `WebRPG-org` already has a repository with the target fork name.
+- The `list.json` entry is marked `invalid_structure`, `deleted_invalid_structure`, or `duplicate_name`.
+- Another entry already uses the same repository name, even when the owner is different.
 
 Fork names use this format:
 
@@ -34,7 +43,7 @@ This avoids name collisions for common repository names such as `game`, `rpg`, a
 
 ## Prepare Fork Workflow
 
-The `Prepare fork repositories` workflow processes fork repositories that already exist in `WebRPG-org`.
+The `Prepare fork repositories` workflow runs automatically after the fork workflow succeeds. It processes fork repositories that already exist in `WebRPG-org`.
 
 It does two things for each matching fork:
 
@@ -66,7 +75,7 @@ Recommended GitHub App repository permissions:
 
 Install the App on all repositories in `WebRPG-org`. This matters because new fork repositories will be added over time; a selected-repositories installation will not automatically include new forks.
 
-The workflow is manually triggered and defaults to `dry_run=true`.
+The workflow is fully automatic. It does not run in dry-run mode.
 
 During each run, the workflow validates every matching fork before preparing Pages. A fork is treated as valid only when it has an RPG Maker MV/MZ web structure, such as a HTML entry file plus the expected `js/rpg_core.js` or `js/rmmz_core.js` runtime files.
 

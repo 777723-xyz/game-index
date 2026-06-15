@@ -1,0 +1,55 @@
+name: Index GitHub RPG Maker repositories
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: index-github-rpgmaker-repos
+  cancel-in-progress: false
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create index repository token
+        id: index-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
+          private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
+          owner: WebRPG-org
+          repositories: index
+
+      - name: Check out index
+        uses: actions/checkout@v4
+        with:
+          token: ${{ steps.index-token.outputs.token }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Search GitHub code
+        env:
+          WEBRPG_SEARCH_TOKEN: ${{ secrets.WEBRPG_SEARCH_TOKEN || secrets.WEBRPG_FORK_TOKEN || github.token }}
+          SEARCH_MAX_PAGES: "10"
+          SEARCH_PER_PAGE: "100"
+          SEARCH_DELAY_SECONDS: "8"
+        run: node scripts/index-github-rpgmaker-repos.mjs
+
+      - name: Commit index updates
+        run: |
+          git config user.name "webrpg-bot[bot]"
+          git config user.email "webrpg-bot[bot]@users.noreply.github.com"
+          git add list.json
+          if git diff --cached --quiet; then
+            echo "No list.json changes to commit."
+          else
+            git commit -m "Index GitHub RPG Maker repositories"
+            git push
+          fi

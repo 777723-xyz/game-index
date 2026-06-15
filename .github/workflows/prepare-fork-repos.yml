@@ -1,56 +1,22 @@
 name: Prepare fork repositories
 
 on:
-  workflow_dispatch:
-    inputs:
-      dry_run:
-        description: Preview changes without committing or enabling Pages.
-        required: true
-        type: boolean
-        default: true
-      target_org:
-        description: Organization that owns the fork repositories.
-        required: true
-        type: string
-        default: WebRPG-org
-      limit:
-        description: Maximum fork repositories to process. Use 0 for all.
-        required: true
-        type: string
-        default: "0"
-      pages_source_path:
-        description: GitHub Pages source path. Must be / or /docs.
-        required: true
-        type: choice
-        options:
-          - /
-          - /docs
-        default: /
-      site_origin:
-        description: Public catalog origin used for Pages URLs in summaries.
-        required: true
-        type: string
-        default: https://webrpg.org
-      delete_invalid_repos:
-        description: Delete fork repositories that do not look like RPG Maker web projects.
-        required: true
-        type: boolean
-        default: true
-      update_index:
-        description: Commit validation and cover metadata back to list.json.
-        required: true
-        type: boolean
-        default: true
+  workflow_run:
+    workflows:
+      - Fork listed repositories
+    types:
+      - completed
 
 permissions:
   contents: read
 
 concurrency:
-  group: prepare-fork-repos-${{ github.ref }}
+  group: prepare-fork-repos
   cancel-in-progress: false
 
 jobs:
   plan:
+    if: github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.plan.outputs.matrix }}
@@ -71,14 +37,14 @@ jobs:
         with:
           client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
           private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
-          owner: ${{ inputs.target_org }}
+          owner: WebRPG-org
 
       - name: Plan fork repositories
         id: plan
         env:
           WEBRPG_APP_TOKEN: ${{ steps.app-token.outputs.token }}
-          TARGET_ORG: ${{ inputs.target_org }}
-          LIMIT: ${{ inputs.limit }}
+          TARGET_ORG: WebRPG-org
+          LIMIT: "0"
         run: node scripts/plan-fork-repos.mjs
 
   process:
@@ -104,18 +70,18 @@ jobs:
         with:
           client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
           private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
-          owner: ${{ inputs.target_org }}
+          owner: WebRPG-org
           repositories: ${{ matrix.repo }}
 
       - name: Inject analytics script and enable Pages
         env:
           WEBRPG_APP_TOKEN: ${{ steps.app-token.outputs.token }}
-          TARGET_ORG: ${{ inputs.target_org }}
+          TARGET_ORG: WebRPG-org
           REPO_NAME: ${{ matrix.repo }}
-          DRY_RUN: ${{ inputs.dry_run }}
-          DELETE_INVALID_REPOS: ${{ inputs.delete_invalid_repos }}
-          PAGES_SOURCE_PATH: ${{ inputs.pages_source_path }}
-          SITE_ORIGIN: ${{ inputs.site_origin }}
+          DRY_RUN: "false"
+          DELETE_INVALID_REPOS: "true"
+          PAGES_SOURCE_PATH: /
+          SITE_ORIGIN: https://webrpg.org
           RESULT_DIR: workflow-results
         run: node scripts/process-fork-repo.mjs
 
@@ -140,7 +106,7 @@ jobs:
         with:
           client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
           private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
-          owner: ${{ inputs.target_org }}
+          owner: WebRPG-org
           repositories: index
 
       - name: Check out index
@@ -162,12 +128,11 @@ jobs:
 
       - name: Update list metadata
         env:
-          DRY_RUN: ${{ inputs.dry_run }}
+          DRY_RUN: "false"
           RESULTS_DIR: workflow-results
         run: node scripts/update-list-from-results.mjs
 
       - name: Commit list metadata
-        if: inputs.dry_run == false && inputs.update_index == true
         run: |
           git config user.name "webrpg-bot[bot]"
           git config user.email "webrpg-bot[bot]@users.noreply.github.com"
