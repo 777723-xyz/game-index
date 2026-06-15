@@ -29,6 +29,15 @@ const updated = list.map((entry) => {
 
   if (result.status === "verified") {
     verified += 1;
+
+    // If the result has a sourceRepo (original upstream repository),
+    // update the repo/owner/name fields so "Source" link points to
+    // the original author, not the fork under WebRPG-org.
+    const sourceRepo = result.sourceRepo || "";
+    const fixedRepo = sourceRepo ? `https://github.com/${sourceRepo}` : entry.repo;
+    const fixedOwner = sourceRepo ? sourceRepo.split("/")[0] : entry.owner;
+    const fixedName = sourceRepo ? sourceRepo.split("/")[1] : entry.name;
+
     return cleanObject({
       ...entry,
       status: "verified",
@@ -37,10 +46,14 @@ const updated = list.map((entry) => {
       pagesUrl: result.pagesUrl,
       entryPath: result.entryPath,
       engine: result.engine || entry.engine,
-      cover: result.cover || entry.cover,
+      cover: result.cover || undefined,
       validationScore: result.validationScore,
       totalSize: result.totalSize,
       dataSize: result.dataSize,
+      repo: fixedRepo,
+      owner: fixedOwner,
+      name: fixedName,
+      sourceRepo,
     });
   }
 
