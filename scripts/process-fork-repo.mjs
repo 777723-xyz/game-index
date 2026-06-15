@@ -115,27 +115,46 @@ async function run() {
   result.projectRoot = detection.projectRoot;
   result.pagesUrl = getPagesUrl();
 
-  const coverResult = findCover(files, detection.projectRoot);
   const updates = new Map();
 
-  if (coverResult) {
-    result.cover = coverResult.pagesUrl;
-    result.coverPath = coverResult.coverPath;
-
-    if (coverResult.needsDecrypt) {
-      // Decrypt .rpgmvp and submit cover.png in the same commit
-      try {
-        const pngBuffer = await decryptRpgmvp(targetOrg, repoName, coverResult.coverFile.sha);
-        // Store for later commit
-        result.coverPngBuffer = pngBuffer;
-        console.log(`[cover] Will commit cover.png (${pngBuffer.length} bytes) from ${coverResult.coverPath}`);
-      } catch (error) {
-        console.log(`[cover] Failed to decrypt ${coverResult.coverPath}: ${error.message}`);
-        // Fall back to the original rpgmvp URL as cover reference
-      }
-    }
+  // Check if a cover image already exists in the repo root
+  const existingCoverFile = tree.tree.find(
+    (item) => item.type === "blob" && /^cover\.(png|jpg|jpeg|webp)$/i.test(item.path),
+  );
+  if (existingCoverFile) {
+    result.cover = `${getPagesUrl()}${existingCoverFile.path}`;
+    result.coverPath = existingCoverFile.path;
+    console.log(`[cover] Already exists: ${existingCoverFile.path}, skipping cover search`);
   } else {
-    result.cover = null;
+    const coverResult = findCover(files, detection.projectRoot);
+    if (coverResult) {
+      result.cover = coverResult.pagesUrl;
+      result.coverPath = coverResult.coverPath;
+
+      if (coverResult.needsDecrypt) {
+        try {
+          const pngBuffer = await decryptRpgmvp(targetOrg, repoName, coverResult.coverFile.sha);
+          result.coverPngBuffer = pngBuffer;
+          console.log(`[cover] Will commit cover.png (${pngBuffer.length} bytes) from ${coverResult.coverPath}`);
+        } catch (error) {
+          console.log(`[cover] Failed to decrypt ${coverResult.coverPath}: ${error.message}`);
+        }
+      } else {
+        // Unencrypted image — commit the original blob as cover.png
+        try {
+          const blob = await githubRequest(
+            `/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/blobs/${coverResult.coverFile.sha}`,
+          );
+          const imgBuffer = Buffer.from(blob.content, blob.encoding);
+          result.coverPngBuffer = imgBuffer;
+          console.log(`[cover] Will copy ${coverResult.coverPath} as cover.png (${imgBuffer.length} bytes)`);
+        } catch (error) {
+          console.log(`[cover] Failed to read ${coverResult.coverPath}: ${error.message}`);
+        }
+      }
+    } else {
+      result.cover = null;
+    }
   }
 
   for (const filePath of detection.htmlPathsToPatch) {
@@ -174,7 +193,7 @@ async function run() {
     return;
   }
 
-  // If cover is a .rpgmvp that was decrypted, add cover.png to the commit
+  // If a cover was found and needs to be committed as cover.png
   if (result.coverPngBuffer && !dryRun) {
     // Check if cover.png already exists with the same content
     const existingCover = tree.tree.find(
