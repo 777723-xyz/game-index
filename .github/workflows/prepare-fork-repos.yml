@@ -1,0 +1,102 @@
+name: Prepare fork repositories
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Preview changes without committing or enabling Pages.
+        required: true
+        type: boolean
+        default: true
+      target_org:
+        description: Organization that owns the fork repositories.
+        required: true
+        type: string
+        default: WebRPG-org
+      limit:
+        description: Maximum fork repositories to process. Use 0 for all.
+        required: true
+        type: string
+        default: "0"
+      pages_source_path:
+        description: GitHub Pages source path. Must be / or /docs.
+        required: true
+        type: choice
+        options:
+          - /
+          - /docs
+        default: /
+
+permissions:
+  contents: read
+
+concurrency:
+  group: prepare-fork-repos-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      has_targets: ${{ steps.plan.outputs.has_targets }}
+      target_count: ${{ steps.plan.outputs.target_count }}
+    steps:
+      - name: Check out index
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
+          private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
+          owner: ${{ inputs.target_org }}
+
+      - name: Plan fork repositories
+        id: plan
+        env:
+          WEBRPG_APP_TOKEN: ${{ steps.app-token.outputs.token }}
+          TARGET_ORG: ${{ inputs.target_org }}
+          LIMIT: ${{ inputs.limit }}
+        run: node scripts/plan-fork-repos.mjs
+
+  process:
+    needs: plan
+    if: needs.plan.outputs.has_targets == 'true'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - name: Check out index
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Create repository-scoped GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
+          private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
+          owner: ${{ inputs.target_org }}
+          repositories: ${{ matrix.repo }}
+
+      - name: Inject analytics script and enable Pages
+        env:
+          WEBRPG_APP_TOKEN: ${{ steps.app-token.outputs.token }}
+          TARGET_ORG: ${{ inputs.target_org }}
+          REPO_NAME: ${{ matrix.repo }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          PAGES_SOURCE_PATH: ${{ inputs.pages_source_path }}
+        run: node scripts/process-fork-repo.mjs

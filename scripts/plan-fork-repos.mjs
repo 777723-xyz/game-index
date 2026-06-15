@@ -1,0 +1,138 @@
+import crypto from "node:crypto";
+import fs from "node:fs/promises";
+
+const apiBase = "https://api.github.com";
+const token = process.env.WEBRPG_APP_TOKEN || process.env.GITHUB_TOKEN || "";
+const targetOrg = process.env.TARGET_ORG || "WebRPG-org";
+const limit = parseNonNegativeInt(process.env.LIMIT || "0");
+
+if (!token) {
+  throw new Error("WEBRPG_APP_TOKEN or GITHUB_TOKEN is required.");
+}
+
+const list = JSON.parse(await fs.readFile("list.json", "utf8"));
+const indexedNames = new Set(getUniqueSources(list).map((item) => item.forkName.toLowerCase()));
+const orgRepos = await loadOrgRepos(targetOrg);
+const targets = orgRepos
+  .filter((repo) => repo.fork && indexedNames.has(repo.name.toLowerCase()))
+  .sort((left, right) => left.name.localeCompare(right.name, "en"));
+const planned = limit > 0 ? targets.slice(0, limit) : targets;
+const matrix = {
+  include: planned.map((repo) => ({
+    repo: repo.name,
+  })),
+};
+
+console.log(`Indexed source repositories: ${indexedNames.size}`);
+console.log(`Fork repositories in ${targetOrg}: ${targets.length}`);
+console.log(`Repositories in this run: ${planned.length}`);
+
+await writeOutput("matrix", JSON.stringify(matrix));
+await writeOutput("has_targets", planned.length > 0 ? "true" : "false");
+await writeOutput("target_count", String(planned.length));
+
+async function loadOrgRepos(org) {
+  const repos = [];
+
+  for (let page = 1; ; page += 1) {
+    const batch = await githubRequest(`/orgs/${encodeURIComponent(org)}/repos?type=all&per_page=100&page=${page}`);
+    if (batch.length === 0) {
+      break;
+    }
+
+    repos.push(...batch);
+  }
+
+  return repos;
+}
+
+function getUniqueSources(entries) {
+  const bySource = new Map();
+
+  for (const entry of entries) {
+    const source = `${entry.owner}/${entry.name}`;
+    const sourceKey = source.toLowerCase();
+
+    if (!bySource.has(sourceKey)) {
+      bySource.set(sourceKey, {
+        source,
+        owner: entry.owner,
+        name: entry.name,
+        forkName: makeForkName(entry.owner, entry.name),
+      });
+    }
+  }
+
+  const usedNames = new Map();
+  for (const item of bySource.values()) {
+    const nameKey = item.forkName.toLowerCase();
+    const existingSource = usedNames.get(nameKey);
+    if (existingSource && existingSource !== item.source.toLowerCase()) {
+      item.forkName = makeForkName(item.owner, `${item.name}-${shortHash(item.source)}`);
+    }
+    usedNames.set(item.forkName.toLowerCase(), item.source.toLowerCase());
+  }
+
+  return [...bySource.values()];
+}
+
+function makeForkName(owner, name) {
+  const raw = `${owner}-${name}`;
+  let safe = raw
+    .replace(/[^A-Za-z0-9._-]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^[.-]+|[.-]+$/g, "");
+
+  if (!safe) {
+    safe = `repo-${shortHash(raw)}`;
+  }
+
+  if (safe.length <= 100) {
+    return safe;
+  }
+
+  return `${safe.slice(0, 91).replace(/[.-]+$/g, "")}-${shortHash(raw)}`;
+}
+
+async function githubRequest(path, options = {}) {
+  const response = await fetch(`${apiBase}${path}`, {
+    method: options.method || "GET",
+    headers: {
+      Accept: "application/vnd.github+json",
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json",
+      "X-GitHub-Api-Version": "2022-11-28",
+    },
+    body: options.body ? JSON.stringify(options.body) : undefined,
+  });
+
+  const text = await response.text();
+  const data = text ? JSON.parse(text) : null;
+
+  if (!response.ok) {
+    throw new Error(`GitHub API ${response.status}: ${data?.message || response.statusText}`);
+  }
+
+  return data;
+}
+
+function parseNonNegativeInt(value) {
+  const parsed = Number.parseInt(value, 10);
+  if (!Number.isFinite(parsed) || parsed < 0) {
+    throw new Error(`LIMIT must be a non-negative integer, got ${value}.`);
+  }
+
+  return parsed;
+}
+
+function shortHash(value) {
+  return crypto.createHash("sha1").update(value).digest("hex").slice(0, 8);
+}
+
+async function writeOutput(name, value) {
+  if (!process.env.GITHUB_OUTPUT) {
+    return;
+  }
+
+  await fs.appendFile(process.env.GITHUB_OUTPUT, `${name}=${value}\n`);
+}

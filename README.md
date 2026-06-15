@@ -31,3 +31,39 @@ sourceOwner-sourceRepo
 ```
 
 This avoids name collisions for common repository names such as `game`, `rpg`, and `github.io`.
+
+## Prepare Fork Workflow
+
+The `Prepare fork repositories` workflow processes fork repositories that already exist in `WebRPG-org`.
+
+It does two things for each matching fork:
+
+- Adds this analytics script tag to HTML files that do not already contain it:
+
+```html
+<script defer src="https://insight.ravelloh.com/script.js?siteId=5ace6623-f51b-4571-8f60-e0473ea3317b"></script>
+```
+
+- Enables GitHub Pages from the repository default branch and `/`.
+
+The public Pages URL path is determined by the repository name. For example, `WebRPG-org/example-game` is published at:
+
+```text
+https://webrpg-org.github.io/example-game/
+```
+
+This workflow uses a GitHub App token. Create and install a GitHub App on `WebRPG-org`, then add these Actions settings to this repository or to the organization with access granted to this repository:
+
+- Variable: `WEBRPG_APP_CLIENT_ID`
+- Secret: `WEBRPG_APP_PRIVATE_KEY`
+
+Recommended GitHub App repository permissions:
+
+- `Administration`: read and write
+- `Contents`: read and write
+- `Pages`: read and write
+- `Metadata`: read-only
+
+Install the App on all repositories in `WebRPG-org`. This matters because new fork repositories will be added over time; a selected-repositories installation will not automatically include new forks.
+
+The workflow is manually triggered and defaults to `dry_run=true`.
