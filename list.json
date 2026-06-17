@@ -1227,6 +1227,18 @@
     "engine": "RPG Maker MV"
   },
   {
+    "id": "1lgr-treinamento-rpg-maker",
+    "title": "A Aventura de Raidon",
+    "repo": "https://github.com/1LgR/Treinamento-RPG-MAKER",
+    "owner": "1LgR",
+    "name": "Treinamento-RPG-MAKER",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-17T21:59:32.584Z",
+    "source": "github-code-search",
+    "sourcePath": "TesteLuiz/index.html"
+  },
+  {
     "id": "pedromaxdev-a-lenda-de-camutanga",
     "title": "A Lenda de Camutanga",
     "repo": "https://github.com/PedroMaxDEV/A-LENDA-DE-CAMUTANGA",
@@ -3518,6 +3530,18 @@
     "checkedAt": "2026-06-17T19:45:01.296Z",
     "forkName": "Kendid29-AfterRain",
     "lastCheckError": "GitHub API 403: API rate limit exceeded for installation ID 140358813. If you reach out to GitHub Support for help, please include the request ID EBC3:26A0E7:AA8660:275C5D2:6A32F93D and timestamp 2026-06-17 19:45:01 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)"
+  },
+  {
+    "id": "nautssky-nautssky",
+    "title": "Di Balik Hujan",
+    "repo": "https://github.com/NautsSky/nautssky",
+    "owner": "NautsSky",
+    "name": "nautssky",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-17T21:59:32.584Z",
+    "source": "github-code-search",
+    "sourcePath": "public/www/index.html"
   },
   {
     "id": "ovate-rmmv-dice",
@@ -9205,6 +9229,18 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "www/index.html"
+  },
+  {
+    "id": "angeelpm-juegorpg-theesi",
+    "title": "The ESI",
+    "repo": "https://github.com/angeelpm/JuegoRPG-TheESI",
+    "owner": "angeelpm",
+    "name": "JuegoRPG-TheESI",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-17T21:59:32.584Z",
+    "source": "github-code-search",
+    "sourcePath": "TheESI/www/index.html"
   },
   {
     "id": "robles1301-videojuego",
