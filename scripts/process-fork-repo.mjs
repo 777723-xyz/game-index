@@ -115,9 +115,35 @@ async function run() {
   result.projectRoot = detection.projectRoot;
   result.pagesUrl = getPagesUrl();
 
+  // Flatten: if projectRoot is a subdirectory, move its contents to repo root
+  let currentHeadSha = headSha;
+  let currentTree = tree;
+  let currentFiles = files;
+
+  if (detection.projectRoot && !dryRun) {
+    const flat = await flattenProjectToRoot(branch, currentHeadSha, currentTree, detection.projectRoot);
+    if (flat) {
+      currentHeadSha = flat.headSha;
+      // Re-fetch tree after flattening
+      const newCommit = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/commits/${currentHeadSha}`);
+      currentTree = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/trees/${newCommit.tree.sha}?recursive=1`);
+      currentFiles = currentTree.tree.filter((item) => item.type === "blob");
+
+      // Update detection paths — projectRoot is now empty
+      const prefix = detection.projectRoot;
+      detection.projectRoot = "";
+      detection.entryPath = detection.entryPath.replace(prefix, "");
+      detection.htmlPathsToPatch = detection.htmlPathsToPatch.map((p) => p.replace(prefix, ""));
+      result.projectRoot = "";
+      result.entryPath = detection.entryPath;
+      result.flattened = true;
+      console.log(`[flatten] Project moved to root, new entry: ${detection.entryPath}`);
+    }
+  }
+
   // Compute game size metrics (zero additional API cost)
   result.totalSize = repo.size || 0;
-  const dataSize = files
+  const dataSize = currentFiles
     .filter((f) => f.path.startsWith("data/") && f.path.endsWith(".json"))
     .reduce((sum, f) => sum + (f.size || 0), 0);
   result.dataSize = dataSize;
@@ -125,7 +151,7 @@ async function run() {
   const updates = new Map();
 
   // Check if a cover image already exists in the repo root
-  const existingCoverFile = tree.tree.find(
+  const existingCoverFile = currentTree.tree.find(
     (item) => item.type === "blob" && /^cover\.(png|jpg|jpeg|webp)$/i.test(item.path),
   );
   if (existingCoverFile) {
@@ -133,7 +159,7 @@ async function run() {
     result.coverPath = existingCoverFile.path;
     console.log(`[cover] Already exists: ${existingCoverFile.path}, skipping cover search`);
   } else {
-    const coverResult = findCover(files, detection.projectRoot);
+    const coverResult = findCover(currentFiles, detection.projectRoot);
     if (coverResult) {
       result.cover = coverResult.pagesUrl;
       result.coverPath = coverResult.coverPath;
@@ -196,7 +222,7 @@ async function run() {
   // If a cover was found and needs to be committed as cover.png
   if (result.coverPngBuffer && !dryRun) {
     // Check if cover.png already exists with the same content
-    const existingCover = tree.tree.find(
+    const existingCover = currentTree.tree.find(
       (item) => item.path === "cover.png" && item.type === "blob",
     );
     const newSha = crypto.createHash("sha1").update(`blob ${result.coverPngBuffer.length}\0`).update(result.coverPngBuffer).digest("hex");
@@ -212,8 +238,8 @@ async function run() {
   if (updates.size > 0) {
     await commitHtmlUpdates({
       branch,
-      baseCommitSha: headSha,
-      baseTreeSha: headCommit.tree.sha,
+      baseCommitSha: currentHeadSha,
+      baseTreeSha: currentTree.sha || currentHeadSha,
       updates,
     });
     const fileTypes = [...updates.keys()].map((k) => k.endsWith(".png") ? "cover.png" : k).join(", ");
@@ -222,7 +248,7 @@ async function run() {
     console.log(`[skip] HTML already prepared in ${targetOrg}/${repoName}`);
   }
 
-  await ensurePages(branch, detection.projectRoot.replace(/\/+$/, '') || pagesPath);
+  await ensurePages(branch, "/");
   result.htmlFilesUpdated = updates.size;
   result.pagesEnabled = true;
   summary.push(`Status: \`verified\``);
@@ -488,6 +514,131 @@ async function decryptRpgmvp(org, repo, fileSha) {
 
   console.log(`[cover] Decrypted .rpgmvp to PNG (${pixelData.length} bytes)`);
   return pixelData;
+}
+
+async function flattenProjectToRoot(branch, headSha, tree, projectRoot) {
+  const blobEntries = [];
+  const coverEntry = tree.tree.find(
+    (item) => item.type === "blob" && /^cover\.(png|jpg|jpeg|webp)$/i.test(item.path),
+  );
+
+  for (const item of tree.tree) {
+    if (item.type !== "blob") continue;
+    const path = item.path;
+
+    if (path.startsWith(projectRoot)) {
+      const newPath = path.slice(projectRoot.length);
+      if (!newPath) continue;
+      blobEntries.push({ path: newPath, sha: item.sha, mode: "100644", type: "blob" });
+    } else if (path === "cover.png" || (coverEntry && path === coverEntry.path)) {
+      blobEntries.push({ path, sha: item.sha, mode: "100644", type: "blob" });
+    }
+  }
+
+  if (blobEntries.length === 0) {
+    console.log(`[flatten] No blobs found under ${projectRoot}, skipping`);
+    return null;
+  }
+
+  console.log(`[flatten] Moving ${blobEntries.length} files from ${projectRoot} to root`);
+
+  // Group by top-level directory for nested tree creation
+  const dirGroups = new Map();
+  const rootBlobs = [];
+
+  for (const entry of blobEntries) {
+    const slash = entry.path.indexOf("/");
+    if (slash === -1) {
+      rootBlobs.push(entry);
+    } else {
+      const dir = entry.path.slice(0, slash);
+      if (!dirGroups.has(dir)) dirGroups.set(dir, []);
+      dirGroups.get(dir).push(entry);
+    }
+  }
+
+  // Recursively create subtrees for each directory
+  const rootEntries = [...rootBlobs];
+
+  for (const [dirName, dirEntries] of dirGroups) {
+    const subtreeSha = await createSubtree(dirName + "/", dirEntries);
+    rootEntries.push({ path: dirName, sha: subtreeSha, mode: "040000", type: "tree" });
+    console.log(`[flatten] Created subtree for ${dirName}/`);
+  }
+
+  // Create root tree
+  const rootTree = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/trees`, {
+    method: "POST",
+    body: { tree: rootEntries },
+    ok: [201],
+  });
+
+  // Create commit
+  const newCommit = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/commits`, {
+    method: "POST",
+    body: {
+      message: "Flatten project to root for GitHub Pages",
+      tree: rootTree.sha,
+      parents: [headSha],
+    },
+    ok: [201],
+  });
+
+  // Update ref
+  await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/refs/heads/${encodeGitRefPath(branch)}`, {
+    method: "PATCH",
+    body: { sha: newCommit.sha, force: false },
+  });
+
+  console.log(`[flatten] Done, new commit: ${newCommit.sha.slice(0, 8)}`);
+  return { headSha: newCommit.sha };
+}
+
+async function createSubtree(prefix, entries) {
+  const subDirs = new Map();
+  const directBlobs = [];
+
+  for (const entry of entries) {
+    const rest = entry.path.slice(prefix.length);
+    const slash = rest.indexOf("/");
+    if (slash === -1) {
+      directBlobs.push({ path: rest, sha: entry.sha, mode: "100644", type: "blob" });
+    } else {
+      const dir = rest.slice(0, slash);
+      if (!subDirs.has(dir)) subDirs.set(dir, []);
+      subDirs.get(dir).push(entry);
+    }
+  }
+
+  // Recursively create subtrees for deeper dirs
+  for (const [dirName, dirEntries] of subDirs) {
+    const subPrefix = `${prefix}${dirName}/`;
+    const subtreeSha = await createSubtree(subPrefix, dirEntries);
+    directBlobs.push({ path: dirName, sha: subtreeSha, mode: "040000", type: "tree" });
+  }
+
+  // Create this level's tree (chunk if > 500 entries)
+  const CHUNK_SIZE = 500;
+  let result;
+
+  for (let i = 0; i < directBlobs.length; i += CHUNK_SIZE) {
+    const chunk = directBlobs.slice(i, i + CHUNK_SIZE);
+    if (!result) {
+      result = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/trees`, {
+        method: "POST",
+        body: { tree: chunk },
+        ok: [201],
+      });
+    } else {
+      result = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/trees`, {
+        method: "POST",
+        body: { base_tree: result.sha, tree: chunk },
+        ok: [201],
+      });
+    }
+  }
+
+  return result.sha;
 }
 
 async function commitHtmlUpdates({ branch, baseCommitSha, baseTreeSha, updates }) {
