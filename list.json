@@ -229,7 +229,7 @@
     "owner": "eric0308a",
     "name": "Amelie-falls-over-and-over-again",
     "engine": "RPG Maker MV",
-    "status": "verified",
+    "status": "hidden",
     "checkedAt": "2026-06-18T01:48:40.694Z",
     "forkName": "eric0308a-Amelie-falls-over-and-over-again",
     "pagesUrl": "https://webrpg.org/eric0308a-Amelie-falls-over-and-over-again/",
@@ -238,7 +238,8 @@
     "validationScore": 118,
     "totalSize": 8995,
     "dataSize": 30343837,
-    "sourceRepo": "eric0308a/Amelie-falls-over-and-over-again"
+    "sourceRepo": "eric0308a/Amelie-falls-over-and-over-again",
+    "hiddenReason": "Game cannot run properly"
   },
   {
     "id": "huanggaole-huanggaole-github-io-477b2c0f",

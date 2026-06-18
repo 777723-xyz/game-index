@@ -58,6 +58,29 @@ async function run() {
   result.defaultBranch = repo.default_branch;
   result.sourceRepo = repo.source?.full_name || repo.parent?.full_name || null;
 
+  // Check if this repo is manually hidden in list.json
+  const list = JSON.parse(await fs.readFile("list.json", "utf8"));
+  const entry = list.find((e) => {
+    const forkName = e.forkName || "";
+    return forkName.toLowerCase() === repoName.toLowerCase();
+  });
+  if (entry && entry.status === "hidden") {
+    result.status = "hidden";
+    result.invalidReason = "Manually hidden via list.json.";
+    console.log(`[hidden] ${targetOrg}/${repoName} is manually hidden, deleting fork`);
+    summary.push(`Status: \`hidden\``);
+    if (!dryRun && deleteInvalidRepos) {
+      await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}`, {
+        method: "DELETE",
+        ok: [204],
+      });
+      result.deleted = true;
+      result.deletedAt = new Date().toISOString();
+      console.log(`[deleted] ${targetOrg}/${repoName}`);
+    }
+    return;
+  }
+
   if (!repo.fork) {
     result.status = "not_fork";
     result.invalidReason = "Repository is not a fork.";
