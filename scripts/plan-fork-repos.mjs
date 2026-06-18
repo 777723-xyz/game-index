@@ -14,16 +14,8 @@ if (!token) {
 const list = JSON.parse(await fs.readFile("list.json", "utf8"));
 const indexedNames = new Set(getUniqueSources(list).map((item) => item.forkName.toLowerCase()));
 const orgRepos = await loadOrgRepos(targetOrg);
-// Build a set of fork names that are already verified — skip them
-const verifiedNames = new Set(
-  list
-    .filter((entry) => entry.status === "verified")
-    .map((entry) => String(entry.forkName || "").toLowerCase())
-);
-
 const targets = orgRepos
   .filter((repo) => repo.fork && indexedNames.has(repo.name.toLowerCase()))
-  .filter((repo) => !verifiedNames.has(repo.name.toLowerCase()))
   .sort((left, right) => {
     // Oldest updated first, so never-processed repos are prioritized
     const leftUpdated = new Date(left.updated_at || 0).valueOf();
