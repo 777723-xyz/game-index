@@ -10165,6 +10165,18 @@
     "sourceRepo": "kyubuns/rpg_maker_test"
   },
   {
+    "id": "luerl21-rpgmakermv1",
+    "title": "Project1",
+    "repo": "https://github.com/Luerl21/RPGMakerMV1",
+    "owner": "Luerl21",
+    "name": "RPGMakerMV1",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-20T23:06:31.201Z",
+    "source": "github-code-search",
+    "sourcePath": "www/index.html"
+  },
+  {
     "id": "pacificyzy-pacificisland",
     "title": "Project1",
     "repo": "https://github.com/PacificYZY/PacificIsland",
