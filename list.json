@@ -3080,6 +3080,18 @@
     "validationScore": 50
   },
   {
+    "id": "complex-arcade-complex-arcade-github-io",
+    "title": "BLOODMONEY!",
+    "repo": "https://github.com/complex-arcade/complex-arcade.github.io",
+    "owner": "complex-arcade",
+    "name": "complex-arcade.github.io",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-21T11:46:59.282Z",
+    "source": "github-code-search",
+    "sourcePath": "gxmes/storage/bloodmoney/index.html"
+  },
+  {
     "id": "darkdragonzxs-zxs-games",
     "title": "BLOODMONEY!",
     "repo": "https://github.com/Darkdragonzxs/ZXS-games",
@@ -9183,6 +9195,18 @@
     "invalidReason": "RPG Maker structure is incomplete near Omori.html.",
     "deletedAt": "2026-06-19T06:26:19.764Z",
     "validationScore": 45
+  },
+  {
+    "id": "lapi32-bye-bye-dd",
+    "title": "OMORI",
+    "repo": "https://github.com/lapi32/bye-bye-DD",
+    "owner": "lapi32",
+    "name": "bye-bye-DD",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-21T11:46:59.282Z",
+    "source": "github-code-search",
+    "sourcePath": "OMORI.html"
   },
   {
     "id": "llbigshotll-eee",
