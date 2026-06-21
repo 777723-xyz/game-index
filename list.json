@@ -2134,6 +2134,18 @@
     "lastCheckError": "GitHub API 403: API rate limit exceeded for installation ID 140358813. If you reach out to GitHub Support for help, please include the request ID 200B:27377C:5E605D1:5F368B6:6A33B16C and timestamp 2026-06-18 08:50:52 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)"
   },
   {
+    "id": "isekaiagile-laboratory",
+    "title": "最高の組み合わせを探せ！",
+    "repo": "https://github.com/IsekaiAgile/laboratory",
+    "owner": "IsekaiAgile",
+    "name": "laboratory",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-21T08:56:26.601Z",
+    "source": "github-code-search",
+    "sourcePath": "index.html"
+  },
+  {
     "id": "1lgr-treinamento-rpg-maker",
     "title": "A Aventura de Raidon",
     "repo": "https://github.com/1LgR/Treinamento-RPG-MAKER",
@@ -5014,6 +5026,18 @@
     "totalSize": 388664,
     "dataSize": 675599,
     "sourceRepo": "Ruandersonvieira/educamais"
+  },
+  {
+    "id": "ec-developer-hub-desolationnn",
+    "title": "desolationnn",
+    "repo": "https://github.com/EC-Developer-Hub/desolationnn",
+    "owner": "EC-Developer-Hub",
+    "name": "desolationnn",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-21T08:56:26.601Z",
+    "source": "github-code-search",
+    "sourcePath": "index.html"
   },
   {
     "id": "kendid29-afterrain",
@@ -8725,6 +8749,18 @@
     "totalSize": 413554,
     "dataSize": 889636,
     "sourceRepo": "Excel/myl"
+  },
+  {
+    "id": "paulo1211-o-castelo-das-sombras",
+    "title": "O Castelo das Sombras",
+    "repo": "https://github.com/paulo1211/O-Castelo-das-Sombras",
+    "owner": "paulo1211",
+    "name": "O-Castelo-das-Sombras",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-21T08:56:26.601Z",
+    "source": "github-code-search",
+    "sourcePath": "index.html"
   },
   {
     "id": "eltonleao-happycodegames",
@@ -13876,6 +13912,18 @@
     "totalSize": 388597,
     "dataSize": 672866,
     "sourceRepo": "andredarcie/zero-to-one"
+  },
+  {
+    "id": "wolverinexxxxxz-sat-muhammed-ali-ture",
+    "title": "Zindanlar ve Zindanlar",
+    "repo": "https://github.com/Wolverinexxxxxz/Sat-Muhammed-Ali-Ture",
+    "owner": "Wolverinexxxxxz",
+    "name": "Sat-Muhammed-Ali-Ture",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-21T08:56:26.601Z",
+    "source": "github-code-search",
+    "sourcePath": "index.html"
   },
   {
     "id": "tripletri-wizardgame",
