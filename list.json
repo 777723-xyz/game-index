@@ -5243,6 +5243,18 @@
     "sourceRepo": "unofficialsquaregames/DISSIDIA-TACTICS-FANTASY-"
   },
   {
+    "id": "akanetr-divirtual",
+    "title": "Divirtual!",
+    "repo": "https://github.com/akanetr/Divirtual",
+    "owner": "akanetr",
+    "name": "Divirtual",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-23T08:34:02.944Z",
+    "source": "github-code-search",
+    "sourcePath": "index.html"
+  },
+  {
     "id": "tomoshibi06-divirtualdemo",
     "title": "Divirtual!-体験版",
     "repo": "https://github.com/tomoshibi06/divirtualdemo",
@@ -11147,6 +11159,18 @@
     "sourceRepo": "CJTan0503/RPGFantasy"
   },
   {
+    "id": "a2937-rpg-maker-mv-test-template",
+    "title": "RPG Maker MV Test Demo",
+    "repo": "https://github.com/a2937/RPG-Maker-MV-Test-Template",
+    "owner": "a2937",
+    "name": "RPG-Maker-MV-Test-Template",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-23T08:34:02.944Z",
+    "source": "github-code-search",
+    "sourcePath": "demo/index.html"
+  },
+  {
     "id": "lokilyn-rpgmakermv",
     "title": "RPG游戏",
     "repo": "https://github.com/Lino-saur/RPGMakerMV",
@@ -11450,6 +11474,18 @@
     "totalSize": 388539,
     "dataSize": 670603,
     "sourceRepo": "KimHanWol/RPGMaker-ProjectSU"
+  },
+  {
+    "id": "ec-developer-hub-virusssss",
+    "title": "Semester Survival",
+    "repo": "https://github.com/EC-Developer-Hub/virusssss",
+    "owner": "EC-Developer-Hub",
+    "name": "virusssss",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-23T08:34:02.944Z",
+    "source": "github-code-search",
+    "sourcePath": "index.html"
   },
   {
     "id": "altrisk-altrisk-github-io",
