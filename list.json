@@ -9334,6 +9334,18 @@
     "lastCheckError": "GitHub API 502: Server Error"
   },
   {
+    "id": "deeeland0ohio-sigma-games",
+    "title": "OMORI",
+    "repo": "https://github.com/deeeland0ohio/Sigma-Games",
+    "owner": "deeeland0ohio",
+    "name": "Sigma-Games",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-24T07:38:30.244Z",
+    "source": "github-code-search",
+    "sourcePath": "public/games/omori/index.html"
+  },
+  {
     "id": "dotlyhiyou-dotgui",
     "title": "OMORI",
     "repo": "https://github.com/DotLYHiyou/DotGUI",
@@ -11290,6 +11302,18 @@
     "invalidReason": "RPG Maker structure is incomplete near debug.html.",
     "deletedAt": "2026-06-16T12:17:45.510Z",
     "validationScore": 45
+  },
+  {
+    "id": "hashakgik-raycasting-rmmv",
+    "title": "Ray Casting",
+    "repo": "https://github.com/HashakGik/Raycasting-RMMV",
+    "owner": "HashakGik",
+    "name": "Raycasting-RMMV",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-24T07:38:30.244Z",
+    "source": "github-code-search",
+    "sourcePath": "demo/index.html"
   },
   {
     "id": "themabus-get-the-balance-right",
