@@ -7409,6 +7409,18 @@
     "sourcePath": "starsandtime.html"
   },
   {
+    "id": "donais04-isatarchipelago",
+    "title": "IN STARS AND TIME v1.0.6.3",
+    "repo": "https://github.com/Donais04/ISATArchipelago",
+    "owner": "Donais04",
+    "name": "ISATArchipelago",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-24T16:20:13.687Z",
+    "source": "github-code-search",
+    "sourcePath": "lookISAT/index.html"
+  },
+  {
     "id": "therealmythdeveloper-buildingblox",
     "title": "IN STARS AND TIME v1.0.6.3",
     "repo": "https://github.com/TheRealMythDeveloper/BuildingBlox",
