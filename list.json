@@ -3181,6 +3181,18 @@
     "sourcePath": "assets/clbloodmoney.html"
   },
   {
+    "id": "devechox2-xeno",
+    "title": "BLOODMONEY!",
+    "repo": "https://github.com/DevEchoX2/Xeno",
+    "owner": "DevEchoX2",
+    "name": "Xeno",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-30T23:10:27.591Z",
+    "source": "github-code-search",
+    "sourcePath": "stores/gn-math/454.html"
+  },
+  {
     "id": "dgfvtgrfv-classyclass",
     "title": "BLOODMONEY!",
     "repo": "https://github.com/dgfvtgrfv/classyclass",
