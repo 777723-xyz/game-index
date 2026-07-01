@@ -7,6 +7,7 @@ const listPath = process.env.LIST_PATH || "list.json";
 const searchMaxPages = parsePositiveInt(process.env.SEARCH_MAX_PAGES || "10");
 const searchPerPage = parsePositiveInt(process.env.SEARCH_PER_PAGE || "100");
 const searchDelayMs = parseNonNegativeInt(process.env.SEARCH_DELAY_SECONDS || "8") * 1000;
+const skipOrg = process.env.SKIP_ORG || "WebRPG-org";
 const now = new Date().toISOString();
 const queries = [
   { query: "rpg_core.js extension:html", engine: "RPG Maker MV" },
@@ -36,6 +37,12 @@ for (const { query, engine } of queries) {
       const repoNameKey = repo.name.toLowerCase();
 
       if (existingRepoKeys.has(repoKey) || existingNames.has(repoNameKey) || newNames.has(repoNameKey)) {
+        continue;
+      }
+
+      // Skip repositories that belong to our own organization to avoid
+      // indexing and re-forking repos that we already host.
+      if (repo.owner.login === skipOrg) {
         continue;
       }
 

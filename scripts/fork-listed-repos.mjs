@@ -132,6 +132,12 @@ function getUniqueSources(entries) {
       continue;
     }
 
+    // Skip entries that already belong to the target organization —
+    // forking a repo into its own owner creates unnecessary nested forks.
+    if (entry.owner.toLowerCase() === targetOrg.toLowerCase()) {
+      continue;
+    }
+
     if (!entry.owner || !entry.name || !entry.repo) {
       throw new Error(`Invalid list entry: ${JSON.stringify(entry)}`);
     }
