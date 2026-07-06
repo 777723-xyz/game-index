@@ -12263,6 +12263,18 @@
     "validationScore": 53
   },
   {
+    "id": "jsnb21-sci-high-rmmv",
+    "title": "SCI-HIGH",
+    "repo": "https://github.com/jsnb21/SCI-HIGH_RMMV",
+    "owner": "jsnb21",
+    "name": "SCI-HIGH_RMMV",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-07-06T00:03:33.348Z",
+    "source": "github-code-search",
+    "sourcePath": "index.html"
+  },
+  {
     "id": "jsnb21-sci-high-website",
     "title": "SCI-HIGH",
     "repo": "https://github.com/jsnb21/SCI-HIGH_WEBSITE",
