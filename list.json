@@ -173,6 +173,18 @@
     "sourcePath": "Special/recoil/index.html"
   },
   {
+    "id": "chino-541-saikou-no-ramen-damashi",
+    "title": "★住宅地タイルセット_サンプル",
+    "repo": "https://github.com/Chino-541/Saikou-no-Ramen-Damashi",
+    "owner": "Chino-541",
+    "name": "Saikou-no-Ramen-Damashi",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-07-13T16:30:54.605Z",
+    "source": "github-code-search",
+    "sourcePath": "Assets/Ken-assets/Map Assets/MV版サンプルプロジェクト_住宅地/index.html"
+  },
+  {
     "id": "soycosmosgg-nimogames",
     "title": "1150690",
     "repo": "https://github.com/soycosmosgg/NimoGames",
