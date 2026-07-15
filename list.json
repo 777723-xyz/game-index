@@ -5005,6 +5005,18 @@
     "validationScore": 45
   },
   {
+    "id": "mynamescrax-aetheris",
+    "title": "DEAD PLATE",
+    "repo": "https://github.com/mynamescrax/aetheris",
+    "owner": "mynamescrax",
+    "name": "aetheris",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-07-15T23:02:45.788Z",
+    "source": "github-code-search",
+    "sourcePath": "public/assets/games/deadplate.html"
+  },
+  {
     "id": "notahacker9999-hypper-drive",
     "title": "DEAD PLATE",
     "repo": "https://github.com/NOTAHACKER9999/Hypper-Drive",
