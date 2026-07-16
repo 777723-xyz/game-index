@@ -2191,6 +2191,18 @@
     "sourceRepo": "PedroMaxDEV/A-LENDA-DE-CAMUTANGA"
   },
   {
+    "id": "evafg-a-stormy-story",
+    "title": "A Stormy Story",
+    "repo": "https://github.com/EVAFG/A-stormy-story",
+    "owner": "EVAFG",
+    "name": "A-stormy-story",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-07-16T23:57:27.055Z",
+    "source": "github-code-search",
+    "sourcePath": "index.html"
+  },
+  {
     "id": "jeysser-a-torre",
     "title": "A TORRE INVERTIDA",
     "repo": "https://github.com/Jeysser/A_torre",
