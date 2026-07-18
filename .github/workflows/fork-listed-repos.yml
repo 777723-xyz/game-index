@@ -32,7 +32,7 @@ jobs:
         continue-on-error: true
         env:
           WEBRPG_FORK_TOKEN: ${{ secrets.WEBRPG_FORK_TOKEN }}
-          TARGET_ORG: WebRPG-org
+          TARGET_ORG: 777723-xyz
           DRY_RUN: "false"
           LIMIT: "0"
           DEFAULT_BRANCH_ONLY: "false"
