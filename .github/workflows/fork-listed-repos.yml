@@ -2,6 +2,8 @@ name: Fork listed repositories
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
   workflow_run:
     workflows:
       - Index GitHub RPG Maker repositories
@@ -17,7 +19,7 @@ concurrency:
 
 jobs:
   fork:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Create GitHub App token
@@ -44,7 +46,7 @@ jobs:
           WEBRPG_FORK_TOKEN: ${{ steps.app-token.outputs.token }}
           TARGET_ORG: 777723-xyz
           DRY_RUN: "false"
-          LIMIT: "5"
+          LIMIT: "15"
           DEFAULT_BRANCH_ONLY: "false"
           INCLUDE_INVALID: "false"
           CREATE_DELAY_SECONDS: "12"
