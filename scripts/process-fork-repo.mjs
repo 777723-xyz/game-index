@@ -136,7 +136,7 @@ async function run() {
   result.engine = detection.engine;
   result.entryPath = detection.entryPath;
   result.projectRoot = detection.projectRoot;
-  result.pagesUrl = getPagesUrl();
+  result.pagesUrl = getPlayUrl(detection.entryPath);
 
   // Flatten: if projectRoot is a subdirectory, move its contents to repo root
   let currentHeadSha = headSha;
@@ -159,6 +159,7 @@ async function run() {
       detection.htmlPathsToPatch = detection.htmlPathsToPatch.map((p) => p.replace(prefix, ""));
       result.projectRoot = "";
       result.entryPath = detection.entryPath;
+      result.pagesUrl = getPlayUrl(detection.entryPath);
       result.flattened = true;
       console.log(`[flatten] Project moved to root, new entry: ${detection.entryPath}`);
     }
@@ -870,6 +871,10 @@ function getScriptNeedle(tag) {
 
 function getPagesUrl() {
   return `${siteOrigin}/${repoName}/`;
+}
+
+function getPlayUrl(entryPath) {
+  return new URL(entryPath || "index.html", getPagesUrl()).toString();
 }
 
 function parseBoolean(value, defaultValue) {
