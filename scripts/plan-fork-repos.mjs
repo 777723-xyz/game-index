@@ -3,7 +3,7 @@ import fs from "node:fs/promises";
 
 const apiBase = "https://api.github.com";
 const token = process.env.WEBRPG_APP_TOKEN || process.env.GITHUB_TOKEN || "";
-const targetOrg = process.env.TARGET_ORG || "WebRPG-org";
+const targetOrg = process.env.TARGET_ORG || "777723-xyz";
 const limit = parseNonNegativeInt(process.env.LIMIT || "0");
 const maxMatrixSize = parseNonNegativeInt(process.env.MAX_MATRIX_SIZE || "256");
 
