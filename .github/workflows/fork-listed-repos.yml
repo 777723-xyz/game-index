@@ -20,8 +20,18 @@ jobs:
     if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
+          private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
+          owner: 777723-xyz
+
       - name: Check out index
         uses: actions/checkout@v4
+        with:
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -31,13 +41,13 @@ jobs:
       - name: Fork repositories
         continue-on-error: true
         env:
-          WEBRPG_FORK_TOKEN: ${{ secrets.WEBRPG_FORK_TOKEN }}
+          WEBRPG_FORK_TOKEN: ${{ steps.app-token.outputs.token }}
           TARGET_ORG: 777723-xyz
           DRY_RUN: "false"
-          LIMIT: "0"
+          LIMIT: "5"
           DEFAULT_BRANCH_ONLY: "false"
           INCLUDE_INVALID: "false"
-          CREATE_DELAY_SECONDS: "3"
+          CREATE_DELAY_SECONDS: "12"
           RETRY_LIMIT: "5"
           RETRY_BASE_DELAY_SECONDS: "60"
         run: node scripts/fork-listed-repos.mjs
