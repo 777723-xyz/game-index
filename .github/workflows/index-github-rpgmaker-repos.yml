@@ -23,7 +23,6 @@ jobs:
           client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
           private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
           owner: 777723-xyz
-          repositories: game-index
 
       - name: Check out index
         uses: actions/checkout@v4
@@ -35,9 +34,12 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Sync upstream WebRPG catalog
+        run: node scripts/sync-upstream-list.mjs
+
       - name: Search GitHub code
         env:
-          WEBRPG_SEARCH_TOKEN: ${{ secrets.WEBRPG_SEARCH_TOKEN || secrets.WEBRPG_FORK_TOKEN || github.token }}
+          WEBRPG_SEARCH_TOKEN: ${{ steps.index-token.outputs.token }}
           SEARCH_MAX_PAGES: "10"
           SEARCH_PER_PAGE: "100"
           SEARCH_DELAY_SECONDS: "8"
