@@ -1,19 +1,11 @@
 {
-  "generatedAt": "2026-07-19T09:19:15.731Z",
+  "generatedAt": "2026-07-19T11:32:44.749Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 854,
-  "upstreamTotal": 853,
-  "shared": 853,
+  "upstreamTotal": 854,
+  "shared": 854,
   "upstreamOnly": [],
-  "localOnly": [
-    {
-      "id": "craf1ed-lite-assets",
-      "sourceRepo": "craf1ed/lite-assets",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    }
-  ],
+  "localOnly": [],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -2542,7 +2534,7 @@
       "sourceRepo": "agjimenez/ra-s-quest",
       "differences": {
         "status": {
-          "ours": "indexed",
+          "ours": "invalid_structure",
           "upstream": "verified"
         },
         "pagesUrl": {
@@ -4571,19 +4563,11 @@
       "sourceRepo": "affonsoamendola/oldprojects",
       "differences": {
         "status": {
-          "ours": "verified",
+          "ours": "invalid_structure",
           "upstream": "indexed"
         },
         "forkName": {
           "ours": "affonsoamendola-oldprojects",
-          "upstream": null
-        },
-        "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/affonsoamendola-oldprojects/Project1/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "Project1/index.html",
           "upstream": null
         }
       }
