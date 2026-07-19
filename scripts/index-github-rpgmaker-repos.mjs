@@ -7,7 +7,7 @@ const listPath = process.env.LIST_PATH || "list.json";
 const searchMaxPages = parsePositiveInt(process.env.SEARCH_MAX_PAGES || "10");
 const searchPerPage = parsePositiveInt(process.env.SEARCH_PER_PAGE || "100");
 const searchDelayMs = parseNonNegativeInt(process.env.SEARCH_DELAY_SECONDS || "8") * 1000;
-const skipOrg = process.env.SKIP_ORG || "WebRPG-org";
+const skipOrg = process.env.SKIP_ORG || "777723-xyz";
 const now = new Date().toISOString();
 const queries = [
   { query: "rpg_core.js extension:html", engine: "RPG Maker MV" },
