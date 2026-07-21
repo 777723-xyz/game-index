@@ -1,19 +1,11 @@
 {
-  "generatedAt": "2026-07-21T18:43:05.787Z",
+  "generatedAt": "2026-07-21T20:38:30.804Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 855,
-  "upstreamTotal": 854,
-  "shared": 854,
+  "upstreamTotal": 855,
+  "shared": 855,
   "upstreamOnly": [],
-  "localOnly": [
-    {
-      "id": "paraztekhitr-debug-adventure-call",
-      "sourceRepo": "paraztekhitr-debug/adventure-call",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    }
-  ],
+  "localOnly": [],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
