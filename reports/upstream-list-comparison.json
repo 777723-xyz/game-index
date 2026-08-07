@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-08-07T03:21:30.375Z",
+  "generatedAt": "2026-08-07T05:52:42.420Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 862,
+  "localTotal": 863,
   "upstreamTotal": 862,
   "shared": 862,
   "upstreamOnly": [],
-  "localOnly": [],
+  "localOnly": [
+    {
+      "id": "soupcanubg-yesterdays-meat",
+      "sourceRepo": "soupcanubg/yesterdays-meat",
+      "status": "duplicate_name",
+      "forkName": "SoupcanUBG-Yesterdays-Meat",
+      "pagesUrl": null
+    }
+  ],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -6641,7 +6649,7 @@
       }
     },
     {
-      "sourceRepo": "soupcanubg/yesterdays-meat",
+      "sourceRepo": "notreallyrx/yesterdays-meat",
       "differences": {
         "status": {
           "ours": "indexed",
