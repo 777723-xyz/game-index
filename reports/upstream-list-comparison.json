@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-10T23:53:09.966Z",
+  "generatedAt": "2026-08-11T02:30:01.009Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 866,
+  "localTotal": 867,
   "upstreamTotal": 865,
   "shared": 865,
   "upstreamOnly": [],
@@ -11,6 +11,13 @@
       "sourceRepo": "soupcanubg/yesterdays-meat",
       "status": "duplicate_name",
       "forkName": "SoupcanUBG-Yesterdays-Meat",
+      "pagesUrl": null
+    },
+    {
+      "id": "vehirus-kor-2026-capstone-design",
+      "sourceRepo": "vehirus-kor/2026_capstone_design",
+      "status": "indexed",
+      "forkName": null,
       "pagesUrl": null
     }
   ],
