@@ -1,18 +1,11 @@
 {
-  "generatedAt": "2026-08-20T21:46:06.648Z",
+  "generatedAt": "2026-08-20T22:47:32.525Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 871,
-  "upstreamTotal": 869,
-  "shared": 869,
+  "upstreamTotal": 870,
+  "shared": 870,
   "upstreamOnly": [],
   "localOnly": [
-    {
-      "id": "hyperfrog7-books",
-      "sourceRepo": "hyperfrog7/books",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    },
     {
       "id": "soupcanubg-yesterdays-meat",
       "sourceRepo": "soupcanubg/yesterdays-meat",
