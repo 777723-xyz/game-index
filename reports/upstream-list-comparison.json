@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T05:55:42.151Z",
+  "generatedAt": "2026-08-24T07:30:56.619Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 872,
   "upstreamTotal": 871,
@@ -485,7 +485,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -1155,7 +1155,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
@@ -1590,7 +1590,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -1798,7 +1798,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -1993,7 +1993,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -2340,7 +2340,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -2366,7 +2366,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -2777,7 +2777,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3813,7 +3813,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -4286,6 +4286,15 @@
       }
     },
     {
+      "sourceRepo": "cheesy-website/cheesy-website.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "duong1234-li/heromod",
       "differences": {
         "status": {
@@ -4308,6 +4317,15 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/einstein95-omori-joiplay/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "escartem/omorisource",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
         }
       }
     },
@@ -4464,6 +4482,15 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/SaiTsuki-GameDesign/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "laferu/platina-the-wolf",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
         }
       }
     },
@@ -5977,6 +6004,15 @@
       }
     },
     {
+      "sourceRepo": "escartem/tcoaalsource",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "suhukk/bbb",
       "differences": {
         "status": {
@@ -6150,7 +6186,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -6410,7 +6446,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -6984,7 +7020,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
