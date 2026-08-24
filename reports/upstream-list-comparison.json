@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T11:45:55.946Z",
+  "generatedAt": "2026-08-24T13:15:27.064Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 872,
   "upstreamTotal": 871,
@@ -46,7 +46,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3388,7 +3388,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3427,7 +3427,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3657,7 +3657,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -4768,7 +4768,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -5475,7 +5475,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -6342,7 +6342,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
