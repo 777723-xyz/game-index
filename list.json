@@ -874,16 +874,17 @@
     "name": "rougedemo",
     "engine": "RPG Maker MV",
     "status": "indexed",
-    "checkedAt": "2026-08-24T01:13:58.772Z",
+    "checkedAt": "2026-08-24T07:02:29.850Z",
     "forkName": "AnthonyTonyZ-rougedemo",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 537016,
     "dataSize": 1119892,
     "sourceRepo": "AnthonyTonyZ/rougedemo",
+    "invalidReason": "Repository size 537016 KB exceeds the 250000 KB limit.",
     "source": "upstream-webrpg-index",
     "upstreamPagesUrl": "https://webrpg.org/AnthonyTonyZ-rougedemo/",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "grayblackannihilation-goldenmap",
@@ -893,7 +894,7 @@
     "name": "goldenmap",
     "engine": "RPG Maker MV",
     "status": "indexed",
-    "checkedAt": "2026-08-24T01:13:59.108Z",
+    "checkedAt": "2026-08-24T07:02:42.384Z",
     "forkName": "grayblackannihilation-goldenmap",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -1169,7 +1170,7 @@
     "name": "Secret-Funeral",
     "engine": "RPG Maker MV",
     "status": "indexed",
-    "checkedAt": "2026-08-24T01:14:01.387Z",
+    "checkedAt": "2026-08-24T07:02:43.096Z",
     "forkName": "MagicalYuto-Secret-Funeral",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -1452,8 +1453,7 @@
     "validationScore": 118,
     "totalSize": 134985,
     "dataSize": 2557446,
-    "forkName": "24c49x-24c49x.github.io",
-    "sourceRepo": "24c49x/24c49x.github.io"
+    "forkName": "24c49x-24c49x.github.io"
   },
   {
     "id": "tw123777tw-pdlsdyzzh-41ae28b5",
@@ -1530,7 +1530,7 @@
     "name": "drill_plugins-fork-from-drill",
     "engine": "RPG Maker MV",
     "status": "indexed",
-    "checkedAt": "2026-08-24T01:14:13.604Z",
+    "checkedAt": "2026-08-24T07:02:59.421Z",
     "forkName": "ruan-cat-drill_plugins-fork-from-drill",
     "entryPath": "插件详细手册/18.面板/Lagomoro（小优）任务系统 V14.0.1 修复乱序注册任务导致的bug/Lagomoro_Mission.js 范例工程 V14.0.01/index.html",
     "validationScore": 100,
@@ -1730,7 +1730,7 @@
     "name": "aqua012.github.io",
     "engine": "RPG Maker MV",
     "status": "indexed",
-    "checkedAt": "2026-08-24T01:14:01.067Z",
+    "checkedAt": "2026-08-24T07:02:30.209Z",
     "forkName": "aqua012-aqua012.github.io",
     "entryPath": "index.html",
     "validationScore": 108,
@@ -2051,10 +2051,12 @@
     "owner": "NeonNoir-Yuki",
     "name": "xrkxq",
     "engine": "RPG Maker MV",
-    "checkedAt": "2026-08-24T01:14:12.032Z",
+    "checkedAt": "2026-08-24T07:02:55.564Z",
     "forkName": "NeonNoir-Yuki-xrkxq",
+    "status": "indexed",
+    "invalidReason": "Repository size 1573176 KB exceeds the 250000 KB limit.",
     "source": "upstream-webrpg-index",
-    "status": "indexed"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "cos3915-kksalldemo",
@@ -2296,7 +2298,7 @@
     "name": "Sword-Floor-MV-sample",
     "engine": "RPG Maker MV",
     "status": "indexed",
-    "checkedAt": "2026-08-24T01:14:12.957Z",
+    "checkedAt": "2026-08-24T07:02:55.126Z",
     "forkName": "munokura-Sword-Floor-MV-sample",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -2987,16 +2989,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-08-24T01:15:01.938Z",
+    "checkedAt": "2026-08-24T07:04:08.264Z",
     "forkName": "victor-vd-babassu",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 388526,
     "dataSize": 669058,
     "sourceRepo": "victor-vd/babassu",
+    "invalidReason": "Repository size 388526 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/victor-vd-babassu/",
     "upstreamCover": "https://webrpg.org/victor-vd-babassu/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "tw123777tw-badstatusdr",
@@ -4321,16 +4324,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-08-24T01:15:12.954Z",
+    "checkedAt": "2026-08-24T07:04:23.532Z",
     "forkName": "WinterDP-ProjectElfAttorney",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 403323,
     "dataSize": 1634072,
     "sourceRepo": "WinterDP/ProjectElfAttorney",
+    "invalidReason": "Repository size 403323 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/WinterDP-ProjectElfAttorney/",
     "upstreamCover": "https://webrpg.org/WinterDP-ProjectElfAttorney/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "mik-kaewwichian-rpg-game-mv-maker",
@@ -4756,7 +4760,7 @@
     "discoveredAt": "2026-06-15T15:29:11.705Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-08-24T01:14:28.196Z",
+    "checkedAt": "2026-08-24T07:03:23.147Z",
     "forkName": "blairwilcox-Colosseum",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -4777,16 +4781,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-08-24T01:14:43.718Z",
+    "checkedAt": "2026-08-24T07:03:41.403Z",
     "forkName": "UnboundStudios-colours-missing",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 518010,
     "dataSize": 3356959,
     "sourceRepo": "UnboundStudios/colours-missing",
+    "invalidReason": "Repository size 518010 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/UnboundStudios-colours-missing/",
     "upstreamCover": "https://webrpg.org/UnboundStudios-colours-missing/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "imaginaryvillain-community-lights",
@@ -5063,7 +5068,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-08-24T01:14:50.561Z",
+    "checkedAt": "2026-08-24T07:03:51.413Z",
     "forkName": "VictorFlor-Cursed_Roots_Demo",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -5901,16 +5906,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "dirt/www/index.html",
-    "checkedAt": "2026-08-24T01:14:57.837Z",
+    "checkedAt": "2026-08-24T07:04:06.063Z",
     "forkName": "zhuobinggang-flower-of-evil",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 402751,
     "dataSize": 1129461,
     "sourceRepo": "zhuobinggang/flower-of-evil",
+    "invalidReason": "Repository size 402751 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/zhuobinggang-flower-of-evil/",
     "upstreamCover": "https://webrpg.org/zhuobinggang-flower-of-evil/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "lucaslovestacos-lucaslovestacos-github-io",
@@ -5945,16 +5951,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-08-24T01:14:46.439Z",
+    "checkedAt": "2026-08-24T07:03:50.207Z",
     "forkName": "unofficialsquaregames-DISSIDIA-TACTICS-FANTASY",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 1140986,
     "dataSize": 5141485,
     "sourceRepo": "unofficialsquaregames/DISSIDIA-TACTICS-FANTASY-",
+    "invalidReason": "Repository size 1140986 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/unofficialsquaregames-DISSIDIA-TACTICS-FANTASY/",
     "upstreamCover": "https://webrpg.org/unofficialsquaregames-DISSIDIA-TACTICS-FANTASY/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "akanetr-divirtual",
@@ -6133,8 +6140,7 @@
     "validationScore": 118,
     "totalSize": 843935,
     "dataSize": 1187439,
-    "forkName": "AdanRafli-Dreamcore-X1",
-    "sourceRepo": "AdanRafli/Dreamcore-X1"
+    "forkName": "AdanRafli-Dreamcore-X1"
   },
   {
     "id": "happyfp-dreamsdestiny",
@@ -6762,16 +6768,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-08-24T01:15:08.322Z",
+    "checkedAt": "2026-08-24T07:04:17.253Z",
     "forkName": "web-ports-fear-and-hunger-2",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 1145040,
     "dataSize": 128298609,
     "sourceRepo": "web-ports/fear-and-hunger-2",
+    "invalidReason": "Repository size 1145040 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/web-ports-fear-and-hunger-2/",
     "upstreamCover": "https://webrpg.org/web-ports-fear-and-hunger-2/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "129555-hash-mathhomework",
@@ -7465,7 +7472,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-08-24T01:14:41.705Z",
+    "checkedAt": "2026-08-24T07:03:39.724Z",
     "forkName": "wasipo09-getschooled-alpha-1",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -8144,7 +8151,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-08-24T01:14:56.799Z",
+    "checkedAt": "2026-08-24T07:03:57.496Z",
     "forkName": "web-ports-in-stars-and-time",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -9153,7 +9160,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "tutorialsrc/LEARN_Teleport/index.html",
-    "checkedAt": "2026-08-24T01:14:37.587Z",
+    "checkedAt": "2026-08-24T07:03:36.420Z",
     "forkName": "XMandarava-Plugins4RMMV",
     "entryPath": "tutorialsrc/LEARN_Teleport/index.html",
     "validationScore": 115,
@@ -9210,16 +9217,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-08-24T01:15:10.633Z",
+    "checkedAt": "2026-08-24T07:04:20.201Z",
     "forkName": "watchmedash-mojazer",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 277433,
     "dataSize": 2659096,
     "sourceRepo": "watchmedash/mojazer",
+    "invalidReason": "Repository size 277433 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/watchmedash-mojazer/",
     "upstreamCover": "https://webrpg.org/watchmedash-mojazer/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "klimberkg-mask-of-dead-2-shadow-of-pelagius",
@@ -9721,7 +9729,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-08-24T01:14:31.784Z",
+    "checkedAt": "2026-08-24T07:03:32.689Z",
     "forkName": "xuyanwen2012-RMMV-Battle-System-JS",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -10216,9 +10224,10 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "webport-hosting/omori-fixed/index.html",
-    "checkedAt": "2026-08-24T01:14:15.653Z",
+    "checkedAt": "2026-08-24T07:03:09.858Z",
     "forkName": "Cheesy-Website-Cheesy-Website.github.io",
-    "upstreamStatus": "indexed"
+    "invalidReason": "Repository size 10309461 KB exceeds the 250000 KB limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "deeeland0ohio-sigma-games",
@@ -10322,9 +10331,10 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "project/index.html",
-    "checkedAt": "2026-08-24T01:14:15.423Z",
+    "checkedAt": "2026-08-24T07:03:15.870Z",
     "forkName": "Escartem-OmoriSource",
-    "upstreamStatus": "indexed"
+    "invalidReason": "Repository size 1533758 KB exceeds the 250000 KB limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "ethantphillips-unblockedgames",
@@ -11264,9 +11274,10 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "public/platina-the-wolf-and-the-heir-of-the-light/index.html",
-    "checkedAt": "2026-08-24T01:14:28.738Z",
+    "checkedAt": "2026-08-24T07:03:25.658Z",
     "forkName": "Laferu-platina-the-wolf",
-    "upstreamStatus": "indexed"
+    "invalidReason": "Repository size 1102656 KB exceeds the 250000 KB limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "laferu-platina-the-wolf-and-the-heir-of-light",
@@ -12851,8 +12862,7 @@
     "validationScore": 118,
     "totalSize": 416741,
     "dataSize": 671869,
-    "forkName": "a2937-RPG-Maker-MV-Test-Template",
-    "sourceRepo": "a2937/RPG-Maker-MV-Test-Template"
+    "forkName": "a2937-RPG-Maker-MV-Test-Template"
   },
   {
     "id": "lokilyn-rpgmakermv",
@@ -14466,9 +14476,10 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "project/index.html",
-    "checkedAt": "2026-08-24T01:14:27.607Z",
+    "checkedAt": "2026-08-24T07:03:26.692Z",
     "forkName": "Escartem-TCOAALSource",
-    "upstreamStatus": "indexed"
+    "invalidReason": "Repository size 486228 KB exceeds the 250000 KB limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "suhukk-bbb",
@@ -14814,16 +14825,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-08-24T01:15:04.375Z",
+    "checkedAt": "2026-08-24T07:04:07.806Z",
     "forkName": "vivekmedepalli-ThreeDungeonSneakPeak_Ver.2",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 389176,
     "dataSize": 1160128,
     "sourceRepo": "vivekmedepalli/ThreeDungeonSneakPeak_Ver.2",
+    "invalidReason": "Repository size 389176 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/vivekmedepalli-ThreeDungeonSneakPeak_Ver.2/",
     "upstreamCover": "https://webrpg.org/vivekmedepalli-ThreeDungeonSneakPeak_Ver.2/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "enigmadragons-theshutdown",
@@ -15013,7 +15025,7 @@
     "name": "test01",
     "engine": "RPG Maker MV",
     "status": "indexed",
-    "checkedAt": "2026-08-24T01:14:17.945Z",
+    "checkedAt": "2026-08-24T07:03:08.786Z",
     "forkName": "valkyrieproject001-test01",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -15335,16 +15347,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "totally-cool-not-rigged-board-game/index.html",
-    "checkedAt": "2026-08-24T01:14:55.973Z",
+    "checkedAt": "2026-08-24T07:03:54.500Z",
     "forkName": "UrrezkoKaiola-gaiden-two",
     "entryPath": "totally-cool-not-rigged-board-game/index.html",
     "validationScore": 115,
     "totalSize": 521912,
     "dataSize": 0,
     "sourceRepo": "UrrezkoKaiola/gaiden-two",
+    "invalidReason": "Repository size 521912 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/UrrezkoKaiola-gaiden-two/",
     "upstreamCover": "https://webrpg.org/UrrezkoKaiola-gaiden-two/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "urrezkokaiola-terminal1",
@@ -16473,10 +16486,12 @@
     "owner": "haturatu",
     "name": "sradjp",
     "engine": "RPG Maker MV",
-    "checkedAt": "2026-08-24T01:14:02.520Z",
+    "checkedAt": "2026-08-24T07:02:28.747Z",
     "forkName": "haturatu-sradjp",
+    "status": "indexed",
+    "invalidReason": "Repository size 841480 KB exceeds the 250000 KB limit.",
     "source": "upstream-webrpg-index",
-    "status": "indexed"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "munokura-dq-like-sample-mv",
@@ -16486,7 +16501,7 @@
     "name": "DQ-like-Sample-MV",
     "engine": "RPG Maker MV",
     "status": "indexed",
-    "checkedAt": "2026-08-24T01:14:00.688Z",
+    "checkedAt": "2026-08-24T07:02:50.521Z",
     "forkName": "munokura-DQ-like-Sample-MV",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -16642,7 +16657,7 @@
     "owner": "katai5plate",
     "name": "rpgmv_overflow",
     "engine": "RPG Maker MV",
-    "checkedAt": "2026-08-24T01:13:59.631Z",
+    "checkedAt": "2026-08-24T07:02:42.269Z",
     "forkName": "katai5plate-rpgmv_overflow",
     "status": "indexed",
     "entryPath": "MIND-OVERLOAD/index.html",
@@ -16684,7 +16699,7 @@
     "name": "LoadingTest",
     "engine": "RPG Maker MV",
     "status": "indexed",
-    "checkedAt": "2026-08-24T01:14:14.088Z",
+    "checkedAt": "2026-08-24T07:03:07.821Z",
     "forkName": "triacontane-LoadingTest",
     "entryPath": "index.html",
     "validationScore": 118,
