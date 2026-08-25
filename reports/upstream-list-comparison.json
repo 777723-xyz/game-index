@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-24T23:38:18.958Z",
+  "generatedAt": "2026-08-25T01:54:34.137Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 872,
-  "upstreamTotal": 871,
-  "shared": 871,
+  "localTotal": 873,
+  "upstreamTotal": 872,
+  "shared": 872,
   "upstreamOnly": [],
   "localOnly": [
     {
@@ -3297,7 +3297,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -4989,7 +4989,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -5002,7 +5002,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -5917,7 +5917,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
