@@ -1,18 +1,11 @@
 {
-  "generatedAt": "2026-08-25T11:45:37.982Z",
+  "generatedAt": "2026-08-25T13:13:35.605Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 875,
-  "upstreamTotal": 873,
-  "shared": 873,
+  "upstreamTotal": 874,
+  "shared": 874,
   "upstreamOnly": [],
   "localOnly": [
-    {
-      "id": "c7lison-cozy-studio-game",
-      "sourceRepo": "c7lison/cozy-studio-game",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    },
     {
       "id": "soupcanubg-yesterdays-meat",
       "sourceRepo": "soupcanubg/yesterdays-meat",
