@@ -1,25 +1,11 @@
 {
-  "generatedAt": "2026-08-27T09:52:49.757Z",
+  "generatedAt": "2026-08-27T20:33:12.287Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 877,
-  "upstreamTotal": 874,
-  "shared": 874,
+  "upstreamTotal": 876,
+  "shared": 876,
   "upstreamOnly": [],
   "localOnly": [
-    {
-      "id": "unblockedgames99x-code-dshsfdghaswerweq",
-      "sourceRepo": "unblockedgames99x-code/dshsfdghaswerweq",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    },
-    {
-      "id": "spacelord42-gn-math",
-      "sourceRepo": "spacelord42/gn-math",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    },
     {
       "id": "soupcanubg-yesterdays-meat",
       "sourceRepo": "soupcanubg/yesterdays-meat",
