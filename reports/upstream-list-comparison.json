@@ -1,18 +1,11 @@
 {
-  "generatedAt": "2026-08-30T06:41:40.054Z",
+  "generatedAt": "2026-08-30T12:55:09.713Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 881,
-  "upstreamTotal": 879,
-  "shared": 879,
+  "upstreamTotal": 880,
+  "shared": 880,
   "upstreamOnly": [],
   "localOnly": [
-    {
-      "id": "riyoway-aooni2016-restored",
-      "sourceRepo": "riyoway/aooni2016-restored",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    },
     {
       "id": "soupcanubg-yesterdays-meat",
       "sourceRepo": "soupcanubg/yesterdays-meat",
