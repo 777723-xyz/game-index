@@ -1,18 +1,11 @@
 {
-  "generatedAt": "2026-09-01T05:13:03.179Z",
+  "generatedAt": "2026-09-01T10:09:58.600Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 882,
-  "upstreamTotal": 880,
-  "shared": 880,
+  "upstreamTotal": 881,
+  "shared": 881,
   "upstreamOnly": [],
   "localOnly": [
-    {
-      "id": "dotgui-dev-dotgui-old",
-      "sourceRepo": "dotgui-dev/dotgui-old",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    },
     {
       "id": "soupcanubg-yesterdays-meat",
       "sourceRepo": "soupcanubg/yesterdays-meat",
