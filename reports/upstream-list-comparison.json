@@ -1,11 +1,18 @@
 {
-  "generatedAt": "2026-09-02T14:32:19.655Z",
+  "generatedAt": "2026-09-02T18:45:54.284Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 882,
+  "localTotal": 883,
   "upstreamTotal": 881,
   "shared": 881,
   "upstreamOnly": [],
   "localOnly": [
+    {
+      "id": "luics415-eternalmazesrpg-windows",
+      "sourceRepo": "luics415/eternalmazesrpg-windows",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    },
     {
       "id": "soupcanubg-yesterdays-meat",
       "sourceRepo": "soupcanubg/yesterdays-meat",
