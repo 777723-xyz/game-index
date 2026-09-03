@@ -1,14 +1,21 @@
 {
-  "generatedAt": "2026-09-03T18:43:12.799Z",
+  "generatedAt": "2026-09-03T21:45:16.106Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 885,
-  "upstreamTotal": 883,
-  "shared": 883,
+  "localTotal": 887,
+  "upstreamTotal": 884,
+  "shared": 884,
   "upstreamOnly": [],
   "localOnly": [
     {
-      "id": "redpillphil-emberchain",
-      "sourceRepo": "redpillphil/emberchain",
+      "id": "mengtl4-rpgmaker-mv-android-mod",
+      "sourceRepo": "mengtl4/rpgmaker-mv-android-mod",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    },
+    {
+      "id": "kuhaku411a-infinite-domination-rw",
+      "sourceRepo": "kuhaku411a/infinite_domination_rw",
       "status": "indexed",
       "forkName": null,
       "pagesUrl": null
