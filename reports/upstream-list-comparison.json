@@ -1,11 +1,18 @@
 {
-  "generatedAt": "2026-09-04T09:42:29.134Z",
+  "generatedAt": "2026-09-04T14:24:38.190Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 887,
+  "localTotal": 888,
   "upstreamTotal": 886,
   "shared": 886,
   "upstreamOnly": [],
   "localOnly": [
+    {
+      "id": "retrom-project-retrom",
+      "sourceRepo": "retrom-project/retrom",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    },
     {
       "id": "soupcanubg-yesterdays-meat",
       "sourceRepo": "soupcanubg/yesterdays-meat",
