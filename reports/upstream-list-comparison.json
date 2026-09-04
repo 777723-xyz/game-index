@@ -1,25 +1,11 @@
 {
-  "generatedAt": "2026-09-03T21:45:16.106Z",
+  "generatedAt": "2026-09-04T00:09:02.607Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 887,
-  "upstreamTotal": 884,
-  "shared": 884,
+  "upstreamTotal": 886,
+  "shared": 886,
   "upstreamOnly": [],
   "localOnly": [
-    {
-      "id": "mengtl4-rpgmaker-mv-android-mod",
-      "sourceRepo": "mengtl4/rpgmaker-mv-android-mod",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    },
-    {
-      "id": "kuhaku411a-infinite-domination-rw",
-      "sourceRepo": "kuhaku411a/infinite_domination_rw",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    },
     {
       "id": "soupcanubg-yesterdays-meat",
       "sourceRepo": "soupcanubg/yesterdays-meat",
