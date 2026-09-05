@@ -1,16 +1,30 @@
 {
-  "generatedAt": "2026-09-05T04:33:19.033Z",
+  "generatedAt": "2026-09-05T09:08:10.962Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 889,
+  "localTotal": 891,
   "upstreamTotal": 888,
   "shared": 888,
   "upstreamOnly": [],
   "localOnly": [
     {
+      "id": "emowbaik-project-tefa-b",
+      "sourceRepo": "emowbaik/project-tefa-b",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    },
+    {
       "id": "soupcanubg-yesterdays-meat",
       "sourceRepo": "soupcanubg/yesterdays-meat",
       "status": "duplicate_name",
       "forkName": "SoupcanUBG-Yesterdays-Meat",
+      "pagesUrl": null
+    },
+    {
+      "id": "neonnoiru-xzxrdbw",
+      "sourceRepo": "neonnoiru/xzxrdbw",
+      "status": "indexed",
+      "forkName": null,
       "pagesUrl": null
     }
   ],
