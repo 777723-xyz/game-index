@@ -1,11 +1,18 @@
 {
-  "generatedAt": "2026-09-05T22:59:34.916Z",
+  "generatedAt": "2026-09-06T01:01:10.596Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 892,
+  "localTotal": 893,
   "upstreamTotal": 891,
   "shared": 891,
   "upstreamOnly": [],
   "localOnly": [
+    {
+      "id": "phexus23-phexus23-github-io",
+      "sourceRepo": "phexus23/phexus23.github.io",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    },
     {
       "id": "soupcanubg-yesterdays-meat",
       "sourceRepo": "soupcanubg/yesterdays-meat",
