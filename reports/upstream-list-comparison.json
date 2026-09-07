@@ -1,18 +1,11 @@
 {
-  "generatedAt": "2026-09-07T20:36:37.204Z",
+  "generatedAt": "2026-09-07T23:32:13.438Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 897,
-  "upstreamTotal": 894,
-  "shared": 894,
+  "localTotal": 898,
+  "upstreamTotal": 896,
+  "shared": 896,
   "upstreamOnly": [],
   "localOnly": [
-    {
-      "id": "lunararrow89-thecomicreliefcorner",
-      "sourceRepo": "lunararrow89/thecomicreliefcorner",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    },
     {
       "id": "amogus0471-jhon-pork-unblocked",
       "sourceRepo": "amogus0471/jhon-pork-unblocked",
