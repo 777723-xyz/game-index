@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T18:39:54.147Z",
+  "generatedAt": "2026-09-09T21:44:23.876Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 898,
   "upstreamTotal": 896,
@@ -401,7 +401,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -649,7 +649,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
@@ -1302,7 +1302,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
+          "upstream": "skipped_large"
         }
       }
     },
@@ -1342,6 +1342,15 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/blocklet-rpgmaker-demo/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "okshaone/loop",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
         }
       }
     },
@@ -1732,6 +1741,15 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/geodmeeeeee-forksnspoons/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "moon-network-service/blueberry-manor-project",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
         }
       }
     },
@@ -2291,6 +2309,15 @@
       }
     },
     {
+      "sourceRepo": "nautssky/nautssky",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "ovate/rmmv-dice",
       "differences": {
         "status": {
@@ -2321,7 +2348,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -2404,6 +2431,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/MGSRaiden2-DK-Crew/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "noorinasjad/global-gamejam-2018",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/NoorinAsjad-Global-Gamejam-2018/"
         }
       }
     },
@@ -2910,6 +2950,15 @@
       }
     },
     {
+      "sourceRepo": "nikitosiknekitoser-sus/futato_project",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "altanturan/protocol-takeover",
       "differences": {
         "status": {
@@ -3213,7 +3262,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3226,7 +3275,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3452,6 +3501,15 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/TheModernSMoore-themodernsmoore.github.io/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "okshaone/kiki-s-adventure-v1",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
         }
       }
     },
@@ -3868,6 +3926,15 @@
       }
     },
     {
+      "sourceRepo": "nikitabelk/nikita-channel-animation",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "fannarhrafn/veffortvoloka",
       "differences": {
         "status": {
@@ -3911,7 +3978,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -4007,6 +4074,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/kyubuns-MMOM/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "nguyendacliem/monad",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/NguyenDacLiem-monad/"
         }
       }
     },
@@ -4158,7 +4238,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -4354,7 +4434,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -4437,6 +4517,24 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/beatrizminoura-cmyk-ossos-do-oficio/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "navdeep5/navdeep5.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "navdeep5/quokka_quest_team",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
         }
       }
     },
@@ -4970,7 +5068,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -5777,6 +5875,15 @@
       }
     },
     {
+      "sourceRepo": "muletmiles/muletmiles.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "excel/top",
       "differences": {
         "status": {
@@ -5976,7 +6083,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -6388,7 +6495,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -6419,6 +6526,15 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/briancain-tutorial-test/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "mysterymagination/twilightning",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
         }
       }
     },
@@ -6562,6 +6678,15 @@
       }
     },
     {
+      "sourceRepo": "ojoh1993/scp_oopart",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "versionaryy/versionary-game",
       "differences": {
         "status": {
@@ -6644,7 +6769,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
