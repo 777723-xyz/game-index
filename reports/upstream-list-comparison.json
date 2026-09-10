@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T21:44:23.876Z",
+  "generatedAt": "2026-09-10T00:17:34.347Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 898,
   "upstreamTotal": 896,
@@ -92,7 +92,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -153,7 +153,7 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
@@ -253,7 +253,11 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/cdgaming-cdgaming.github.io/"
         }
       }
     },
@@ -288,7 +292,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -327,7 +331,7 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
@@ -388,7 +392,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -614,7 +618,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
@@ -671,7 +675,11 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/easychen-GameDemo/"
         }
       }
     },
@@ -940,7 +948,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -1027,7 +1035,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -1079,7 +1087,11 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Ambiwlans-TooFastRPG/"
         }
       }
     },
@@ -1088,7 +1100,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
@@ -1102,6 +1114,24 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/zenhanyin-RPGmakerdemo/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "cyh0521/rpg",
+      "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "huanggaole/huanggaole.github.io",
+      "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "skipped_large"
         }
       }
     },
@@ -1171,7 +1201,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -1182,6 +1212,10 @@
     {
       "sourceRepo": "adarkmaker/hxk-rpg",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/aDarkMaker-HXK-RPG/index.html",
           "upstream": "https://webrpg.org/aDarkMaker-HXK-RPG/"
@@ -1206,7 +1240,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
@@ -1215,7 +1249,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -1228,7 +1262,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -1267,7 +1301,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -7055,7 +7089,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
@@ -7187,7 +7221,11 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/hanakusogame-hanakusogame.github.io/"
         }
       }
     },
@@ -7209,7 +7247,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -7222,7 +7260,11 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/AlecYawata-TkoolMV_PluginCommandBook/"
         }
       }
     },
@@ -7268,6 +7310,10 @@
     {
       "sourceRepo": "a12204002-ryujiatsuta/eboshi_web",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/a12204002-RyujiAtsuta-Eboshi_web/index.html",
           "upstream": "https://webrpg.org/a12204002-RyujiAtsuta-Eboshi_web/"
