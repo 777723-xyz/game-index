@@ -1,21 +1,14 @@
 {
-  "generatedAt": "2026-09-10T14:29:25.180Z",
+  "generatedAt": "2026-09-10T18:31:45.991Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 901,
-  "upstreamTotal": 897,
-  "shared": 897,
+  "upstreamTotal": 898,
+  "shared": 898,
   "upstreamOnly": [],
   "localOnly": [
     {
       "id": "amogus0471-jhon-pork-unblocked",
       "sourceRepo": "amogus0471/jhon-pork-unblocked",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    },
-    {
-      "id": "harleythetech-palarongpanlipunan",
-      "sourceRepo": "harleythetech/palarongpanlipunan",
       "status": "indexed",
       "forkName": null,
       "pagesUrl": null
@@ -586,6 +579,10 @@
     {
       "sourceRepo": "430230562/kerman-s-dream",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/430230562-kerman-s-dream/index.html",
           "upstream": "https://webrpg.org/430230562-kerman-s-dream/"
@@ -804,10 +801,6 @@
     {
       "sourceRepo": "tw123777tw/pdlsdyzzh",
       "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "skipped_large"
-        },
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
@@ -864,10 +857,6 @@
     {
       "sourceRepo": "tw123777tw/pdlsdyzzh",
       "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "skipped_large"
-        },
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
@@ -1007,10 +996,6 @@
     {
       "sourceRepo": "ruan-cat/rm-monorepo",
       "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "skipped_large"
-        },
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/ruan-cat-rm-monorepo/"
@@ -1401,7 +1386,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -1813,7 +1798,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -2008,7 +1993,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -2227,6 +2212,10 @@
     {
       "sourceRepo": "4nddrs/cyber-tech",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/4nddrs-Cyber-Tech/index.html",
           "upstream": "https://webrpg.org/4nddrs-Cyber-Tech/"
@@ -2606,7 +2595,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -2827,7 +2816,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -2840,7 +2829,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3057,7 +3046,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3859,7 +3848,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3885,7 +3874,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3911,7 +3900,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -4323,7 +4312,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -4399,6 +4388,10 @@
     {
       "sourceRepo": "0x736f6d657468696e67/new_layers",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/0x736f6d657468696e67-new_layers/index.html",
           "upstream": "https://webrpg.org/0x736f6d657468696e67-new_layers/"
@@ -4589,7 +4582,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -5192,7 +5185,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -5320,6 +5313,10 @@
     {
       "sourceRepo": "aguiano18/rpg.maker",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Aguiano18-Rpg.maker/index.html",
           "upstream": "https://webrpg.org/Aguiano18-Rpg.maker/"
@@ -5534,7 +5531,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -5639,7 +5636,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -5899,7 +5896,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -5999,7 +5996,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -6717,6 +6714,10 @@
     {
       "sourceRepo": "abner1710/goty-rpg",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Abner1710-Goty-rpg/index.html",
           "upstream": "https://webrpg.org/Abner1710-Goty-rpg/"
@@ -6945,7 +6946,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -7206,7 +7207,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -7267,7 +7268,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
