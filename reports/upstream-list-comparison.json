@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-10T09:47:51.658Z",
+  "generatedAt": "2026-09-10T14:29:25.180Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 900,
+  "localTotal": 901,
   "upstreamTotal": 897,
   "shared": 897,
   "upstreamOnly": [],
@@ -9,6 +9,13 @@
     {
       "id": "amogus0471-jhon-pork-unblocked",
       "sourceRepo": "amogus0471/jhon-pork-unblocked",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    },
+    {
+      "id": "harleythetech-palarongpanlipunan",
+      "sourceRepo": "harleythetech/palarongpanlipunan",
       "status": "indexed",
       "forkName": null,
       "pagesUrl": null
@@ -169,7 +176,7 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -221,7 +228,7 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -438,7 +445,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -451,7 +458,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -490,7 +497,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -647,7 +654,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -760,7 +767,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -773,7 +780,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -797,6 +804,10 @@
     {
       "sourceRepo": "tw123777tw/pdlsdyzzh",
       "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
@@ -853,6 +864,10 @@
     {
       "sourceRepo": "tw123777tw/pdlsdyzzh",
       "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
@@ -942,7 +957,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -968,7 +983,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -992,6 +1007,10 @@
     {
       "sourceRepo": "ruan-cat/rm-monorepo",
       "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/ruan-cat-rm-monorepo/"
@@ -1142,7 +1161,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -1168,7 +1187,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -2769,7 +2788,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -2782,7 +2801,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3207,7 +3226,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3788,7 +3807,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -4213,7 +4232,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -5646,7 +5665,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -5761,10 +5780,6 @@
     {
       "sourceRepo": "tklninja/spectoria-eng",
       "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "verified"
-        },
         "forkName": {
           "ours": "TKLNinja-Spectoria-Eng",
           "upstream": "WebRPG-Translations-Spectoria-Eng-CN"
@@ -7086,7 +7101,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -7108,7 +7123,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -7134,7 +7149,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -7291,7 +7306,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
