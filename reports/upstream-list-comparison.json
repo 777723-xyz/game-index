@@ -1,14 +1,21 @@
 {
-  "generatedAt": "2026-09-10T00:17:34.347Z",
+  "generatedAt": "2026-09-10T04:53:38.890Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 898,
-  "upstreamTotal": 896,
-  "shared": 896,
+  "localTotal": 900,
+  "upstreamTotal": 897,
+  "shared": 897,
   "upstreamOnly": [],
   "localOnly": [
     {
       "id": "amogus0471-jhon-pork-unblocked",
       "sourceRepo": "amogus0471/jhon-pork-unblocked",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    },
+    {
+      "id": "webrpg-translations-spectoria-eng-cn",
+      "sourceRepo": "webrpg-translations/spectoria-eng-cn",
       "status": "indexed",
       "forkName": null,
       "pagesUrl": null
@@ -175,7 +182,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -266,7 +273,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -279,7 +286,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -340,7 +347,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -457,7 +464,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -470,7 +477,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -596,7 +603,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
@@ -662,7 +669,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -701,7 +708,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -714,7 +721,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -779,7 +786,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -1061,7 +1068,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -1114,24 +1121,6 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/zenhanyin-RPGmakerdemo/"
-        }
-      }
-    },
-    {
-      "sourceRepo": "cyh0521/rpg",
-      "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "skipped_large"
-        }
-      }
-    },
-    {
-      "sourceRepo": "huanggaole/huanggaole.github.io",
-      "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "skipped_large"
         }
       }
     },
@@ -1275,7 +1264,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3565,7 +3554,11 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/juridon-juridon.github.io/"
         }
       }
     },
@@ -5405,7 +5398,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -5743,7 +5736,7 @@
       "sourceRepo": "tklninja/spectoria-eng",
       "differences": {
         "status": {
-          "ours": "indexed",
+          "ours": "duplicate_name",
           "upstream": "verified"
         },
         "pagesUrl": {
@@ -5762,6 +5755,23 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/tomoshibi06-SPECTORIA/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "tklninja/spectoria-eng",
+      "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "verified"
+        },
+        "forkName": {
+          "ours": "TKLNinja-Spectoria-Eng",
+          "upstream": "WebRPG-Translations-Spectoria-Eng-CN"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/WebRPG-Translations-Spectoria-Eng-CN/"
         }
       }
     },
@@ -6751,7 +6761,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -7111,7 +7121,11 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Ihatechickfila-Tickling-escape-2/"
         }
       }
     },
@@ -7133,7 +7147,11 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/john-smith-rpg-kuso/"
         }
       }
     },
@@ -7164,7 +7182,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
@@ -7208,7 +7226,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -7286,7 +7304,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -7338,7 +7356,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
