@@ -1080,9 +1080,10 @@
     "totalSize": 639202,
     "dataSize": 2250345,
     "sourceRepo": "430230562/kerman-s-dream",
+    "invalidReason": "Upstream repository size 639186 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/430230562-kerman-s-dream/",
     "upstreamCover": "https://webrpg.org/430230562-kerman-s-dream/cover.png",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/430230562-kerman-s-dream/index.html",
     "cover": "https://777723-xyz.github.io/430230562-kerman-s-dream/cover.png"
   },
@@ -1460,7 +1461,7 @@
     "source": "upstream-webrpg-index",
     "upstreamPagesUrl": "https://webrpg.org/tw123777tw-pdlsdyzzh/",
     "upstreamCover": "https://webrpg.org/tw123777tw-pdlsdyzzh/cover.png",
-    "upstreamStatus": "skipped_large"
+    "upstreamStatus": "duplicate_name"
   },
   {
     "id": "199023-pixel-aooni2016",
@@ -1590,8 +1591,7 @@
     "validationScore": 118,
     "totalSize": 134985,
     "dataSize": 2557446,
-    "forkName": "24c49x-24c49x.github.io",
-    "sourceRepo": "24c49x/24c49x.github.io"
+    "forkName": "24c49x-24c49x.github.io"
   },
   {
     "id": "tw123777tw-pdlsdyzzh-41ae28b5",
@@ -1613,7 +1613,7 @@
     "source": "upstream-webrpg-index",
     "upstreamPagesUrl": "https://webrpg.org/tw123777tw-pdlsdyzzh/",
     "upstreamCover": "https://webrpg.org/tw123777tw-pdlsdyzzh/cover.png",
-    "upstreamStatus": "skipped_large"
+    "upstreamStatus": "duplicate_name"
   },
   {
     "id": "lzk716088-prisoner",
@@ -1891,7 +1891,7 @@
     "source": "upstream-webrpg-index",
     "upstreamPagesUrl": "https://webrpg.org/ruan-cat-rm-monorepo/",
     "upstreamCover": "https://webrpg.org/ruan-cat-rm-monorepo/cover.png",
-    "upstreamStatus": "skipped_large"
+    "upstreamStatus": "duplicate_name"
   },
   {
     "id": "aqua012-aqua012-github-io",
@@ -2439,13 +2439,17 @@
     "name": "ZK-game",
     "engine": "RPG Maker MV",
     "status": "indexed",
-    "checkedAt": "2026-06-18T04:12:17.439Z",
+    "checkedAt": "2026-09-10T15:59:11.715Z",
     "forkName": "tychouhaha-ZK-game",
     "entryPath": "index.html",
     "validationScore": 118,
-    "totalSize": 114432,
+    "totalSize": 114430,
     "dataSize": 465764,
     "sourceRepo": "tychouhaha/ZK-game",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "60cd3981389a4849933eaa3dfeee66dc3c152fb2",
+    "processedHeadSha": "ffb9f7285cf06b130bd66fdedb19d8892e8c639a",
+    "syncedFromSource": true,
     "source": "upstream-webrpg-index",
     "upstreamPagesUrl": "https://webrpg.org/tychouhaha-ZK-game/",
     "upstreamCover": "https://webrpg.org/tychouhaha-ZK-game/cover.png",
@@ -2806,16 +2810,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "server/index.html",
-    "checkedAt": "2026-06-18T04:13:53.229Z",
+    "checkedAt": "2026-09-10T16:00:50.282Z",
     "forkName": "AILab-FOI-AIWorld",
     "entryPath": "index.html",
     "validationScore": 115,
     "totalSize": 404306,
     "dataSize": 814504,
     "sourceRepo": "AILab-FOI/AIWorld",
+    "invalidReason": "Upstream repository size 404306 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/AILab-FOI-AIWorld/",
     "upstreamCover": "https://webrpg.org/AILab-FOI-AIWorld/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "hacksider-alpha-chronicles",
@@ -4521,16 +4526,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "9781484219669/9781484219669_Ch6/Chapter 6/index.html",
-    "checkedAt": "2026-06-18T04:16:12.537Z",
+    "checkedAt": "2026-09-10T16:01:30.109Z",
     "forkName": "Apress-beg-rpg-maker-mv",
     "entryPath": "9781484219669/9781484219669_Ch1/Chapter 1/index.html",
     "validationScore": 115,
     "totalSize": 402126,
     "dataSize": 0,
     "sourceRepo": "Apress/beg-rpg-maker-mv",
+    "invalidReason": "Upstream repository size 402126 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/Apress-beg-rpg-maker-mv/",
     "upstreamCover": "https://webrpg.org/Apress-beg-rpg-maker-mv/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "ec-developer-hub-broadwayyyy",
@@ -4926,16 +4932,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "directions_enemy_demo/index.html",
-    "checkedAt": "2026-06-18T04:14:32.075Z",
+    "checkedAt": "2026-09-10T16:00:51.659Z",
     "forkName": "AltinGame-CMPUT250",
     "entryPath": "index.html",
     "validationScore": 115,
     "totalSize": 1277500,
     "dataSize": 1240435,
     "sourceRepo": "AltinGame/CMPUT250",
+    "invalidReason": "Upstream repository size 1277500 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/AltinGame-CMPUT250/",
     "upstreamCover": "https://webrpg.org/AltinGame-CMPUT250/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "msc-cqu-cba",
@@ -5484,9 +5491,10 @@
     "totalSize": 421717,
     "dataSize": 3147194,
     "sourceRepo": "4nddrs/Cyber-Tech",
+    "invalidReason": "Upstream repository size 421716 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/4nddrs-Cyber-Tech/",
     "upstreamCover": "https://webrpg.org/4nddrs-Cyber-Tech/cover.png",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/4nddrs-Cyber-Tech/index.html",
     "cover": "https://777723-xyz.github.io/4nddrs-Cyber-Tech/cover.png"
   },
@@ -6607,8 +6615,7 @@
     "validationScore": 118,
     "totalSize": 843935,
     "dataSize": 1187439,
-    "forkName": "AdanRafli-Dreamcore-X1",
-    "sourceRepo": "AdanRafli/Dreamcore-X1"
+    "forkName": "AdanRafli-Dreamcore-X1"
   },
   {
     "id": "happyfp-dreamsdestiny",
@@ -6700,16 +6707,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "www/index.html",
-    "checkedAt": "2026-06-18T04:15:35.808Z",
+    "checkedAt": "2026-09-10T16:01:07.639Z",
     "forkName": "andrewharn-Dwellers-Empty-Path-Plus",
     "entryPath": "index.html",
     "validationScore": 115,
     "totalSize": 355592,
     "dataSize": 7200215,
     "sourceRepo": "andrewharn/Dwellers-Empty-Path-Plus",
+    "invalidReason": "Upstream repository size 355592 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/andrewharn-Dwellers-Empty-Path-Plus/",
     "upstreamCover": "https://webrpg.org/andrewharn-Dwellers-Empty-Path-Plus/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "chruscikszef-dzzt-android",
@@ -6764,6 +6772,10 @@
     "totalSize": 75849,
     "dataSize": 0,
     "sourceRepo": "AGJimenez/Ra-s-Quest",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "705f890e33909cf154d6e5d6b2784d0d94fcc3cd",
+    "processedHeadSha": "7b6c61e5cbcbdf3ebea67823adf715d09c91acdf",
+    "syncedFromSource": true,
     "upstreamPagesUrl": "https://webrpg.org/AGJimenez-Ra-s-Quest/",
     "upstreamCover": "https://webrpg.org/AGJimenez-Ra-s-Quest/cover.png",
     "upstreamStatus": "verified",
@@ -7133,16 +7145,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "The RPG Maker/index.html",
-    "checkedAt": "2026-06-18T04:14:38.599Z",
+    "checkedAt": "2026-09-10T16:00:39.007Z",
     "forkName": "Altoc-rpg_maker_jam",
     "entryPath": "The RPG Maker/index.html",
     "validationScore": 115,
     "totalSize": 390764,
     "dataSize": 0,
     "sourceRepo": "Altoc/rpg_maker_jam",
+    "invalidReason": "Upstream repository size 390764 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/Altoc-rpg_maker_jam/",
     "upstreamCover": "https://webrpg.org/Altoc-rpg_maker_jam/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "apollovy-fear-and-hunger",
@@ -7155,16 +7168,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "js_copies/index.html",
-    "checkedAt": "2026-06-18T04:16:14.392Z",
+    "checkedAt": "2026-09-10T16:01:22.559Z",
     "forkName": "apollovy-fear-and-hunger",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 597857,
     "dataSize": 175769060,
     "sourceRepo": "apollovy/fear-and-hunger",
+    "invalidReason": "Upstream repository size 597857 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/apollovy-fear-and-hunger/",
     "upstreamCover": "https://webrpg.org/apollovy-fear-and-hunger/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "mattiefm-andyandlayley",
@@ -7670,7 +7684,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "Assets/Asset/Galacti-Chrons Sci-Fi Warehouse Pack/Galacti-Chrons Sci-Fi Warehouse Pack/index.html",
-    "checkedAt": "2026-06-18T04:14:22.029Z",
+    "checkedAt": "2026-09-10T16:01:12.715Z",
     "forkName": "AltanTuran-Protocol-Takeover",
     "entryPath": "Assets/Asset/Galacti-Chrons Sci-Fi Warehouse Pack/Galacti-Chrons Sci-Fi Warehouse Pack/index.html",
     "validationScore": 115,
@@ -7847,16 +7861,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-06-18T04:14:18.268Z",
+    "checkedAt": "2026-09-10T16:00:37.449Z",
     "forkName": "AlphinBijeesh-test_version",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 320273,
     "dataSize": 674750,
     "sourceRepo": "AlphinBijeesh/test_version",
+    "invalidReason": "Upstream repository size 320273 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/AlphinBijeesh-test_version/",
     "upstreamCover": "https://webrpg.org/AlphinBijeesh-test_version/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "yancharkin-game-jams",
@@ -9683,16 +9698,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-06-18T04:13:59.962Z",
+    "checkedAt": "2026-09-10T16:00:26.965Z",
     "forkName": "akanetr-devil_sword",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 545896,
     "dataSize": 6687081,
     "sourceRepo": "akanetr/devil_sword",
+    "invalidReason": "Upstream repository size 545896 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/akanetr-devil_sword/",
     "upstreamCover": "https://webrpg.org/akanetr-devil_sword/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "blairwilcox-magic-battle",
@@ -9727,16 +9743,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "Make a 2D RPG in a Weekend/index.html",
-    "checkedAt": "2026-06-18T04:16:13.759Z",
+    "checkedAt": "2026-09-10T16:01:25.350Z",
     "forkName": "Apress-make-a-2d-rpg-in-a-weekend-15",
     "entryPath": "Make a 2D RPG in a Weekend/index.html",
     "validationScore": 115,
     "totalSize": 400581,
     "dataSize": 0,
     "sourceRepo": "Apress/make-a-2d-rpg-in-a-weekend-15",
+    "invalidReason": "Upstream repository size 400581 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/Apress-make-a-2d-rpg-in-a-weekend-15/",
     "upstreamCover": "https://webrpg.org/Apress-make-a-2d-rpg-in-a-weekend-15/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "xmandarava-plugins4rmmv",
@@ -9794,10 +9811,10 @@
     "totalSize": 388641,
     "dataSize": 0,
     "sourceRepo": "0x416c616e/2drpggamengine",
+    "invalidReason": "No RPG Maker MV/MZ HTML entry point or core scripts were found.",
     "upstreamPagesUrl": "https://webrpg.org/0x416c616e-2drpggamengine/",
     "upstreamCover": "https://webrpg.org/0x416c616e-2drpggamengine/cover.png",
-    "upstreamStatus": "verified",
-    "invalidReason": "No RPG Maker MV/MZ HTML entry point or core scripts were found."
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "watchmedash-mojazer",
@@ -10585,16 +10602,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "RPG Maker/NewStarter/index.html",
-    "checkedAt": "2026-06-18T04:15:56.063Z",
+    "checkedAt": "2026-09-10T16:01:20.832Z",
     "forkName": "antiperfectclub-codingforfun",
     "entryPath": "RPG Maker/NewStarter/index.html",
     "validationScore": 115,
     "totalSize": 414231,
     "dataSize": 0,
     "sourceRepo": "antiperfectclub/codingforfun",
+    "invalidReason": "Upstream repository size 414231 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/antiperfectclub-codingforfun/",
     "upstreamCover": "https://webrpg.org/antiperfectclub-codingforfun/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "potasiuombun-nhkgame-collab",
@@ -10768,8 +10786,9 @@
     "totalSize": 1533248,
     "dataSize": 70738424,
     "sourceRepo": "0x736f6d657468696e67/new_layers",
+    "invalidReason": "Upstream repository size 1533248 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/0x736f6d657468696e67-new_layers/",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/0x736f6d657468696e67-new_layers/index.html"
   },
   {
@@ -11866,16 +11885,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "public/pacpoule/index.html",
-    "checkedAt": "2026-06-18T04:15:18.296Z",
+    "checkedAt": "2026-09-10T16:01:07.353Z",
     "forkName": "Andaroth-anda.ninja",
     "entryPath": "index.html",
     "validationScore": 115,
     "totalSize": 460337,
     "dataSize": 2585566,
     "sourceRepo": "Andaroth/anda.ninja",
+    "invalidReason": "Upstream repository size 460337 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/Andaroth-anda.ninja/",
     "upstreamCover": "https://webrpg.org/Andaroth-anda.ninja/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "harleythetech-capstone-ppv2",
@@ -11898,9 +11918,10 @@
     "name": "PalarongPanlipunan",
     "engine": "RPG Maker MV",
     "status": "indexed",
-    "discoveredAt": "2026-09-10T14:27:36.381Z",
+    "discoveredAt": "2026-09-10T15:52:23.615Z",
     "source": "github-code-search",
-    "sourcePath": "index.html"
+    "sourcePath": "index.html",
+    "upstreamStatus": "indexed"
   },
   {
     "id": "binkalogi-pantiesia1-0",
@@ -12115,6 +12136,10 @@
     "totalSize": 25219,
     "dataSize": 662870,
     "sourceRepo": "AAK581/Polkadot-Cats-Game",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "95f7ecfa3c619a3013b754a688d8e334c735b52c",
+    "processedHeadSha": "b5709fe1c0b66811581b2b2c780ad97cb2110b95",
+    "syncedFromSource": true,
     "upstreamPagesUrl": "https://webrpg.org/AAK581-Polkadot-Cats-Game/",
     "upstreamCover": "https://webrpg.org/AAK581-Polkadot-Cats-Game/cover.png",
     "upstreamStatus": "verified",
@@ -13292,16 +13317,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "Client/client/public/rpg/Rm/www/index.html",
-    "checkedAt": "2026-06-18T04:13:42.223Z",
+    "checkedAt": "2026-09-10T16:00:19.998Z",
     "forkName": "Agus-Sosa-ReactMonster",
     "entryPath": "Client/client/public/rpg/Rm/www/index.html",
     "validationScore": 115,
     "totalSize": 478148,
     "dataSize": 0,
     "sourceRepo": "Agus-Sosa/ReactMonster",
+    "invalidReason": "Upstream repository size 478148 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/Agus-Sosa-ReactMonster/",
     "upstreamCover": "https://webrpg.org/Agus-Sosa-ReactMonster/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "teamcstudios-realmtiers",
@@ -13615,9 +13641,10 @@
     "totalSize": 390060,
     "dataSize": 926582,
     "sourceRepo": "Aguiano18/Rpg.maker",
+    "invalidReason": "Upstream repository size 390059 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/Aguiano18-Rpg.maker/",
     "upstreamCover": "https://webrpg.org/Aguiano18-Rpg.maker/cover.png",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/Aguiano18-Rpg.maker/index.html",
     "cover": "https://777723-xyz.github.io/Aguiano18-Rpg.maker/cover.png"
   },
@@ -13675,8 +13702,7 @@
     "validationScore": 118,
     "totalSize": 416741,
     "dataSize": 671869,
-    "forkName": "a2937-RPG-Maker-MV-Test-Template",
-    "sourceRepo": "a2937/RPG-Maker-MV-Test-Template"
+    "forkName": "a2937-RPG-Maker-MV-Test-Template"
   },
   {
     "id": "lokilyn-rpgmakermv",
@@ -14097,16 +14123,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "senja/index.html",
-    "checkedAt": "2026-06-18T04:14:37.379Z",
+    "checkedAt": "2026-09-10T16:00:51.743Z",
     "forkName": "Altrisk-altrisk.github.io",
     "entryPath": "index.html",
     "validationScore": 115,
     "totalSize": 263652,
     "dataSize": 1211873,
     "sourceRepo": "Altrisk/altrisk.github.io",
+    "invalidReason": "Upstream repository size 263652 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/Altrisk-altrisk.github.io/",
     "upstreamCover": "https://webrpg.org/Altrisk-altrisk.github.io/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "daffadaff-pengembangan-game",
@@ -14148,6 +14175,10 @@
     "totalSize": 27074,
     "dataSize": 653995,
     "sourceRepo": "AAK581/blokkat-arabicblockchain-developer-bootcamp-graduation-project",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "b1ae76532ac742502b023daaa1b78a92a09f656a",
+    "processedHeadSha": "44e6b059d56a1fbebd742b1c862a4dc4b76c1a15",
+    "syncedFromSource": true,
     "upstreamPagesUrl": "https://webrpg.org/AAK581-blokkat-arabicblockchain-developer-bootcamp-graduation-project/",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/AAK581-blokkat-arabicblockchain-developer-bootcamp-graduation-project/index.html"
@@ -14170,6 +14201,10 @@
     "totalSize": 25850,
     "dataSize": 654298,
     "sourceRepo": "AAK581/rpg-game-sepolia-cats",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "1b287722340c10a585228fdb87b557884c975e3d",
+    "processedHeadSha": "e65afe2335545f46bf3b7b38415c4fee504a7346",
+    "syncedFromSource": true,
     "upstreamPagesUrl": "https://webrpg.org/AAK581-rpg-game-sepolia-cats/",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/AAK581-rpg-game-sepolia-cats/index.html"
@@ -14192,6 +14227,10 @@
     "totalSize": 27335,
     "dataSize": 653995,
     "sourceRepo": "AAK581/testnet-cats-dapp",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "a18b4bf83ae0652cca89c5608015c24b012d48ed",
+    "processedHeadSha": "245d18b6b09d284ba9dc5255c4698a8b0838fb93",
+    "syncedFromSource": true,
     "upstreamPagesUrl": "https://webrpg.org/AAK581-testnet-cats-dapp/",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/AAK581-testnet-cats-dapp/index.html"
@@ -14322,16 +14361,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "Shrek vs Warroten/index.html",
-    "checkedAt": "2026-06-18T04:14:14.886Z",
+    "checkedAt": "2026-09-10T16:00:35.469Z",
     "forkName": "AlbondigaBoy-Juegos_creados",
     "entryPath": "Shrek vs Warroten/GAME/www/index.html",
     "validationScore": 115,
     "totalSize": 490747,
     "dataSize": 0,
     "sourceRepo": "AlbondigaBoy/Juegos_creados",
+    "invalidReason": "Upstream repository size 490747 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/AlbondigaBoy-Juegos_creados/",
     "upstreamCover": "https://webrpg.org/AlbondigaBoy-Juegos_creados/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "jahmezz-20minutesgamedev",
@@ -14860,16 +14900,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-06-18T04:13:51.949Z",
+    "checkedAt": "2026-09-10T16:00:22.312Z",
     "forkName": "AILab-FOI-svjetovi-znanja",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 425868,
     "dataSize": 968056,
     "sourceRepo": "AILab-FOI/svjetovi-znanja",
+    "invalidReason": "Upstream repository size 425868 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/AILab-FOI-svjetovi-znanja/",
     "upstreamCover": "https://webrpg.org/AILab-FOI-svjetovi-znanja/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "hyperpixel-212-tales-of-atheria",
@@ -15052,10 +15093,10 @@
     "totalSize": 303349,
     "dataSize": 0,
     "sourceRepo": "0mniPr3Z/HitCraft-php-js",
+    "invalidReason": "No RPG Maker MV/MZ HTML entry point or core scripts were found.",
     "upstreamPagesUrl": "https://webrpg.org/0mniPr3Z-HitCraft-php-js/",
     "upstreamCover": "https://webrpg.org/0mniPr3Z-HitCraft-php-js/cover.png",
-    "upstreamStatus": "verified",
-    "invalidReason": "No RPG Maker MV/MZ HTML entry point or core scripts were found."
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "corddt-rpg-maker-toandroid",
@@ -16426,9 +16467,10 @@
     "totalSize": 391386,
     "dataSize": 708603,
     "sourceRepo": "Abner1710/Goty-rpg",
+    "invalidReason": "Upstream repository size 391385 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/Abner1710-Goty-rpg/",
     "upstreamCover": "https://webrpg.org/Abner1710-Goty-rpg/cover.png",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/Abner1710-Goty-rpg/index.html",
     "cover": "https://777723-xyz.github.io/Abner1710-Goty-rpg/cover.png"
   },
@@ -16871,16 +16913,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-06-18T04:15:30.578Z",
+    "checkedAt": "2026-09-10T16:01:07.963Z",
     "forkName": "andredarcie-zero-to-one",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 388597,
     "dataSize": 672866,
     "sourceRepo": "andredarcie/zero-to-one",
+    "invalidReason": "Upstream repository size 388597 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/andredarcie-zero-to-one/",
     "upstreamCover": "https://webrpg.org/andredarcie-zero-to-one/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "wolverinexxxxxz-sat-muhammed-ali-ture",
@@ -17445,17 +17488,18 @@
     "name": "SiyuToHusigiNoGakuen",
     "engine": "RPG Maker MV",
     "status": "indexed",
-    "checkedAt": "2026-06-18T04:12:03.679Z",
+    "checkedAt": "2026-09-10T15:59:31.233Z",
     "forkName": "tw123777tw-SiyuToHusigiNoGakuen",
     "entryPath": "index.html",
     "validationScore": 115,
     "totalSize": 251630,
     "dataSize": 3089505,
     "sourceRepo": "tw123777tw/SiyuToHusigiNoGakuen",
+    "invalidReason": "Upstream repository size 251627 KB exceeds the 250000 KB limit.",
     "source": "upstream-webrpg-index",
     "upstreamPagesUrl": "https://webrpg.org/tw123777tw-SiyuToHusigiNoGakuen/",
     "upstreamCover": "https://webrpg.org/tw123777tw-SiyuToHusigiNoGakuen/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "haturatu-sradjp",
@@ -17563,16 +17607,17 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-06-18T04:13:57.886Z",
+    "checkedAt": "2026-09-10T16:00:22.771Z",
     "forkName": "akanetr-Bounty_Hunter_3",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 253500,
     "dataSize": 21437101,
     "sourceRepo": "akanetr/Bounty_Hunter_3",
+    "invalidReason": "Upstream repository size 253500 KB exceeds the 250000 KB limit.",
     "upstreamPagesUrl": "https://webrpg.org/akanetr-Bounty_Hunter_3/",
     "upstreamCover": "https://webrpg.org/akanetr-Bounty_Hunter_3/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "catbread00-www",
