@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T18:36:15.687Z",
+  "generatedAt": "2026-09-11T21:46:13.165Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 902,
   "upstreamTotal": 899,
@@ -1370,6 +1370,10 @@
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/okshaone-loop/"
         }
       }
     },
@@ -3529,6 +3533,10 @@
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/okshaone-Kiki-s-adventure-v1/"
         }
       }
     },
@@ -3810,7 +3818,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3954,6 +3962,10 @@
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/NikitaBelk-Nikita-Channel-Animation/"
         }
       }
     },
@@ -4549,6 +4561,10 @@
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/navdeep5-navdeep5.github.io/"
         }
       }
     },
@@ -4558,6 +4574,10 @@
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/navdeep5-Quokka_Quest_Team/"
         }
       }
     },
@@ -5916,6 +5936,10 @@
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/muletmiles-muletmiles.github.io/"
         }
       }
     },
@@ -6571,6 +6595,10 @@
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/mysterymagination-twilightning/"
         }
       }
     },
@@ -6719,6 +6747,10 @@
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/ojoh1993-SCP_OOPArt/"
         }
       }
     },
