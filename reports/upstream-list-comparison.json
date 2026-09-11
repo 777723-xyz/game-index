@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T14:28:57.316Z",
+  "generatedAt": "2026-09-11T18:36:15.687Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 902,
   "upstreamTotal": 899,
@@ -2267,7 +2267,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -4496,7 +4496,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
