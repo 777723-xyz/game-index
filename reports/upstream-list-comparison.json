@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-11T00:13:16.614Z",
+  "generatedAt": "2026-09-11T04:44:37.137Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 901,
+  "localTotal": 902,
   "upstreamTotal": 898,
   "shared": 898,
   "upstreamOnly": [],
@@ -9,6 +9,13 @@
     {
       "id": "amogus0471-jhon-pork-unblocked",
       "sourceRepo": "amogus0471/jhon-pork-unblocked",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    },
+    {
+      "id": "chiyungjie-rpg20240811",
+      "sourceRepo": "chiyungjie/rpg20240811",
       "status": "indexed",
       "forkName": null,
       "pagesUrl": null
@@ -60,7 +67,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -99,7 +106,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -112,7 +119,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -125,7 +132,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -160,7 +167,7 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -169,7 +176,7 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -182,7 +189,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -221,7 +228,7 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -273,7 +280,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -286,7 +293,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -299,7 +306,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -338,7 +345,7 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -347,7 +354,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -399,7 +406,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -412,7 +419,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -438,7 +445,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -451,7 +458,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -464,7 +471,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -477,7 +484,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -490,7 +497,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -503,7 +510,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -579,10 +586,6 @@
     {
       "sourceRepo": "430230562/kerman-s-dream",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "skipped_large"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/430230562-kerman-s-dream/index.html",
           "upstream": "https://webrpg.org/430230562-kerman-s-dream/"
@@ -607,7 +610,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -629,7 +632,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -651,7 +654,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -664,7 +667,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -673,7 +676,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -712,7 +715,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -725,7 +728,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -764,7 +767,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -777,7 +780,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -790,7 +793,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -946,7 +949,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -959,7 +962,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -972,7 +975,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1046,7 +1049,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1072,7 +1075,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1111,7 +1114,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -1146,7 +1149,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1159,7 +1162,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1172,7 +1175,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1185,7 +1188,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -1194,7 +1197,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1205,10 +1208,6 @@
     {
       "sourceRepo": "adarkmaker/hxk-rpg",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "skipped_large"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/aDarkMaker-HXK-RPG/index.html",
           "upstream": "https://webrpg.org/aDarkMaker-HXK-RPG/"
@@ -1233,7 +1232,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -1242,7 +1241,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1255,7 +1254,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1268,7 +1267,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1294,7 +1293,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1329,7 +1328,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -1338,7 +1337,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1364,7 +1363,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1377,7 +1376,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -1386,7 +1385,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1425,7 +1424,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1438,7 +1437,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1451,7 +1450,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1490,7 +1489,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1516,7 +1515,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1542,7 +1541,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1607,7 +1606,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1633,7 +1632,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1672,7 +1671,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1685,7 +1684,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1776,7 +1775,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -1798,7 +1797,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1850,7 +1849,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1915,7 +1914,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1928,7 +1927,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1954,7 +1953,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1967,7 +1966,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -1993,7 +1992,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2019,7 +2018,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2045,7 +2044,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2058,7 +2057,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2123,7 +2122,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2136,7 +2135,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2201,7 +2200,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2212,10 +2211,6 @@
     {
       "sourceRepo": "4nddrs/cyber-tech",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "skipped_large"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/4nddrs-Cyber-Tech/index.html",
           "upstream": "https://webrpg.org/4nddrs-Cyber-Tech/"
@@ -2253,7 +2248,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2279,7 +2274,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2305,7 +2300,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2318,7 +2313,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2344,7 +2339,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -2379,7 +2374,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2405,7 +2400,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2418,7 +2413,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2431,7 +2426,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2522,7 +2517,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2595,7 +2590,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2608,7 +2603,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2634,7 +2629,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2660,7 +2655,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2699,7 +2694,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2738,7 +2733,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2751,7 +2746,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2764,7 +2759,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2777,7 +2772,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2790,7 +2785,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2816,7 +2811,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2829,7 +2824,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2855,7 +2850,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2881,7 +2876,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2894,7 +2889,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2907,7 +2902,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2920,7 +2915,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2946,7 +2941,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -2985,7 +2980,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -3046,7 +3041,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3098,7 +3093,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3124,7 +3119,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3163,7 +3158,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3215,7 +3210,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3254,7 +3249,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3293,7 +3288,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3306,7 +3301,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3332,7 +3327,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3384,7 +3379,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3475,7 +3470,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3514,7 +3509,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3540,7 +3535,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -3549,7 +3544,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3588,7 +3583,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3718,7 +3713,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3757,7 +3752,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3796,7 +3791,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3822,7 +3817,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3848,7 +3843,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3861,7 +3856,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3874,7 +3869,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3900,7 +3895,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3913,7 +3908,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -3965,7 +3960,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -4000,7 +3995,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4013,7 +4008,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4039,7 +4034,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4130,7 +4125,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4221,7 +4216,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4273,7 +4268,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4286,7 +4281,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4312,7 +4307,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4325,7 +4320,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4388,10 +4383,6 @@
     {
       "sourceRepo": "0x736f6d657468696e67/new_layers",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "skipped_large"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/0x736f6d657468696e67-new_layers/index.html",
           "upstream": "https://webrpg.org/0x736f6d657468696e67-new_layers/"
@@ -4403,7 +4394,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4451,7 +4442,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -4473,7 +4464,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4486,7 +4477,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4512,7 +4503,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4564,7 +4555,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -4573,7 +4564,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -4582,7 +4573,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4621,7 +4612,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4634,7 +4625,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -4691,7 +4682,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4756,7 +4747,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4769,7 +4760,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4795,7 +4786,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4899,7 +4890,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4912,7 +4903,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4951,7 +4942,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4964,7 +4955,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -4990,7 +4981,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5029,7 +5020,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5055,7 +5046,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5068,7 +5059,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5094,7 +5085,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5107,7 +5098,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5133,7 +5124,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5146,7 +5137,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5185,7 +5176,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5237,7 +5228,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5250,7 +5241,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5263,7 +5254,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5289,7 +5280,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5313,10 +5304,6 @@
     {
       "sourceRepo": "aguiano18/rpg.maker",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "skipped_large"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Aguiano18-Rpg.maker/index.html",
           "upstream": "https://webrpg.org/Aguiano18-Rpg.maker/"
@@ -5328,7 +5315,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5414,7 +5401,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5453,7 +5440,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5466,7 +5453,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5479,7 +5466,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5531,7 +5518,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5544,7 +5531,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5597,7 +5584,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5623,7 +5610,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5636,7 +5623,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5662,7 +5649,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5727,7 +5714,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5792,7 +5779,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5857,7 +5844,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5896,7 +5883,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5935,7 +5922,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -5970,7 +5957,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5983,7 +5970,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -5996,7 +5983,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6009,7 +5996,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6022,7 +6009,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6035,7 +6022,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6074,7 +6061,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6087,7 +6074,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6100,7 +6087,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6126,7 +6113,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6139,7 +6126,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6152,7 +6139,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6178,7 +6165,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -6213,7 +6200,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6239,7 +6226,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6265,7 +6252,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6278,7 +6265,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6291,7 +6278,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6304,7 +6291,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6317,7 +6304,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6330,7 +6317,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6356,7 +6343,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6395,7 +6382,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6408,7 +6395,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6421,7 +6408,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6447,7 +6434,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6473,7 +6460,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6486,7 +6473,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6512,7 +6499,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6525,7 +6512,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6538,7 +6525,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6551,7 +6538,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6564,7 +6551,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6577,7 +6564,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6590,7 +6577,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -6625,7 +6612,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6714,10 +6701,6 @@
     {
       "sourceRepo": "abner1710/goty-rpg",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "skipped_large"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Abner1710-Goty-rpg/index.html",
           "upstream": "https://webrpg.org/Abner1710-Goty-rpg/"
@@ -6742,7 +6725,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -6764,7 +6747,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6777,7 +6760,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6816,7 +6799,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6829,7 +6812,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6868,7 +6851,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6946,7 +6929,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -6972,7 +6955,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -7024,7 +7007,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -7037,7 +7020,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -7102,7 +7085,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -7115,7 +7098,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -7124,7 +7107,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -7150,7 +7133,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -7198,7 +7181,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         }
       }
     },
@@ -7207,7 +7190,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -7242,7 +7225,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -7268,7 +7251,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -7281,7 +7264,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -7307,7 +7290,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -7320,7 +7303,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
@@ -7344,10 +7327,6 @@
     {
       "sourceRepo": "a12204002-ryujiatsuta/eboshi_web",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "skipped_large"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/a12204002-RyujiAtsuta-Eboshi_web/index.html",
           "upstream": "https://webrpg.org/a12204002-RyujiAtsuta-Eboshi_web/"
@@ -7372,7 +7351,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "skipped_large"
+          "upstream": "verified"
         },
         "pagesUrl": {
           "ours": null,
