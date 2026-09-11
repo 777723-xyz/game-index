@@ -1,21 +1,14 @@
 {
-  "generatedAt": "2026-09-11T09:44:50.006Z",
+  "generatedAt": "2026-09-11T14:28:57.316Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 902,
-  "upstreamTotal": 898,
-  "shared": 898,
+  "upstreamTotal": 899,
+  "shared": 899,
   "upstreamOnly": [],
   "localOnly": [
     {
       "id": "amogus0471-jhon-pork-unblocked",
       "sourceRepo": "amogus0471/jhon-pork-unblocked",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    },
-    {
-      "id": "chiyungjie-rpg20240811",
-      "sourceRepo": "chiyungjie/rpg20240811",
       "status": "indexed",
       "forkName": null,
       "pagesUrl": null
@@ -4477,7 +4470,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
