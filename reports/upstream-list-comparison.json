@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-12T19:24:28.997Z",
+  "generatedAt": "2026-09-12T22:20:36.126Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 905,
-  "upstreamTotal": 899,
-  "shared": 899,
+  "upstreamTotal": 900,
+  "shared": 900,
   "upstreamOnly": [],
   "localOnly": [
     {
@@ -11,13 +11,6 @@
       "sourceRepo": "kyouka8234/magical-girl-celesphonia",
       "status": "indexed",
       "forkName": "Kyouka8234-Magical-Girl-Celesphonia",
-      "pagesUrl": null
-    },
-    {
-      "id": "szymor-elemental-saga",
-      "sourceRepo": "szymor/elemental-saga",
-      "status": "indexed",
-      "forkName": null,
       "pagesUrl": null
     },
     {
