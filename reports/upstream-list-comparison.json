@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-12T14:11:03.433Z",
+  "generatedAt": "2026-09-12T17:13:40.542Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 904,
+  "localTotal": 905,
   "upstreamTotal": 899,
   "shared": 899,
   "upstreamOnly": [],
@@ -11,6 +11,13 @@
       "sourceRepo": "kyouka8234/magical-girl-celesphonia",
       "status": "indexed",
       "forkName": "Kyouka8234-Magical-Girl-Celesphonia",
+      "pagesUrl": null
+    },
+    {
+      "id": "szymor-elemental-saga",
+      "sourceRepo": "szymor/elemental-saga",
+      "status": "indexed",
+      "forkName": null,
       "pagesUrl": null
     },
     {
@@ -827,10 +834,6 @@
     {
       "sourceRepo": "tw123777tw/pdlsdyzzh",
       "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "verified"
-        },
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
@@ -887,10 +890,6 @@
     {
       "sourceRepo": "tw123777tw/pdlsdyzzh",
       "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "verified"
-        },
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
@@ -1030,10 +1029,6 @@
     {
       "sourceRepo": "ruan-cat/rm-monorepo",
       "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "verified"
-        },
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/ruan-cat-rm-monorepo/"
@@ -4466,7 +4461,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
