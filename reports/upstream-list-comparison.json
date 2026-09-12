@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-11T21:46:13.165Z",
+  "generatedAt": "2026-09-12T00:21:15.157Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 902,
+  "localTotal": 903,
   "upstreamTotal": 899,
   "shared": 899,
   "upstreamOnly": [],
@@ -25,6 +25,13 @@
       "sourceRepo": "soupcanubg/yesterdays-meat",
       "status": "duplicate_name",
       "forkName": "SoupcanUBG-Yesterdays-Meat",
+      "pagesUrl": null
+    },
+    {
+      "id": "kill-rose-wiki",
+      "sourceRepo": "kill-rose/wiki",
+      "status": "duplicate_name",
+      "forkName": "Kill-rose-wiki",
       "pagesUrl": null
     }
   ],
@@ -339,6 +346,10 @@
         "status": {
           "ours": "duplicate_name",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/cyh0521-rpg/"
         }
       }
     },
@@ -626,6 +637,10 @@
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/fredpoole-fredpoole.github.io/"
         }
       }
     },
@@ -661,6 +676,10 @@
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/whiterrabbit3672-touhou-GhostFairy-do-people/"
         }
       }
     },
@@ -1108,6 +1127,10 @@
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/ChenFengYese-ChenFengYese.github.io/"
         }
       }
     },
@@ -1121,6 +1144,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/zenhanyin-RPGmakerdemo/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "cyh0521/rpg",
+      "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/cyh0521-rpg/"
         }
       }
     },
@@ -1225,7 +1261,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -1322,6 +1358,10 @@
         "status": {
           "ours": "invalid_structure",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/1LgR-Treinamento-RPG-MAKER/"
         }
       }
     },
@@ -1773,6 +1813,10 @@
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Moon-Network-Service-Blueberry-Manor-Project/"
         }
       }
     },
@@ -2337,6 +2381,10 @@
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/NautsSky-nautssky/"
         }
       }
     },
@@ -6785,7 +6833,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -7123,7 +7171,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         }
       }
     },
@@ -7202,11 +7250,15 @@
       }
     },
     {
-      "sourceRepo": "kill-rose/wiki",
+      "sourceRepo": "dorian-noki/wiki",
       "differences": {
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Kill-rose-wiki/"
         }
       }
     },
