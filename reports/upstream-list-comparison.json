@@ -1,11 +1,18 @@
 {
-  "generatedAt": "2026-09-12T00:21:15.157Z",
+  "generatedAt": "2026-09-12T05:50:37.428Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 903,
+  "localTotal": 904,
   "upstreamTotal": 899,
   "shared": 899,
   "upstreamOnly": [],
   "localOnly": [
+    {
+      "id": "kyouka8234-magical-girl-celesphonia",
+      "sourceRepo": "kyouka8234/magical-girl-celesphonia",
+      "status": "indexed",
+      "forkName": "Kyouka8234-Magical-Girl-Celesphonia",
+      "pagesUrl": null
+    },
     {
       "id": "amogus0471-jhon-pork-unblocked",
       "sourceRepo": "amogus0471/jhon-pork-unblocked",
@@ -615,6 +622,10 @@
         "status": {
           "ours": "indexed",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/xjzsq-1/"
         }
       }
     },
@@ -736,7 +747,7 @@
       }
     },
     {
-      "sourceRepo": "kyouka8234/magical-girl-celesphonia",
+      "sourceRepo": "neonnoiru/mfsnclx",
       "differences": {
         "status": {
           "ours": "indexed",
@@ -1150,10 +1161,6 @@
     {
       "sourceRepo": "cyh0521/rpg",
       "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "verified"
-        },
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/cyh0521-rpg/"
@@ -7428,7 +7435,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
