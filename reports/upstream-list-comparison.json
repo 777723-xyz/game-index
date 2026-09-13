@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-13T06:13:28.251Z",
+  "generatedAt": "2026-09-13T11:56:31.365Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 905,
+  "localTotal": 906,
   "upstreamTotal": 900,
   "shared": 900,
   "upstreamOnly": [],
@@ -11,6 +11,13 @@
       "sourceRepo": "kyouka8234/magical-girl-celesphonia",
       "status": "indexed",
       "forkName": "Kyouka8234-Magical-Girl-Celesphonia",
+      "pagesUrl": null
+    },
+    {
+      "id": "guilhermelemos14-fabulousbeasts",
+      "sourceRepo": "guilhermelemos14/fabulousbeasts",
+      "status": "indexed",
+      "forkName": "GuilhermeLemos14-FabulousBeasts",
       "pagesUrl": null
     },
     {
@@ -1069,10 +1076,10 @@
       }
     },
     {
-      "sourceRepo": "guilhermelemos14/fabulousbeasts",
+      "sourceRepo": "mikaelbelanger/fabulousbeasts",
       "differences": {
         "status": {
-          "ours": "indexed",
+          "ours": "duplicate_name",
           "upstream": "verified"
         },
         "pagesUrl": {
@@ -1794,7 +1801,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -4525,7 +4532,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
