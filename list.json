@@ -222,7 +222,19 @@
     "discoveredAt": "2026-07-13T16:30:54.605Z",
     "source": "github-code-search",
     "sourcePath": "Assets/Ken-assets/Map Assets/MV版サンプルプロジェクト_住宅地/index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:39:17.134Z",
+    "forkName": "Chino-541-Saikou-no-Ramen-Damashi",
+    "entryPath": "index.html",
+    "validationScore": 115,
+    "totalSize": 331008,
+    "dataSize": 100259,
+    "sourceRepo": "Chino-541/Saikou-no-Ramen-Damashi",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "cbe53d0960295bb75e163646357be47d61b0e3e1",
+    "processedHeadSha": "133b0eb01a6eca3d7a3c0050705775bcd343c225",
+    "upstreamPagesUrl": "https://webrpg.org/Chino-541-Saikou-no-Ramen-Damashi/",
+    "upstreamCover": "https://webrpg.org/Chino-541-Saikou-no-Ramen-Damashi/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "soycosmosgg-nimogames",
@@ -1630,10 +1642,6 @@
     "duplicateReason": "Repository name already exists in list.json.",
     "checkedAt": "2026-09-12T10:15:35.318Z",
     "forkName": "tw123777tw-pdlsdyzzh",
-    "entryPath": "www/Bonus/Cake/index.html",
-    "validationScore": 115,
-    "totalSize": 272852,
-    "dataSize": 0,
     "sourceRepo": "tw123777tw/pdlsdyzzh",
     "invalidReason": "Upstream repository size 272852 KB exceeds the 250000 KB limit.",
     "sourceDefaultBranch": "main",
@@ -1641,8 +1649,6 @@
     "processedHeadSha": "76d2b26e494d04784466b3119c461a37fb5580c1",
     "syncedFromSource": true,
     "source": "upstream-webrpg-index",
-    "upstreamPagesUrl": "https://webrpg.org/tw123777tw-pdlsdyzzh/",
-    "upstreamCover": "https://webrpg.org/tw123777tw-pdlsdyzzh/cover.png",
     "upstreamStatus": "duplicate_name"
   },
   {
@@ -1793,10 +1799,6 @@
     "duplicateReason": "Repository name already exists in list.json.",
     "checkedAt": "2026-09-12T10:15:35.318Z",
     "forkName": "tw123777tw-pdlsdyzzh",
-    "entryPath": "www/Bonus/Cake/index.html",
-    "validationScore": 115,
-    "totalSize": 272852,
-    "dataSize": 0,
     "sourceRepo": "tw123777tw/pdlsdyzzh",
     "invalidReason": "Upstream repository size 272852 KB exceeds the 250000 KB limit.",
     "sourceDefaultBranch": "main",
@@ -1804,8 +1806,6 @@
     "processedHeadSha": "76d2b26e494d04784466b3119c461a37fb5580c1",
     "syncedFromSource": true,
     "source": "upstream-webrpg-index",
-    "upstreamPagesUrl": "https://webrpg.org/tw123777tw-pdlsdyzzh/",
-    "upstreamCover": "https://webrpg.org/tw123777tw-pdlsdyzzh/cover.png",
     "upstreamStatus": "duplicate_name"
   },
   {
@@ -2084,10 +2084,6 @@
     "duplicateReason": "Repository name already exists in list.json.",
     "checkedAt": "2026-09-12T10:15:12.122Z",
     "forkName": "ruan-cat-rm-monorepo",
-    "entryPath": "index.html",
-    "validationScore": 115,
-    "totalSize": 555756,
-    "dataSize": 22377943,
     "sourceRepo": "ruan-cat/rm-monorepo",
     "invalidReason": "Upstream repository size 555756 KB exceeds the 250000 KB limit.",
     "sourceDefaultBranch": "main",
@@ -2095,8 +2091,6 @@
     "processedHeadSha": "a29117852a4c905f1cf487a761ab927d791c36e9",
     "syncedFromSource": true,
     "source": "upstream-webrpg-index",
-    "upstreamPagesUrl": "https://webrpg.org/ruan-cat-rm-monorepo/",
-    "upstreamCover": "https://webrpg.org/ruan-cat-rm-monorepo/cover.png",
     "upstreamStatus": "duplicate_name"
   },
   {
@@ -2387,18 +2381,12 @@
     "checkedAt": "2026-09-11T23:08:01.849Z",
     "forkName": "cyh0521-rpg",
     "invalidReason": "Upstream repository size 638194 KB exceeds the 250000 KB limit.",
-    "entryPath": "index.html",
-    "validationScore": 115,
-    "totalSize": 638194,
-    "dataSize": 847282,
     "sourceRepo": "cyh0521/rpg",
     "sourceDefaultBranch": "main",
     "sourceHeadSha": "75028318bebb6d0d1212434d7c464b61da068c2d",
     "processedHeadSha": "e9a0d0d088dff85f7585f041e4ce6d39f69adc70",
     "syncedFromSource": true,
     "source": "upstream-webrpg-index",
-    "upstreamPagesUrl": "https://webrpg.org/cyh0521-rpg/",
-    "upstreamCover": "https://webrpg.org/cyh0521-rpg/cover.png",
     "upstreamStatus": "duplicate_name"
   },
   {
@@ -2791,6 +2779,7 @@
     "engine": "RPG Maker MV",
     "status": "duplicate_name",
     "duplicateReason": "Repository name already exists in list.json.",
+    "forkName": "kotpot197-game",
     "source": "upstream-webrpg-index",
     "upstreamStatus": "duplicate_name"
   },
@@ -2803,6 +2792,7 @@
     "engine": "RPG Maker MV",
     "status": "duplicate_name",
     "duplicateReason": "Repository name already exists in list.json.",
+    "forkName": "kotpot197-game",
     "source": "upstream-webrpg-index",
     "upstreamStatus": "duplicate_name"
   },
@@ -4099,7 +4089,10 @@
     "discoveredAt": "2026-08-09T01:28:15.474Z",
     "source": "github-code-search",
     "sourcePath": "n/clbloodmoney.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:38:56.118Z",
+    "forkName": "caughtwitlean-Lowkey-Chopped-Elite",
+    "invalidReason": "Repository tree has 29685 entries, exceeding the 20000 entry limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "chromebookunlocked-chromebookunlocked-github-io",
@@ -4144,7 +4137,11 @@
     "discoveredAt": "2026-07-19T10:25:39.257Z",
     "source": "github-code-search",
     "sourcePath": "blood-money.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:39:48.651Z",
+    "forkName": "Craf1ed-lite-assets",
+    "consecutiveFailures": 1,
+    "lastFailedAt": "2026-09-14T03:39:48.651Z",
+    "upstreamStatus": "check_error"
   },
   {
     "id": "darkdragonzxs-zxs-games",
@@ -4175,7 +4172,10 @@
     "discoveredAt": "2026-06-28T05:15:49.206Z",
     "source": "github-code-search",
     "sourcePath": "assets/clbloodmoney.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:40:07.024Z",
+    "forkName": "Deformed-steve-Youtube-Playables.github.io",
+    "invalidReason": "Repository has 1635 HTML files, exceeding the 500 file limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "devechox2-xeno",
@@ -4188,7 +4188,10 @@
     "discoveredAt": "2026-06-30T23:10:27.591Z",
     "source": "github-code-search",
     "sourcePath": "stores/gn-math/454.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:40:22.448Z",
+    "forkName": "DevEchoX2-Xeno",
+    "invalidReason": "Repository has 891 HTML files, exceeding the 500 file limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "dgfvtgrfv-classyclass",
@@ -5106,7 +5109,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:39:38.396Z",
+    "forkName": "Choyoru-Bunny-and-space-dungeons",
+    "entryPath": "index.html",
+    "validationScore": 118,
+    "totalSize": 590222,
+    "dataSize": 2489490,
+    "sourceRepo": "Choyoru/Bunny-and-space-dungeons",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "5e69dbc3696476be77ff2a021cd052f23c3c259c",
+    "processedHeadSha": "f6834f580cda503f7375563dd9cfa83e2873efa6",
+    "upstreamPagesUrl": "https://webrpg.org/Choyoru-Bunny-and-space-dungeons/",
+    "upstreamCover": "https://webrpg.org/Choyoru-Bunny-and-space-dungeons/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "winterdp-projectelfattorney",
@@ -5223,7 +5238,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:39:43.759Z",
+    "forkName": "cosmiccatacorn-ahjkjh",
+    "entryPath": "index.html",
+    "validationScore": 118,
+    "totalSize": 74170,
+    "dataSize": 823519,
+    "sourceRepo": "cosmiccatacorn/ahjkjh",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "ddf9bd600226401bb2dd0e6dfb8dbb9ad4a2085a",
+    "processedHeadSha": "d4455927be7c99b172beaaf89c49f15fcf8db3b9",
+    "upstreamPagesUrl": "https://webrpg.org/cosmiccatacorn-ahjkjh/",
+    "upstreamCover": "https://webrpg.org/cosmiccatacorn-ahjkjh/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "gelatolabs-catachresis",
@@ -6202,7 +6229,10 @@
     "discoveredAt": "2026-09-10T03:14:21.468Z",
     "source": "github-code-search",
     "sourcePath": "assets/UGS/cldeadplate.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:37:44.534Z",
+    "forkName": "1ucent-centauri",
+    "invalidReason": "Repository has 2435 HTML files, exceeding the 500 file limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "amogus0471-classroom",
@@ -6215,7 +6245,10 @@
     "discoveredAt": "2026-09-07T21:08:44.923Z",
     "source": "github-code-search",
     "sourcePath": "games/deadplate/index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:37:43.831Z",
+    "forkName": "amogus0471-classroom",
+    "invalidReason": "Repository has 2762 HTML files, exceeding the 500 file limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "amogus0471-jhon-pork-unblocked",
@@ -7300,7 +7333,19 @@
     "discoveredAt": "2026-07-07T16:28:38.654Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:41:31.208Z",
+    "forkName": "DSAF-Decompliations-OpenDSAF3",
+    "entryPath": "index.html",
+    "validationScore": 118,
+    "totalSize": 824374,
+    "dataSize": 11596817,
+    "sourceRepo": "DSAF-Decompliations/OpenDSAF3",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "86a3cd50931c3c4aeb9f9d455112c8ec1ef3a848",
+    "processedHeadSha": "af1b83ea2bc0f1eee4e730df4480d59e825877e7",
+    "upstreamPagesUrl": "https://webrpg.org/DSAF-Decompliations-OpenDSAF3/",
+    "upstreamCover": "https://webrpg.org/DSAF-Decompliations-OpenDSAF3/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "mattmaomao-dual-escape-rpg",
@@ -7409,7 +7454,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:38:39.001Z",
+    "forkName": "BotakHage-Eduventure",
+    "entryPath": "index.html",
+    "validationScore": 118,
+    "totalSize": 430186,
+    "dataSize": 1383381,
+    "sourceRepo": "BotakHage/Eduventure",
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "4c50af76203d12eee1cfa37900bb151a4754b788",
+    "processedHeadSha": "5856cb73a464ae9cd8e4843ed7c2fbd270bcc9dc",
+    "upstreamPagesUrl": "https://webrpg.org/BotakHage-Eduventure/",
+    "upstreamCover": "https://webrpg.org/BotakHage-Eduventure/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "agjimenez-ra-s-quest",
@@ -9063,7 +9120,11 @@
     "discoveredAt": "2026-07-18T02:13:58.377Z",
     "source": "github-code-search",
     "sourcePath": "static/games/bm/online/embed.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:40:26.010Z",
+    "forkName": "dixonSolutions-potatoetomatoe3",
+    "consecutiveFailures": 1,
+    "lastFailedAt": "2026-09-14T03:40:26.010Z",
+    "upstreamStatus": "check_error"
   },
   {
     "id": "jesussantos05-greenhorizon",
@@ -9180,7 +9241,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:38:03.548Z",
+    "forkName": "balensmatheo-balensmatheo.github.io",
+    "entryPath": "index.html",
+    "validationScore": 118,
+    "totalSize": 393585,
+    "dataSize": 711563,
+    "sourceRepo": "balensmatheo/balensmatheo.github.io",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "ea59d1bf912167fc5ad9638d77c2a7cfe60cf040",
+    "processedHeadSha": "da0b049f895931408d12d1baf808c883c6550b0d",
+    "upstreamPagesUrl": "https://webrpg.org/balensmatheo-balensmatheo.github.io/",
+    "upstreamCover": "https://webrpg.org/balensmatheo-balensmatheo.github.io/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "balensmatheo-harassmentescape-github-io",
@@ -9193,7 +9266,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:38:20.520Z",
+    "forkName": "balensmatheo-HarassmentEscape.github.io",
+    "entryPath": "index.html",
+    "validationScore": 118,
+    "totalSize": 393585,
+    "dataSize": 711563,
+    "sourceRepo": "balensmatheo/HarassmentEscape.github.io",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "ea59d1bf912167fc5ad9638d77c2a7cfe60cf040",
+    "processedHeadSha": "6494220926e55e60a57fa24cb7d1d42c17217838",
+    "upstreamPagesUrl": "https://webrpg.org/balensmatheo-HarassmentEscape.github.io/",
+    "upstreamCover": "https://webrpg.org/balensmatheo-HarassmentEscape.github.io/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "discus-sions-the-fall-preview1",
@@ -9503,7 +9588,19 @@
     "discoveredAt": "2026-06-24T16:20:13.687Z",
     "source": "github-code-search",
     "sourcePath": "lookISAT/index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:40:42.837Z",
+    "forkName": "Donais04-ISATArchipelago",
+    "entryPath": "index.html",
+    "validationScore": 115,
+    "totalSize": 189966,
+    "dataSize": 14931115,
+    "sourceRepo": "Donais04/ISATArchipelago",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "95caca15f1d701cc5d851345420c352be516c0dc",
+    "processedHeadSha": "9efa5e452070827ab9659d5b05d20a7f108a240d",
+    "upstreamPagesUrl": "https://webrpg.org/Donais04-ISATArchipelago/",
+    "upstreamCover": "https://webrpg.org/Donais04-ISATArchipelago/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "therealmythdeveloper-buildingblox",
@@ -9631,7 +9728,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:41:35.573Z",
+    "forkName": "dvancuyk-initial-fantasy",
+    "entryPath": "index.html",
+    "validationScore": 118,
+    "totalSize": 388784,
+    "dataSize": 1305841,
+    "sourceRepo": "dvancuyk/initial-fantasy",
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "736ae99178044264b0cf52ecdd2183bbbae6e1c7",
+    "processedHeadSha": "1ea23e03e4cbf954e1a4176bf1923e5fbb8dbdab",
+    "upstreamPagesUrl": "https://webrpg.org/dvancuyk-initial-fantasy/",
+    "upstreamCover": "https://webrpg.org/dvancuyk-initial-fantasy/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "falconpilot-inquisitor-rpg-mv",
@@ -9808,7 +9917,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:38:02.028Z",
+    "forkName": "ASlated-JSTesting",
+    "entryPath": "index.html",
+    "validationScore": 118,
+    "totalSize": 400705,
+    "dataSize": 669060,
+    "sourceRepo": "ASlated/JSTesting",
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "1f970782416c61aebc1a10bf3749ff7fee55d113",
+    "processedHeadSha": "5efe590f03bc9b02fc19063703e455614aef2731",
+    "upstreamPagesUrl": "https://webrpg.org/ASlated-JSTesting/",
+    "upstreamCover": "https://webrpg.org/ASlated-JSTesting/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "szatkus-wachaj-pale-kajdaniarzu",
@@ -10088,7 +10209,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:39:15.391Z",
+    "forkName": "CesarVfilo-videojuegosyfilosofia",
+    "entryPath": "index.html",
+    "validationScore": 118,
+    "totalSize": 145435,
+    "dataSize": 1804620,
+    "sourceRepo": "CesarVfilo/videojuegosyfilosofia",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "1e6e14ca070210a97f3e426aead47c9c077d40c8",
+    "processedHeadSha": "caf0a292f0d9c654d2c0506c1658eb12f74f88e7",
+    "upstreamPagesUrl": "https://webrpg.org/CesarVfilo-videojuegosyfilosofia/",
+    "upstreamCover": "https://webrpg.org/CesarVfilo-videojuegosyfilosofia/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "kaotickj-labyrinth",
@@ -10441,7 +10574,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:38:01.150Z",
+    "forkName": "Apokryph-lost_places",
+    "entryPath": "index.html",
+    "validationScore": 118,
+    "totalSize": 388549,
+    "dataSize": 670468,
+    "sourceRepo": "Apokryph/lost_places",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "76c94a9b60f25ed88992e85fa64911d586cd12b6",
+    "processedHeadSha": "23f648027ba528e488e7a32ea381b773e4c49576",
+    "upstreamPagesUrl": "https://webrpg.org/Apokryph-lost_places/",
+    "upstreamCover": "https://webrpg.org/Apokryph-lost_places/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "timmetry-lostinamaze",
@@ -10759,7 +10904,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "Ingreso/homecoming/www/index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:37:43.474Z",
+    "forkName": "AnibalSJ-Last-Years",
+    "entryPath": "index.html",
+    "validationScore": 115,
+    "totalSize": 678005,
+    "dataSize": 1046913,
+    "sourceRepo": "AnibalSJ/Last-Years",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "d21d8d8421a18dfd996968d1c0268bbf1199b3bb",
+    "processedHeadSha": "5a79f8a20d2004bb3a52ebf47447c33616cc615c",
+    "upstreamPagesUrl": "https://webrpg.org/AnibalSJ-Last-Years/",
+    "upstreamCover": "https://webrpg.org/AnibalSJ-Last-Years/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "0x416c616e-2drpggamengine",
@@ -11168,7 +11325,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:39:39.263Z",
+    "forkName": "clone1018-mv-mmo-test",
+    "entryPath": "index.html",
+    "validationScore": 118,
+    "totalSize": 392457,
+    "dataSize": 794118,
+    "sourceRepo": "clone1018/mv-mmo-test",
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "fb79983db77bed254cfcb11e3ad183550bdf7ec1",
+    "processedHeadSha": "41c184fe85dff178e8d91737b59c1fa0d2a303f9",
+    "upstreamPagesUrl": "https://webrpg.org/clone1018-mv-mmo-test/",
+    "upstreamCover": "https://webrpg.org/clone1018-mv-mmo-test/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "rpgcosmos-example-mmo",
@@ -11980,7 +12149,12 @@
     "discoveredAt": "2026-08-28T00:14:31.367Z",
     "source": "github-code-search",
     "sourcePath": "games/290.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:39:59.615Z",
+    "forkName": "Cronusz3n96-stolenstuff",
+    "invalidReason": "RPG Maker structure is incomplete near games/290.html.",
+    "deletedAt": "2026-09-14T03:41:12.492Z",
+    "validationScore": 45,
+    "upstreamStatus": "invalid_structure"
   },
   {
     "id": "deeeland0ohio-sigma-games",
@@ -11993,7 +12167,12 @@
     "discoveredAt": "2026-06-24T07:38:30.244Z",
     "source": "github-code-search",
     "sourcePath": "public/games/omori/index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:40:03.795Z",
+    "forkName": "deeeland0ohio-Sigma-Games",
+    "invalidReason": "RPG Maker structure is incomplete near public/games/omori/index.html.",
+    "deletedAt": "2026-09-14T03:40:34.112Z",
+    "validationScore": 50,
+    "upstreamStatus": "invalid_structure"
   },
   {
     "id": "dotgui-dev-dotgui-old",
@@ -12006,7 +12185,12 @@
     "discoveredAt": "2026-09-01T08:19:27.949Z",
     "source": "github-code-search",
     "sourcePath": "game-embeds/omori.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:40:46.459Z",
+    "forkName": "dotgui-dev-DotGUI-old",
+    "invalidReason": "RPG Maker structure is incomplete near game-embeds/omori.html.",
+    "deletedAt": "2026-09-14T03:41:20.661Z",
+    "validationScore": 45,
+    "upstreamStatus": "invalid_structure"
   },
   {
     "id": "dotlyhiyou-dotgui",
@@ -13471,7 +13655,19 @@
     "discoveredAt": "2026-09-03T15:50:07.720Z",
     "source": "github-code-search",
     "sourcePath": "Project Starman/index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:38:23.092Z",
+    "forkName": "Beeveelutions-Project-Starmans",
+    "entryPath": "index.html",
+    "validationScore": 115,
+    "totalSize": 405745,
+    "dataSize": 669102,
+    "sourceRepo": "Beeveelutions/Project-Starmans",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "d4c63fed66fc3a1c65d4ce2ba100136d947cf72a",
+    "processedHeadSha": "5ccddc137908dfeb3e4f578ee629cbb69f128a96",
+    "upstreamPagesUrl": "https://webrpg.org/Beeveelutions-Project-Starmans/",
+    "upstreamCover": "https://webrpg.org/Beeveelutions-Project-Starmans/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "moonyoulove-project-tiny",
@@ -14077,7 +14273,11 @@
     "discoveredAt": "2026-09-05T17:09:36.033Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:37:42.820Z",
+    "forkName": "31madA-LIYAB-Prime",
+    "consecutiveFailures": 1,
+    "lastFailedAt": "2026-09-14T03:37:42.820Z",
+    "upstreamStatus": "check_error"
   },
   {
     "id": "chiyungjie-rpg20240811",
@@ -14090,7 +14290,19 @@
     "discoveredAt": "2026-09-11T10:39:55.721Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:39:20.130Z",
+    "forkName": "chiyungjie-RPG20240811",
+    "entryPath": "index.html",
+    "validationScore": 118,
+    "totalSize": 388849,
+    "dataSize": 953369,
+    "sourceRepo": "chiyungjie/RPG20240811",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "f7bd50552bcc87a79ff4923c5937cbd7b22721fe",
+    "processedHeadSha": "f15ae387d10c2ab42e12e66e6be9741c73822336",
+    "upstreamPagesUrl": "https://webrpg.org/chiyungjie-RPG20240811/",
+    "upstreamCover": "https://webrpg.org/chiyungjie-RPG20240811/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "kristenyu-kristenyu-github-io",
@@ -14938,7 +15150,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "src/index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:39:58.533Z",
+    "forkName": "Cronus23-tenComandments",
+    "entryPath": "index.html",
+    "validationScore": 115,
+    "totalSize": 79109,
+    "dataSize": 2411666,
+    "sourceRepo": "Cronus23/tenComandments",
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "376edd7ea474bf2ce9afc7a0e1fb4622e0201098",
+    "processedHeadSha": "c29ff37268d1d3196baae72b6974eaf9d1ae1ef6",
+    "upstreamPagesUrl": "https://webrpg.org/Cronus23-tenComandments/",
+    "upstreamCover": "https://webrpg.org/Cronus23-tenComandments/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "kdipippo-rpg-maker-mv-starter-template",
@@ -15959,7 +16183,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:40:38.935Z",
+    "forkName": "DOAmaster-GameOff2022TSS",
+    "entryPath": "index.html",
+    "validationScore": 118,
+    "totalSize": 784201,
+    "dataSize": 1017111,
+    "sourceRepo": "DOAmaster/GameOff2022TSS",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "cbdc0f5edd7cf96276d68874c5b6df1171b43795",
+    "processedHeadSha": "235666a7c5f3cf024172fef5ec4ab862f197bf8a",
+    "upstreamPagesUrl": "https://webrpg.org/DOAmaster-GameOff2022TSS/",
+    "upstreamCover": "https://webrpg.org/DOAmaster-GameOff2022TSS/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "fsworld009-rmmv-snake",
@@ -16036,7 +16272,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "www/index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:38:48.086Z",
+    "forkName": "caiocpassos-Sorcery-of-Truth",
+    "entryPath": "index.html",
+    "validationScore": 115,
+    "totalSize": 390299,
+    "dataSize": 2853962,
+    "sourceRepo": "caiocpassos/Sorcery-of-Truth",
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "e267d5111b8ab962f843cf6ad779d94f01855dfc",
+    "processedHeadSha": "e4a550c1174c8e8e6b109a73821bbfccd7d294e3",
+    "upstreamPagesUrl": "https://webrpg.org/caiocpassos-Sorcery-of-Truth/",
+    "upstreamCover": "https://webrpg.org/caiocpassos-Sorcery-of-Truth/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "frogboymv-health",
@@ -16127,18 +16375,12 @@
     "sourcePath": "index.html",
     "checkedAt": "2026-09-10T03:21:16.115Z",
     "forkName": "TKLNinja-Spectoria-Eng",
-    "entryPath": "index.html",
-    "validationScore": 118,
-    "totalSize": 147308,
-    "dataSize": 3334983,
     "sourceRepo": "TKLNinja/Spectoria-Eng",
     "sourceDefaultBranch": "master",
     "sourceHeadSha": "55bfcbb4fe5b689638e56a3b975b9784c0f2e576",
     "processedHeadSha": "9acd0b4882c44293f983bb85f8016563c5dc61d9",
     "syncedFromSource": true,
     "duplicateReason": "Repository name already exists in list.json.",
-    "upstreamPagesUrl": "https://webrpg.org/WebRPG-Translations-Spectoria-Eng-CN/",
-    "upstreamCover": "https://webrpg.org/WebRPG-Translations-Spectoria-Eng-CN/cover.png",
     "upstreamStatus": "duplicate_name"
   },
   {
@@ -16216,7 +16458,19 @@
     "discoveredAt": "2026-06-30T05:01:43.738Z",
     "source": "github-code-search",
     "sourcePath": "Star Crystal/www/index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:41:01.122Z",
+    "forkName": "Dreafun-starcrystal",
+    "entryPath": "index.html",
+    "validationScore": 115,
+    "totalSize": 426202,
+    "dataSize": 1025967,
+    "sourceRepo": "Dreafun/starcrystal",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "3fcd0eb0f3d37b3f759707cf9b3ffa2f7d4f72ac",
+    "processedHeadSha": "16e65d8a0614fd0a3d85a3167e91c86e8e64c74a",
+    "upstreamPagesUrl": "https://webrpg.org/Dreafun-starcrystal/",
+    "upstreamCover": "https://webrpg.org/Dreafun-starcrystal/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "teyplays-starfall-sanctuary",
@@ -18788,7 +19042,19 @@
     "discoveredAt": "2026-06-23T23:54:52.922Z",
     "source": "github-code-search",
     "sourcePath": "Подлая афера сэра Белика/index.html",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-14T03:38:22.645Z",
+    "forkName": "Boris12432-Afera-belika-alfa-1.0",
+    "entryPath": "index.html",
+    "validationScore": 115,
+    "totalSize": 392661,
+    "dataSize": 698459,
+    "sourceRepo": "Boris12432/Afera-belika-alfa-1.0",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "17df261eb38b43f44dcd45681cbbe938a7f7e6a8",
+    "processedHeadSha": "b8972290bda7121da58e49e9e2caf6ecce2aa1dd",
+    "upstreamPagesUrl": "https://webrpg.org/Boris12432-Afera-belika-alfa-1.0/",
+    "upstreamCover": "https://webrpg.org/Boris12432-Afera-belika-alfa-1.0/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "docpainkiller-fargohl",
