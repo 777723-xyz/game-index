@@ -2343,7 +2343,8 @@
     "status": "duplicate_name",
     "duplicateReason": "Repository name already exists in list.json.",
     "source": "upstream-webrpg-index",
-    "upstreamStatus": "duplicate_name"
+    "upstreamStatus": "duplicate_name",
+    "forkName": "kotpot197-game"
   },
   {
     "id": "zenhanyin-rpgmakerdemo",
