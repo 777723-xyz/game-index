@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T01:08:05.791Z",
+  "generatedAt": "2026-09-14T06:20:42.541Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 908,
   "upstreamTotal": 901,
@@ -149,6 +149,19 @@
       }
     },
     {
+      "sourceRepo": "chino-541/saikou-no-ramen-damashi",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Chino-541-Saikou-no-Ramen-Damashi/"
+        }
+      }
+    },
+    {
       "sourceRepo": "watakoro/gamedevproject",
       "differences": {
         "status": {
@@ -215,6 +228,10 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
+        },
+        "entryPath": {
+          "ours": null,
+          "upstream": "www/Bonus/Cake/index.html"
         }
       }
     },
@@ -267,6 +284,10 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/ruan-cat-rm-monorepo/"
+        },
+        "entryPath": {
+          "ours": null,
+          "upstream": "index.html"
         }
       }
     },
@@ -384,6 +405,10 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/cyh0521-rpg/"
+        },
+        "entryPath": {
+          "ours": null,
+          "upstream": "index.html"
         }
       }
     },
@@ -852,15 +877,6 @@
       }
     },
     {
-      "sourceRepo": "tw123777tw/pdlsdyzzh",
-      "differences": {
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
-        }
-      }
-    },
-    {
       "sourceRepo": "aooni2016/aooni2016.github.io",
       "differences": {
         "status": {
@@ -892,15 +908,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/24c49x-24c49x.github.io/index.html",
           "upstream": "https://webrpg.org/24c49x-24c49x.github.io/"
-        }
-      }
-    },
-    {
-      "sourceRepo": "tw123777tw/pdlsdyzzh",
-      "differences": {
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
         }
       }
     },
@@ -1035,15 +1042,6 @@
       }
     },
     {
-      "sourceRepo": "ruan-cat/rm-monorepo",
-      "differences": {
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/ruan-cat-rm-monorepo/"
-        }
-      }
-    },
-    {
       "sourceRepo": "aqua012/aqua012.github.io",
       "differences": {
         "status": {
@@ -1161,6 +1159,15 @@
       }
     },
     {
+      "sourceRepo": "kotpot197/game",
+      "differences": {
+        "forkName": {
+          "ours": "kotpot197-game",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "zenhanyin/rpgmakerdemo",
       "differences": {
         "status": {
@@ -1170,15 +1177,6 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/zenhanyin-RPGmakerdemo/"
-        }
-      }
-    },
-    {
-      "sourceRepo": "cyh0521/rpg",
-      "differences": {
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/cyh0521-rpg/"
         }
       }
     },
@@ -1817,6 +1815,42 @@
       }
     },
     {
+      "sourceRepo": "caughtwitlean/lowkey-chopped-elite",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "craf1ed/lite-assets",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "check_error"
+        }
+      }
+    },
+    {
+      "sourceRepo": "deformed-steve/youtube-playables.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "devechox2/xeno",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "geodmeeeeee/forksnspoons",
       "differences": {
         "status": {
@@ -1934,6 +1968,19 @@
       }
     },
     {
+      "sourceRepo": "choyoru/bunny-and-space-dungeons",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Choyoru-Bunny-and-space-dungeons/"
+        }
+      }
+    },
+    {
       "sourceRepo": "winterdp/projectelfattorney",
       "differences": {
         "status": {
@@ -1982,6 +2029,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/PeterDrake-cascadia-pilot-game/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "cosmiccatacorn/ahjkjh",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/cosmiccatacorn-ahjkjh/"
         }
       }
     },
@@ -2368,6 +2428,24 @@
       }
     },
     {
+      "sourceRepo": "1ucent/centauri",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "amogus0471/classroom",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "stinkalistic/swaggames",
       "differences": {
         "status": {
@@ -2676,6 +2754,19 @@
       }
     },
     {
+      "sourceRepo": "dsaf-decompliations/opendsaf3",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/DSAF-Decompliations-OpenDSAF3/"
+        }
+      }
+    },
+    {
       "sourceRepo": "mattmaomao/dual-escape-rpg",
       "differences": {
         "status": {
@@ -2724,6 +2815,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/chruscikszef-dzzt-android/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "botakhage/eduventure",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/BotakHage-Eduventure/"
         }
       }
     },
@@ -3383,6 +3487,15 @@
       }
     },
     {
+      "sourceRepo": "dixonsolutions/potatoetomatoe3",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "check_error"
+        }
+      }
+    },
+    {
       "sourceRepo": "jesussantos05/greenhorizon",
       "differences": {
         "status": {
@@ -3431,6 +3544,32 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/nerdsonly-half-heroes/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "balensmatheo/balensmatheo.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/balensmatheo-balensmatheo.github.io/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "balensmatheo/harassmentescape.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/balensmatheo-HarassmentEscape.github.io/"
         }
       }
     },
@@ -3548,6 +3687,19 @@
       }
     },
     {
+      "sourceRepo": "donais04/isatarchipelago",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Donais04-ISATArchipelago/"
+        }
+      }
+    },
+    {
       "sourceRepo": "web-ports/in-stars-and-time",
       "differences": {
         "status": {
@@ -3570,6 +3722,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/Raphaell-Maiwen-Informed-Consent/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "dvancuyk/initial-fantasy",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/dvancuyk-initial-fantasy/"
         }
       }
     },
@@ -3635,6 +3800,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/exadmax-Proto/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "aslated/jstesting",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/ASlated-JSTesting/"
         }
       }
     },
@@ -3726,6 +3904,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/davidcolla11-La-Cruzada-del-Ebola/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "cesarvfilo/videojuegosyfilosofia",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/CesarVfilo-videojuegosyfilosofia/"
         }
       }
     },
@@ -3899,6 +4090,19 @@
       }
     },
     {
+      "sourceRepo": "apokryph/lost_places",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Apokryph-lost_places/"
+        }
+      }
+    },
+    {
       "sourceRepo": "timmetry/lostinamaze",
       "differences": {
         "status": {
@@ -4051,6 +4255,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/XMandarava-Plugins4RMMV/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "anibalsj/last-years",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/AnibalSJ-Last-Years/"
         }
       }
     },
@@ -4246,6 +4463,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/RageOfFire-KingSoundTrackMP3/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "clone1018/mv-mmo-test",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/clone1018-mv-mmo-test/"
         }
       }
     },
@@ -4589,6 +4819,33 @@
         "status": {
           "ours": "indexed",
           "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "cronusz3n96/stolenstuff",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "invalid_structure"
+        }
+      }
+    },
+    {
+      "sourceRepo": "deeeland0ohio/sigma-games",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "invalid_structure"
+        }
+      }
+    },
+    {
+      "sourceRepo": "dotgui-dev/dotgui-old",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -4963,6 +5220,19 @@
       }
     },
     {
+      "sourceRepo": "beeveelutions/project-starmans",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Beeveelutions-Project-Starmans/"
+        }
+      }
+    },
+    {
       "sourceRepo": "affonsoamendola/oldprojects",
       "differences": {
         "status": {
@@ -5219,6 +5489,28 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/LiXiaYu-MVMota/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "31mada/liyab-prime",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "check_error"
+        }
+      }
+    },
+    {
+      "sourceRepo": "chiyungjie/rpg20240811",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/chiyungjie-RPG20240811/"
         }
       }
     },
@@ -5566,6 +5858,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/SirMcPotato-RMMV-MMO-webkit/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "cronus23/tencomandments",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Cronus23-tenComandments/"
         }
       }
     },
@@ -5979,6 +6284,19 @@
       }
     },
     {
+      "sourceRepo": "doamaster/gameoff2022tss",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/DOAmaster-GameOff2022TSS/"
+        }
+      }
+    },
+    {
       "sourceRepo": "fsworld009/rmmv-snake",
       "differences": {
         "status": {
@@ -6005,6 +6323,19 @@
       }
     },
     {
+      "sourceRepo": "caiocpassos/sorcery-of-truth",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/caiocpassos-Sorcery-of-Truth/"
+        }
+      }
+    },
+    {
       "sourceRepo": "frogboymv/health",
       "differences": {
         "status": {
@@ -6027,6 +6358,10 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/TKLNinja-Spectoria-Eng/"
+        },
+        "entryPath": {
+          "ours": null,
+          "upstream": "index.html"
         }
       }
     },
@@ -6040,19 +6375,6 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/tomoshibi06-SPECTORIA/"
-        }
-      }
-    },
-    {
-      "sourceRepo": "tklninja/spectoria-eng",
-      "differences": {
-        "forkName": {
-          "ours": "TKLNinja-Spectoria-Eng",
-          "upstream": "WebRPG-Translations-Spectoria-Eng-CN"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/WebRPG-Translations-Spectoria-Eng-CN/"
         }
       }
     },
@@ -6079,6 +6401,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/InabaByakko-SSPlayerForRPGMV/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "dreafun/starcrystal",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Dreafun-starcrystal/"
         }
       }
     },
@@ -7306,6 +7641,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/Dalk12-DD/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "boris12432/afera-belika-alfa-1.0",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Boris12432-Afera-belika-alfa-1.0/"
         }
       }
     },
