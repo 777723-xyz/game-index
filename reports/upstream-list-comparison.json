@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-17T01:28:29.018Z",
+  "generatedAt": "2026-09-17T07:43:20.755Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 1009,
-  "upstreamTotal": 1001,
-  "shared": 1001,
+  "localTotal": 1038,
+  "upstreamTotal": 1030,
+  "shared": 1030,
   "upstreamOnly": [],
   "localOnly": [
     {
@@ -958,6 +958,19 @@
       }
     },
     {
+      "sourceRepo": "riyoway/aooni2016-restored",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Riyoway-aooni2016-restored/"
+        }
+      }
+    },
+    {
       "sourceRepo": "24c49x/24c49x.github.io",
       "differences": {
         "pagesUrl": {
@@ -1371,6 +1384,19 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/aDarkMaker-HXK-RPG/index.html",
           "upstream": "https://webrpg.org/aDarkMaker-HXK-RPG/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "92o524/campus-introduction5",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/92O524-Campus-introduction5/"
         }
       }
     },
@@ -1832,6 +1858,19 @@
       }
     },
     {
+      "sourceRepo": "raihlima/gerente-projetos-web-mz",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/raihlima-Gerente-Projetos-Web-MZ/"
+        }
+      }
+    },
+    {
       "sourceRepo": "devdinho/ascending-magic",
       "differences": {
         "status": {
@@ -2271,6 +2310,19 @@
       }
     },
     {
+      "sourceRepo": "danh295/bromden-of-the-ward",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Danh295-Bromden-of-The-Ward/"
+        }
+      }
+    },
+    {
       "sourceRepo": "bundtologist/rpgmaker",
       "differences": {
         "status": {
@@ -2471,6 +2523,19 @@
       }
     },
     {
+      "sourceRepo": "kuzhenlarn/kuzhenproject",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/KuzhenLarn-KuzhenProject/"
+        }
+      }
+    },
+    {
       "sourceRepo": "yutom3/uci-cki-rpgmmo",
       "differences": {
         "status": {
@@ -2527,7 +2592,7 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "indexed"
+          "upstream": "skipped_large"
         }
       }
     },
@@ -2960,6 +3025,15 @@
       }
     },
     {
+      "sourceRepo": "raahimsyed/rift",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "invalid_structure"
+        }
+      }
+    },
+    {
       "sourceRepo": "spaceyy1/nexite",
       "differences": {
         "status": {
@@ -3286,6 +3360,19 @@
       }
     },
     {
+      "sourceRepo": "lunlis/dreamtale",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Lunlis-DreamTale/"
+        }
+      }
+    },
+    {
       "sourceRepo": "dsaf-decompliations/opendsaf3",
       "differences": {
         "status": {
@@ -3351,6 +3438,19 @@
       }
     },
     {
+      "sourceRepo": "horke-root/echoofdespire",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/horke-root-EchoOfDespire/"
+        }
+      }
+    },
+    {
       "sourceRepo": "lamawd/eco-quest",
       "differences": {
         "status": {
@@ -3412,6 +3512,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/JacsonGold-12DTM-RPGMakerGame-Repository/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "redpillphil/emberchain",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/RedPillPhil-Emberchain/"
         }
       }
     },
@@ -3707,6 +3820,19 @@
       }
     },
     {
+      "sourceRepo": "df478/fire-and-root",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/df478-Fire-And-Root/"
+        }
+      }
+    },
+    {
       "sourceRepo": "sombriks/foo-bar-tales",
       "differences": {
         "status": {
@@ -3716,6 +3842,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/sombriks-foo-bar-tales/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "helisoya/fouziquest2",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/helisoya-FouziQuest2/"
         }
       }
     },
@@ -4467,6 +4606,19 @@
       }
     },
     {
+      "sourceRepo": "preuksuksiri/jabs-survival-shooting-system",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/PreukSuksiri-JABS-Survival-Shooting-System/"
+        }
+      }
+    },
+    {
       "sourceRepo": "thomazdevmaster/matematica",
       "differences": {
         "status": {
@@ -4476,6 +4628,15 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/thomazdevmaster-matematica/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "qadwas/qwerty1s",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -4546,6 +4707,19 @@
         "status": {
           "ours": "indexed",
           "upstream": "invalid_structure"
+        }
+      }
+    },
+    {
+      "sourceRepo": "renrender0209/kankin",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/renrender0209-kankin/"
         }
       }
     },
@@ -4790,6 +4964,32 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/yuhan2680-Level-C-1366_Demo/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "pritamsutradhar123/librequestdaythree",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/PritamSutradhar123-LibreQuestDayThree/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "mytriv/lightpathfinder",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/mytriv-lightpathfinder/"
         }
       }
     },
@@ -5202,6 +5402,19 @@
       }
     },
     {
+      "sourceRepo": "realmyenemy/memz_instanceactors",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/REALmyenemy-MEMZ_InstanceActors/"
+        }
+      }
+    },
+    {
       "sourceRepo": "jefrob/megaearth2049",
       "differences": {
         "status": {
@@ -5592,6 +5805,19 @@
       }
     },
     {
+      "sourceRepo": "katai5plate/rpgmz-newgame-lite",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/katai5plate-rpgmz-newgame-lite/"
+        }
+      }
+    },
+    {
       "sourceRepo": "katai5plate/rpgmv-newgame-lite",
       "differences": {
         "status": {
@@ -5883,11 +6109,20 @@
       }
     },
     {
+      "sourceRepo": "phexusmath/phexusmath.github.io2",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "pizzacat1/dotgui",
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "indexed"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -6289,6 +6524,19 @@
       }
     },
     {
+      "sourceRepo": "immortal3180/project_rpg",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/immortal3180-Project_RPG/"
+        }
+      }
+    },
+    {
       "sourceRepo": "beeveelutions/project-starmans",
       "differences": {
         "status": {
@@ -6497,6 +6745,19 @@
       }
     },
     {
+      "sourceRepo": "gzqyl/rpgemu-mz",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/gzqyl-RPGEmu-MZ/"
+        }
+      }
+    },
+    {
       "sourceRepo": "holywyvern/mv-pixi-upgrade",
       "differences": {
         "status": {
@@ -6584,6 +6845,15 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/remento-pennycode/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "safmica/rpg_maker_test",
+      "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "indexed"
         }
       }
     },
@@ -7009,6 +7279,19 @@
       }
     },
     {
+      "sourceRepo": "rinne-grid/tkoolmz_plugin_recollectionmodemz",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/rinne-grid-tkoolmz_plugin_RecollectionModeMZ/"
+        }
+      }
+    },
+    {
       "sourceRepo": "framormar/rpg_adventure_windows",
       "differences": {
         "status": {
@@ -7070,6 +7353,28 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/NaturalPowerGames-rpgmaker/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "homestrife/retrofantasy",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Homestrife-RetroFantasy/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "retrom-project/retrom",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "check_error"
         }
       }
     },
@@ -7413,6 +7718,19 @@
       }
     },
     {
+      "sourceRepo": "fcv17/secret-gpt",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/FCV17-secret-gpt/"
+        }
+      }
+    },
+    {
       "sourceRepo": "tcc-iago-lucas/game",
       "differences": {
         "status": {
@@ -7666,6 +7984,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/givanilddo-SkullSeeker/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "00due/rupuauto-game",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/00due-rupuauto-game/"
         }
       }
     },
@@ -8103,6 +8434,19 @@
       }
     },
     {
+      "sourceRepo": "kittenception/kbfkwfkwbfwk",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Kittenception-kbfkwfkwbfwk/"
+        }
+      }
+    },
+    {
       "sourceRepo": "scringly/testquest",
       "differences": {
         "status": {
@@ -8329,6 +8673,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/reismahnic-FarmHorrorGame/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "jadamase/biology",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/JadaMase-Biology/"
         }
       }
     },
@@ -8997,6 +9354,19 @@
       }
     },
     {
+      "sourceRepo": "ledouzy/wacchorror2",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Ledouzy-WaccHorror2/"
+        }
+      }
+    },
+    {
       "sourceRepo": "vladimirmarduk/wake",
       "differences": {
         "status": {
@@ -9123,6 +9493,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/brunolcarli-yggdrasilMMO/index2.html"
+        }
+      }
+    },
+    {
+      "sourceRepo": "plumelumyn/you-gonna-have-a-genophobia",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/PlumeLumyn-You-gonna-have-a-Genophobia/"
         }
       }
     },
