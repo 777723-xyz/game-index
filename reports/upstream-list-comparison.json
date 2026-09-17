@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-17T13:31:14.372Z",
+  "generatedAt": "2026-09-17T18:17:03.200Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 1068,
-  "upstreamTotal": 1060,
-  "shared": 1060,
+  "localTotal": 1095,
+  "upstreamTotal": 1087,
+  "shared": 1087,
   "upstreamOnly": [],
   "localOnly": [
     {
@@ -1514,6 +1514,19 @@
       }
     },
     {
+      "sourceRepo": "billbilw/namaiki-online",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/billbilW-Namaiki-Online/"
+        }
+      }
+    },
+    {
       "sourceRepo": "tychouhaha/zk-game",
       "differences": {
         "status": {
@@ -1619,6 +1632,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/EVAFG-A-stormy-story/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "renrender0209/aaaao",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/renrender0209-Aaaao/"
         }
       }
     },
@@ -1936,6 +1962,19 @@
       }
     },
     {
+      "sourceRepo": "leonardorss18/testeaurora",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/LeonardoRSS18-TesteAurora/"
+        }
+      }
+    },
+    {
       "sourceRepo": "william-52021008/rpg-whw",
       "differences": {
         "status": {
@@ -2127,6 +2166,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/ISWPOLI-Servicios_Bibliotecarios/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "salaxios/sonar.js",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/salaxios-Sonar.js/"
         }
       }
     },
@@ -3247,6 +3299,19 @@
       }
     },
     {
+      "sourceRepo": "orang9/destiny-project",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Orang9-Destiny-Project/"
+        }
+      }
+    },
+    {
       "sourceRepo": "kendid29/afterrain",
       "differences": {
         "status": {
@@ -3269,6 +3334,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/NautsSky-nautssky/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "sawasaki-coder/test-game-",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Sawasaki-coder-test-game/"
         }
       }
     },
@@ -4336,6 +4414,84 @@
       }
     },
     {
+      "sourceRepo": "donaldg2027/donaldg2027.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/DonaldG2027-DonaldG2027.github.io/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "28hershey/28hershey.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/28hershey-28hershey.github.io/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "27danderson/pogipediaportfolio",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/27DAnderson-PogipediaPortfolio/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "28ashapiro/28ashapiro.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/28ashapiro-28ashapiro.github.io/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "28cspillman/28cspillman.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/28Cspillman-28Cspillman.github.io/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "angeltheromero/angeltheromero.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/AngeltheRomero-AngeltheRomero.github.io/"
+        }
+      }
+    },
+    {
       "sourceRepo": "kazedevid/girl-hunting",
       "differences": {
         "status": {
@@ -4701,6 +4857,19 @@
       }
     },
     {
+      "sourceRepo": "plumelumyn/in-the-hall-of-the-king-kong",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/PlumeLumyn-In-the-hall-of-the-King-Kong/"
+        }
+      }
+    },
+    {
       "sourceRepo": "kuhaku411a/infinite_domination_rw",
       "differences": {
         "status": {
@@ -4832,6 +5001,32 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/exadmax-Proto/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "sanmollp/sanmollp.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/sanmollp-sanmollp.github.io/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "mantojoshua/mantojoshua.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/mantojoshua-mantojoshua.github.io/"
         }
       }
     },
@@ -5645,6 +5840,19 @@
       }
     },
     {
+      "sourceRepo": "saigurunagula/ik5",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/SaiguruNagula-ik5/"
+        }
+      }
+    },
+    {
       "sourceRepo": "jefrob/megaearth2049",
       "differences": {
         "status": {
@@ -6187,6 +6395,15 @@
       }
     },
     {
+      "sourceRepo": "jjbr18/nyaruru",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "invalid_structure"
+        }
+      }
+    },
+    {
       "sourceRepo": "paulo1211/o-castelo-das-sombras",
       "differences": {
         "status": {
@@ -6615,6 +6832,19 @@
       }
     },
     {
+      "sourceRepo": "h3yko/loop_medieval",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/H3yko-Loop_Medieval/"
+        }
+      }
+    },
+    {
       "sourceRepo": "u-k-l/contentsupportexamples",
       "differences": {
         "status": {
@@ -7010,6 +7240,19 @@
       }
     },
     {
+      "sourceRepo": "eslym/rmmz-cordova",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/eslym-rmmz-cordova/"
+        }
+      }
+    },
+    {
       "sourceRepo": "fernando-simaoo/the_legend_of_brick",
       "differences": {
         "status": {
@@ -7140,6 +7383,19 @@
       }
     },
     {
+      "sourceRepo": "oliverokeefe/rpg-maker-scratchpad",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/oliverokeefe-rpg-maker-scratchpad/"
+        }
+      }
+    },
+    {
       "sourceRepo": "redpillphil/testeroni",
       "differences": {
         "status": {
@@ -7170,7 +7426,11 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "indexed"
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Safmica-rpg_maker_test/"
         }
       }
     },
@@ -7349,6 +7609,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/supShag-YaXNLW/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "sabakan03/mv",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/sabakan03-mv/"
         }
       }
     },
@@ -7970,6 +8243,19 @@
       }
     },
     {
+      "sourceRepo": "jaegyoon/hero-raising",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/JaeGyoon-Hero-raising/"
+        }
+      }
+    },
+    {
       "sourceRepo": "webservicesjarm/juego1",
       "differences": {
         "status": {
@@ -8005,6 +8291,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/Byvalvin-Sanctuary/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "scaryinc/tg",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/scaryinc-tg/"
         }
       }
     },
@@ -8180,6 +8479,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/jkaz1968-Output/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "schwarze-neko/shattered-dreams",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Schwarze-Neko-Shattered-Dreams/"
         }
       }
     },
@@ -8431,6 +8743,19 @@
       }
     },
     {
+      "sourceRepo": "darkusfoxis/sota_game",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/DarkusFoxis-Sota_Game/"
+        }
+      }
+    },
+    {
       "sourceRepo": "tklninja/spectoria-eng",
       "differences": {
         "status": {
@@ -8587,6 +8912,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/AILab-FOI-svjetovi-znanja/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "martinbenes/demo-taborska",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/MartinBenes-Demo-Taborska/"
         }
       }
     },
@@ -9458,6 +9796,19 @@
       }
     },
     {
+      "sourceRepo": "gallegosjaime/rpg-project",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/gallegosjaime-rpg-project/"
+        }
+      }
+    },
+    {
       "sourceRepo": "beyondoff/umi_the_game",
       "differences": {
         "status": {
@@ -9706,6 +10057,19 @@
       }
     },
     {
+      "sourceRepo": "salsabilazhaqqi/rpgriris",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/SalsabilaZhaqqi-rpgRIRIS/"
+        }
+      }
+    },
+    {
       "sourceRepo": "volcaem/volcaem.github.io",
       "differences": {
         "status": {
@@ -9810,11 +10174,37 @@
       }
     },
     {
+      "sourceRepo": "plumelumyn/welcome-to-red-zone",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/PlumeLumyn-Welcome-to-Red-Zone/"
+        }
+      }
+    },
+    {
       "sourceRepo": "raeptor-studio/raeptor",
       "differences": {
         "status": {
           "ours": "indexed",
           "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "athillaazka/what-a-roll",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/athillaazka-What-A-Roll/"
         }
       }
     },
@@ -9893,6 +10283,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/brunolcarli-yggdrasilMMO/index2.html"
+        }
+      }
+    },
+    {
+      "sourceRepo": "plumelumyn/you-gonna-be-eaten-by-a-fish",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/PlumeLumyn-You-gonna-be-eaten-by-a-fish/"
         }
       }
     },
