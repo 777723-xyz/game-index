@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T11:19:06.768Z",
+  "generatedAt": "2026-09-18T16:26:53.967Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 1157,
   "upstreamTotal": 1150,
@@ -127,11 +127,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/UryanKarl-myphRPG-maze-webpage/"
+          "upstream": "unavailable"
         }
       }
     },
@@ -378,11 +374,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/VanilaNya-Journey_of_the_Shit/"
+          "upstream": "unavailable"
         }
       }
     },
@@ -482,11 +474,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/eric0308a-The_Devils_Seven_Days/"
+          "upstream": "unavailable"
         }
       }
     },
@@ -6185,11 +6173,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/yuhan2680-Level-C-1366_Demo/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -7296,11 +7280,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/sabotai-sabotai.github.io/"
+          "upstream": "skipped_large"
         }
       }
     },
@@ -7964,11 +7944,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/fada-com-filtro-IA-agents/"
+          "upstream": "unavailable"
         }
       }
     },
@@ -8563,11 +8539,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/x451F-Campus-RPG/"
+          "upstream": "skipped_large"
         }
       }
     },
@@ -9615,6 +9587,19 @@
       }
     },
     {
+      "sourceRepo": "zkrejcov/rmmv-plugins",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/zkrejcov-rmmv-plugins/"
+        }
+      }
+    },
+    {
       "sourceRepo": "tcc-iago-lucas/game",
       "differences": {
         "status": {
@@ -10613,11 +10598,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/vertexiii-vertexiii.github.io/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -10657,6 +10638,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/dcarlin-Devil-King-RPGMaker-MV-Game/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "angeelpm/juegorpg-theesi",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/angeelpm-JuegoRPG-TheESI/"
         }
       }
     },
@@ -11355,11 +11349,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/zoujiahuan-TheGame4Muse/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -11642,11 +11632,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/dadaqi-xiaohuangyouSLG/"
+          "upstream": "invalid_structure"
         }
       }
     },
