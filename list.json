@@ -8178,6 +8178,18 @@
     "upstreamStatus": "skipped_large"
   },
   {
+    "id": "goattech-42-nebulacdn",
+    "title": "DEAD PLATE",
+    "repo": "https://github.com/GoatTech-42/NEBULACDN",
+    "owner": "GoatTech-42",
+    "name": "NEBULACDN",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-09-18T19:37:26.730Z",
+    "source": "github-code-search",
+    "sourcePath": "games/deadplate.html"
+  },
+  {
     "id": "googledrive123-googledrive123-github-io",
     "title": "DEAD PLATE",
     "repo": "https://github.com/googledrive123/googledrive123.github.io",
