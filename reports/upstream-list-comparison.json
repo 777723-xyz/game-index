@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-18T00:22:41.779Z",
+  "generatedAt": "2026-09-18T05:58:06.912Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 1157,
-  "upstreamTotal": 1149,
-  "shared": 1149,
+  "upstreamTotal": 1150,
+  "shared": 1150,
   "upstreamOnly": [],
   "localOnly": [
     {
@@ -30,13 +30,6 @@
     {
       "id": "amogus0471-jhon-pork-unblocked",
       "sourceRepo": "amogus0471/jhon-pork-unblocked",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    },
-    {
-      "id": "googledrive123-googledrive123-github-io",
-      "sourceRepo": "googledrive123/googledrive123.github.io",
       "status": "indexed",
       "forkName": null,
       "pagesUrl": null
@@ -1370,6 +1363,19 @@
       }
     },
     {
+      "sourceRepo": "starktomy/tunshi",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Starktomy-tunshi/"
+        }
+      }
+    },
+    {
       "sourceRepo": "mrxiyi666/wanshenjiegame",
       "differences": {
         "status": {
@@ -1540,6 +1546,32 @@
       }
     },
     {
+      "sourceRepo": "teritaris/kakeyokonnectmz",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/teritaris-kakeyokonnectMZ/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "teritaris/tenxym",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/teritaris-tenxym/"
+        }
+      }
+    },
+    {
       "sourceRepo": "etxian/heroland",
       "differences": {
         "status": {
@@ -1645,6 +1677,19 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/aaixy-zzgl/index.html",
           "upstream": "https://webrpg.org/aaixy-zzgl/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "teritaris/tenchou",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/teritaris-tenchou/"
         }
       }
     },
@@ -2409,7 +2454,7 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "indexed"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -2905,6 +2950,15 @@
       }
     },
     {
+      "sourceRepo": "thatoneguy-67/snoopy-web",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "unavailable"
+        }
+      }
+    },
+    {
       "sourceRepo": "gullamalmuzadid/pengembangan_game",
       "differences": {
         "status": {
@@ -3109,11 +3163,28 @@
       }
     },
     {
+      "sourceRepo": "szymor/elemental-saga",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/szymor-elemental-saga/"
+        }
+      }
+    },
+    {
       "sourceRepo": "szymor/games",
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "indexed"
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/szymor-games/"
         }
       }
     },
@@ -3170,6 +3241,19 @@
       }
     },
     {
+      "sourceRepo": "teritaris/cryptocasino",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/teritaris-CryptoCasino/"
+        }
+      }
+    },
+    {
       "sourceRepo": "telegd/ctf-shoottnup",
       "differences": {
         "status": {
@@ -3179,6 +3263,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/TeleGD-CTF-ShootTNUp/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "supersonic187/culinary-combat",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Supersonic187-Culinary-Combat/"
         }
       }
     },
@@ -3350,6 +3447,15 @@
     },
     {
       "sourceRepo": "gmshelf/truffled",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "googledrive123/googledrive123.github.io",
       "differences": {
         "status": {
           "ours": "indexed",
@@ -4054,6 +4160,19 @@
       }
     },
     {
+      "sourceRepo": "tenebrous-world/tenebrous.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/tenebrous-world-tenebrous.github.io/"
+        }
+      }
+    },
+    {
       "sourceRepo": "lokinious/rpg-maker-game-1",
       "differences": {
         "status": {
@@ -4228,6 +4347,15 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/ScorpGaming4432-fungerterminapl/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "spacelord42/gn-math",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
         }
       }
     },
@@ -4653,6 +4781,19 @@
       }
     },
     {
+      "sourceRepo": "talon24229/talon24229.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Talon24229-Talon24229.github.io/"
+        }
+      }
+    },
+    {
       "sourceRepo": "hayde26904/hayde26904.github.io",
       "differences": {
         "status": {
@@ -4896,6 +5037,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/csmith1188-csmith1188.github.io/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "thecyanhusky/thecyanhusky.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/TheCyanHusky-TheCyanHusky.github.io/"
         }
       }
     },
@@ -5226,6 +5380,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/shinyjiggly-dungeon-crashers-website/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "stuartmrwong/stuartmrwong.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/stuartmrwong-stuartmrwong.github.io/LAKE.html"
         }
       }
     },
@@ -6087,6 +6254,19 @@
       }
     },
     {
+      "sourceRepo": "theartofme/rmmv-ink",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/theartofme-rmmv-ink/"
+        }
+      }
+    },
+    {
       "sourceRepo": "collinsumrell/sunset-valley",
       "differences": {
         "status": {
@@ -6170,6 +6350,15 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/XMandarava-Plugins4RMMV/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "sticky1705/gradproject",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
         }
       }
     },
@@ -6560,6 +6749,19 @@
       }
     },
     {
+      "sourceRepo": "synrec/monster-capture-mz",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Synrec-Monster-Capture-MZ/"
+        }
+      }
+    },
+    {
       "sourceRepo": "jackdarker/moonwood",
       "differences": {
         "status": {
@@ -6634,6 +6836,15 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/MechaDragonX-MVGaGotoku/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "take-cheeze/rpg-maker-clone",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "unavailable"
         }
       }
     },
@@ -7160,6 +7371,28 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
+          "upstream": "invalid_structure"
+        }
+      }
+    },
+    {
+      "sourceRepo": "starsnail/tokimori",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/starsnail-tokimori/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "sype0/omori-on-android-version-fix",
+      "differences": {
+        "status": {
+          "ours": "indexed",
           "upstream": "invalid_structure"
         }
       }
@@ -8034,6 +8267,19 @@
       }
     },
     {
+      "sourceRepo": "talbal-ripper/tfi_builder",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/TalBal-ripper-tfi_builder/"
+        }
+      }
+    },
+    {
       "sourceRepo": "thattakashi/tales-of-arcadia",
       "differences": {
         "status": {
@@ -8056,6 +8302,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/x451F-Campus-RPG/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "thinkwee/thinkwee.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/thinkwee-thinkwee.github.io/"
         }
       }
     },
@@ -8659,6 +8918,19 @@
       }
     },
     {
+      "sourceRepo": "syberorange/dsefv",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/syberorange-dsefv/"
+        }
+      }
+    },
+    {
       "sourceRepo": "alekevin12/rmmz-plus",
       "differences": {
         "status": {
@@ -8851,6 +9123,19 @@
       }
     },
     {
+      "sourceRepo": "thewhitecanvas/saintseiya_rmmv",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/TheWhiteCanvas-SaintSeiya_RMMV/"
+        }
+      }
+    },
+    {
       "sourceRepo": "jaegyoon/hero-raising",
       "differences": {
         "status": {
@@ -8890,6 +9175,45 @@
       }
     },
     {
+      "sourceRepo": "takushisato/futakobusan",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/takushisato-futakobusan/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "spritestudio/ss6playerforweb",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/SpriteStudio-SS6PlayerForWeb/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "suppayami/yami-engine-delta",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/suppayami-yami-engine-delta/"
+        }
+      }
+    },
+    {
       "sourceRepo": "byvalvin/sanctuary",
       "differences": {
         "status": {
@@ -8912,6 +9236,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/scaryinc-tg/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "tarifekhan/scene-of-the-crime",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/TarifEKhan-Scene-of-the-crime/"
         }
       }
     },
@@ -8994,7 +9331,11 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "indexed"
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/tcc-Iago-Lucas-game/"
         }
       }
     },
@@ -9902,6 +10243,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/koohdev-chronicles/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "teritaris/tenxym_en",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/teritaris-tenxym_en/"
         }
       }
     },
