@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-18T16:26:53.967Z",
+  "generatedAt": "2026-09-18T19:39:06.649Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 1157,
+  "localTotal": 1158,
   "upstreamTotal": 1150,
   "shared": 1150,
   "upstreamOnly": [],
@@ -30,6 +30,13 @@
     {
       "id": "amogus0471-jhon-pork-unblocked",
       "sourceRepo": "amogus0471/jhon-pork-unblocked",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    },
+    {
+      "id": "goattech-42-nebulacdn",
+      "sourceRepo": "goattech-42/nebulacdn",
       "status": "indexed",
       "forkName": null,
       "pagesUrl": null
