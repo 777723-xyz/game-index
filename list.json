@@ -418,7 +418,20 @@
     "source": "github-code-search",
     "sourcePath": "2000sEscape/index.html",
     "forkName": "Yesenmidnight-2000sEscape",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:50:26.430Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 256744,
+    "dataSize": 764127,
+    "sourceRepo": "Yesenmidnight/2000sEscape",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "4b5ca1013a4a7c48ac265ea3a0eb5923ece8d9ad",
+    "processedHeadSha": "fcbb8d8fb1debdb5bc8c48b5e0d956dbc28648a4",
+    "upstreamPagesUrl": "https://webrpg.org/Yesenmidnight-2000sEscape/",
+    "upstreamCover": "https://webrpg.org/Yesenmidnight-2000sEscape/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "28lpotter-28lpotter-github-io",
@@ -762,7 +775,18 @@
     "source": "github-code-search",
     "sourcePath": "GameUI/Rmmz.CN/index.html",
     "forkName": "tylike-AI.Labs",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:45:55.131Z",
+    "entryPath": "index.html",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 231482,
+    "dataSize": 161792,
+    "sourceRepo": "tylike/AI.Labs",
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "c9acf4eddac71de5e884ddd866f4f67a2018e490",
+    "processedHeadSha": "9ba1a4e30f42c67514dd1783cee28af55b6b0c08",
+    "upstreamPagesUrl": "https://webrpg.org/tylike-AI.Labs/",
+    "upstreamStatus": "verified"
   },
   {
     "id": "lisachouhc-drdresapre",
@@ -4594,7 +4618,20 @@
     "source": "github-code-search",
     "sourcePath": "index.html",
     "forkName": "UnboxingVideoReal-bambi-civ",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:47:10.834Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 631282,
+    "dataSize": 9022514,
+    "sourceRepo": "UnboxingVideoReal/bambi-civ",
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "c4d3e344684ad51f82ce415c313e519b6f6169ea",
+    "processedHeadSha": "537305a9b6bcf0f69838ba2c0de3df24ce7bac8e",
+    "upstreamPagesUrl": "https://webrpg.org/UnboxingVideoReal-bambi-civ/",
+    "upstreamCover": "https://webrpg.org/UnboxingVideoReal-bambi-civ/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "unboxingvideoreal-bambi-civ-fangame-pc",
@@ -4608,7 +4645,20 @@
     "source": "github-code-search",
     "sourcePath": "www/index.html",
     "forkName": "UnboxingVideoReal-bambi-civ-fangame-pc",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:46:50.186Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 610364,
+    "dataSize": 9022514,
+    "sourceRepo": "UnboxingVideoReal/bambi-civ-fangame-pc",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "12fa96938b2d629a7cbfd52b975bc3cc53ac223b",
+    "processedHeadSha": "6f0e933a280e11451ea8fe8b2325e5782d4f0ce9",
+    "upstreamPagesUrl": "https://webrpg.org/UnboxingVideoReal-bambi-civ-fangame-pc/",
+    "upstreamCover": "https://webrpg.org/UnboxingVideoReal-bambi-civ-fangame-pc/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "benjaminpants-benjaminpants-github-io",
@@ -5872,7 +5922,9 @@
     "source": "github-code-search",
     "sourcePath": "public/clbloodmoney.html",
     "forkName": "urnperiodic-urnperiodic.github.io",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:47:32.012Z",
+    "invalidReason": "Repository has 2766 HTML files, exceeding the 500 file limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "whosrogo-kronos-v1",
@@ -5886,7 +5938,9 @@
     "source": "github-code-search",
     "sourcePath": "public/games/clbloodmoney.html",
     "forkName": "whosrogo-Kronos-V1",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:48:26.789Z",
+    "invalidReason": "Repository has 1727 HTML files, exceeding the 500 file limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "xavier509-ugs-files",
@@ -5900,7 +5954,9 @@
     "source": "github-code-search",
     "sourcePath": "clbloodmoney.html",
     "forkName": "Xavier509-UGS-Files",
-    "upstreamStatus": "indexed",
+    "checkedAt": "2026-09-18T10:49:54.699Z",
+    "invalidReason": "Repository has 1598 HTML files, exceeding the 500 file limit.",
+    "upstreamStatus": "skipped_large",
     "duplicateReason": "Repository name already exists in list.json."
   },
   {
@@ -5951,7 +6007,9 @@
     "source": "github-code-search",
     "sourcePath": "projects/bloodmoney/index.html",
     "forkName": "ymillan-2011-Rickrolled-Games-V3",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:51:18.879Z",
+    "invalidReason": "Repository tree has 22048 entries, exceeding the 20000 entry limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "moon-network-service-blueberry-manor-project",
@@ -8133,7 +8191,6 @@
     "discoveredAt": "2026-09-16T23:32:49.110Z",
     "source": "github-code-search",
     "sourcePath": "iframe/462.html",
-    "plannedForkName": "googledrive123-googledrive123.github.io",
     "checkedAt": "2026-09-18T03:27:33.561Z",
     "forkName": "googledrive123-googledrive123.github.io",
     "invalidReason": "Repository tree has 31041 entries, exceeding the 20000 entry limit.",
@@ -8658,7 +8715,20 @@
     "source": "github-code-search",
     "sourcePath": "juego/index.html",
     "forkName": "uppteam-uppteam.github.io",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:47:13.992Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 391455,
+    "dataSize": 745880,
+    "sourceRepo": "uppteam/uppteam.github.io",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "d52282455927fe77f5e22cde1adda53357797d92",
+    "processedHeadSha": "3017efd64319a57a89021244a6555f2f4526ec87",
+    "upstreamPagesUrl": "https://webrpg.org/uppteam-uppteam.github.io/",
+    "upstreamCover": "https://webrpg.org/uppteam-uppteam.github.io/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "ruandersonvieira-educamais",
@@ -9134,7 +9204,18 @@
     "source": "github-code-search",
     "sourcePath": "index.html",
     "forkName": "ttoonnaa-DQ3Remake",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:45:59.797Z",
+    "entryPath": "index.html",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 1711,
+    "dataSize": 1239212,
+    "sourceRepo": "ttoonnaa/DQ3Remake",
+    "sourceDefaultBranch": "develop",
+    "sourceHeadSha": "2799edbc817067c1b74022637f02c4537eca7abb",
+    "processedHeadSha": "5ddc0d0e310db444a014dba96d1421f9044c87bd",
+    "upstreamPagesUrl": "https://webrpg.org/ttoonnaa-DQ3Remake/",
+    "upstreamStatus": "verified"
   },
   {
     "id": "johnnypackard-unnamed-rpg",
@@ -9787,7 +9868,20 @@
     "source": "github-code-search",
     "sourcePath": "index.html",
     "forkName": "z9z9z9z9z9z9-tt",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:51:36.154Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 93657,
+    "dataSize": 593380,
+    "sourceRepo": "z9z9z9z9z9z9/tt",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "58a10505730852a1a4a0b9b83d885f287d5e6998",
+    "processedHeadSha": "2a36126c0df8cf5e85e8c7be1a05201137b70c4b",
+    "upstreamPagesUrl": "https://webrpg.org/z9z9z9z9z9z9-tt/",
+    "upstreamCover": "https://webrpg.org/z9z9z9z9z9z9-tt/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "susobhang70-rpg-maze-runner",
@@ -10503,7 +10597,11 @@
     "source": "github-code-search",
     "sourcePath": "public/games/Fear & Hunger.html",
     "forkName": "Uno-Key-1key",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:47:04.815Z",
+    "invalidReason": "No RPG Maker MV/MZ HTML entry point loading js/main.js was found.",
+    "deletedAt": "2026-09-18T10:47:51.213Z",
+    "validationScore": 0,
+    "upstreamStatus": "invalid_structure"
   },
   {
     "id": "paisuygoda-ff5likedata",
@@ -12199,7 +12297,20 @@
     "source": "github-code-search",
     "sourcePath": "GoToSchool/index.html",
     "forkName": "VamyVamizy-VamyVamizy.github.io",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:47:48.677Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 20190,
+    "dataSize": 1319191,
+    "sourceRepo": "VamyVamizy/VamyVamizy.github.io",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "039ab66cf4339f54e486ff255cb023d71514ecda",
+    "processedHeadSha": "48413e948f195f1dc21e6113343c8aa6c0c6666f",
+    "upstreamPagesUrl": "https://webrpg.org/VamyVamizy-VamyVamizy.github.io/",
+    "upstreamCover": "https://webrpg.org/VamyVamizy-VamyVamizy.github.io/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "dixonsolutions-potatoetomatoe3",
@@ -12482,7 +12593,20 @@
     "source": "github-code-search",
     "sourcePath": "index.html",
     "forkName": "WookieeMatt-Heirloom",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:50:10.446Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 313180,
+    "dataSize": 1154628,
+    "sourceRepo": "WookieeMatt/Heirloom",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "97d7945e29f5bfd02bf6525d91eeedfeefaaff31",
+    "processedHeadSha": "59190702866eaa1a3902169d31347cb4f7dee7fd",
+    "upstreamPagesUrl": "https://webrpg.org/WookieeMatt-Heirloom/",
+    "upstreamCover": "https://webrpg.org/WookieeMatt-Heirloom/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "mizchi-sandbox-tkool-sandbox",
@@ -12863,7 +12987,9 @@
     "source": "github-code-search",
     "sourcePath": "assets/gameassets/suntree/games/isat/index.html",
     "forkName": "U-spe-spydr",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:46:18.939Z",
+    "invalidReason": "Repository has 2303 HTML files, exceeding the 500 file limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "web-ports-in-stars-and-time",
@@ -13095,7 +13221,20 @@
     "source": "github-code-search",
     "sourcePath": "index.html",
     "forkName": "yumeTsukiiii-irotoridorino_sekai_game",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:51:23.101Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 400457,
+    "dataSize": 738609,
+    "sourceRepo": "yumeTsukiiii/irotoridorino_sekai_game",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "7e86af62b0cffc05ade97ca9a73d66683a940d12",
+    "processedHeadSha": "4ee1066dbcdaedba8812881d555d379f9c404994",
+    "upstreamPagesUrl": "https://webrpg.org/yumeTsukiiii-irotoridorino_sekai_game/",
+    "upstreamCover": "https://webrpg.org/yumeTsukiiii-irotoridorino_sekai_game/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "thomazdevmaster-iso25k-square-rpg",
@@ -13409,7 +13548,18 @@
     "source": "github-code-search",
     "sourcePath": "kanaexe/index.html",
     "forkName": "waycrosspublicmedia-assets",
-    "upstreamStatus": "indexed",
+    "checkedAt": "2026-09-18T10:48:20.911Z",
+    "entryPath": "index.html",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 786897,
+    "dataSize": 3544872,
+    "sourceRepo": "waycrosspublicmedia/assets",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "2331744b42e682e6e4514b47c1d15d746185a137",
+    "processedHeadSha": "001092447a9683e67b305649e2ed2e5a5a75b764",
+    "upstreamPagesUrl": "https://webrpg.org/waycrosspublicmedia-assets/",
+    "upstreamStatus": "verified",
     "duplicateReason": "Repository name already exists in list.json."
   },
   {
@@ -13485,7 +13635,21 @@
     "source": "github-code-search",
     "sourcePath": "www/index.html",
     "forkName": "tranlamphuduc-Game-Zombie",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:45:54.315Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 398414,
+    "dataSize": 2758702,
+    "sourceRepo": "tranlamphuduc/Game-Zombie",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "5b28a03875a8e4e66c06b132e492b2ab6790254a",
+    "processedHeadSha": "6f0dd12cc6a9aef69b0ad78be5e24f65dc87cbe5",
+    "syncedFromSource": true,
+    "upstreamPagesUrl": "https://webrpg.org/tranlamphuduc-Game-Zombie/",
+    "upstreamCover": "https://webrpg.org/tranlamphuduc-Game-Zombie/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "okshaone-kiki-s-adventure-v1",
@@ -13664,7 +13828,20 @@
     "source": "github-code-search",
     "sourcePath": "index.html",
     "forkName": "wongcyrus-k8s-isekai",
-    "upstreamStatus": "indexed",
+    "checkedAt": "2026-09-18T10:49:33.637Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 390216,
+    "dataSize": 1015522,
+    "sourceRepo": "wongcyrus/k8s-isekai",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "25bd291d0e4d2281f70666e1d24dad62e7fc3fbd",
+    "processedHeadSha": "0712dfba9c589eca4539819d63cd645a7dd12ad1",
+    "upstreamPagesUrl": "https://webrpg.org/wongcyrus-k8s-isekai/",
+    "upstreamCover": "https://webrpg.org/wongcyrus-k8s-isekai/cover.png",
+    "upstreamStatus": "verified",
     "duplicateReason": "Repository name already exists in list.json."
   },
   {
@@ -14015,7 +14192,20 @@
     "source": "github-code-search",
     "sourcePath": "LiChuanDemo/index.html",
     "forkName": "Yjjsw-LiChuan",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:50:33.231Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 97225,
+    "dataSize": 697558,
+    "sourceRepo": "Yjjsw/LiChuan",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "ee7c3c4afbd91389f684b0f0395e6e5367e21755",
+    "processedHeadSha": "26998f78416be31a827828ed893298f56e758b21",
+    "upstreamPagesUrl": "https://webrpg.org/Yjjsw-LiChuan/",
+    "upstreamCover": "https://webrpg.org/Yjjsw-LiChuan/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "mytriv-lightpathfinder",
@@ -14535,7 +14725,20 @@
     "source": "github-code-search",
     "sourcePath": "maciekworld/index.html",
     "forkName": "Wiktoryk-MaciektheGame",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:48:40.871Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 93841,
+    "dataSize": 541253,
+    "sourceRepo": "Wiktoryk/MaciektheGame",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "dbcbdbee2b143551f28454737ee771f3934b19e0",
+    "processedHeadSha": "1fa55467ed372ef047470d2c5543538874cfb189",
+    "upstreamPagesUrl": "https://webrpg.org/Wiktoryk-MaciektheGame/",
+    "upstreamCover": "https://webrpg.org/Wiktoryk-MaciektheGame/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "collinsumrell-sunset-valley",
@@ -17332,7 +17535,9 @@
     "source": "github-code-search",
     "sourcePath": "mages/omori/index.html",
     "forkName": "yellowdevelopment-sienna",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:50:09.643Z",
+    "invalidReason": "Repository has 613 HTML files, exceeding the 500 file limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "sype0-omori-on-android-version-fix",
@@ -17810,7 +18015,20 @@
     "source": "github-code-search",
     "sourcePath": "RPGMAKERMV/www/index.html",
     "forkName": "U-K-L-RPGAME-Patreon-Example",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:45:56.952Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 72641,
+    "dataSize": 693580,
+    "sourceRepo": "U-K-L/RPGAME-Patreon-Example",
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "e5dc3cd797a0937047da597cfeabb0d3004c6542",
+    "processedHeadSha": "74273b86040bffa97f97135499deea07daa6420e",
+    "upstreamPagesUrl": "https://webrpg.org/U-K-L-RPGAME-Patreon-Example/",
+    "upstreamCover": "https://webrpg.org/U-K-L-RPGAME-Patreon-Example/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "wfay42-enemy-corruption",
@@ -17824,7 +18042,18 @@
     "source": "github-code-search",
     "sourcePath": "game/index.html",
     "forkName": "wfay42-enemy-corruption",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:48:25.404Z",
+    "entryPath": "index.html",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 1051,
+    "dataSize": 615411,
+    "sourceRepo": "wfay42/enemy-corruption",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "e2f166dd68137c3b96711233242fa525c0a1fe6a",
+    "processedHeadSha": "10bd57d3ea72bd1b646053341690848dcca2ca09",
+    "upstreamPagesUrl": "https://webrpg.org/wfay42-enemy-corruption/",
+    "upstreamStatus": "verified"
   },
   {
     "id": "hectovargas-repositoriozelda",
@@ -18087,7 +18316,10 @@
     "source": "github-code-search",
     "sourcePath": "example-rpgmaker/index.html",
     "forkName": "wvdsh-examples",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:49:34.556Z",
+    "consecutiveFailures": 1,
+    "lastFailedAt": "2026-09-18T10:49:34.556Z",
+    "upstreamStatus": "check_error"
   },
   {
     "id": "ec-developer-hub-powerrrr",
@@ -19596,7 +19828,11 @@
     "source": "github-code-search",
     "sourcePath": "注释/index.html",
     "forkName": "wangwangxingao-RMMV",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:48:07.494Z",
+    "invalidReason": "No RPG Maker MV/MZ HTML entry point loading js/main.js was found.",
+    "deletedAt": "2026-09-18T10:48:13.416Z",
+    "validationScore": 0,
+    "upstreamStatus": "invalid_structure"
   },
   {
     "id": "sabakan03-mv",
@@ -20486,7 +20722,20 @@
     "source": "github-code-search",
     "sourcePath": "index.html",
     "forkName": "yoshikizh-rpgmaker-world",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:51:20.625Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 167299,
+    "dataSize": 1602352,
+    "sourceRepo": "yoshikizh/rpgmaker-world",
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "c9494d969739070af9cedd2be1c0ae8714163078",
+    "processedHeadSha": "26810d8c506bad5921748e1f218882bbc09ea591",
+    "upstreamPagesUrl": "https://webrpg.org/yoshikizh-rpgmaker-world/",
+    "upstreamCover": "https://webrpg.org/yoshikizh-rpgmaker-world/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "johnqwq-secret-escape",
@@ -24435,7 +24684,18 @@
     "source": "github-code-search",
     "sourcePath": "TrainRPG/index.html",
     "forkName": "weepingwitch-weepingwitch.github.io",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:48:26.255Z",
+    "entryPath": "index.html",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 349726,
+    "dataSize": 1170651,
+    "sourceRepo": "weepingwitch/weepingwitch.github.io",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "e9994d6b379955efb799edf21a1a64d964f518d4",
+    "processedHeadSha": "a7d3eafe0f95906edf626950f227c8c9cad81cfb",
+    "upstreamPagesUrl": "https://webrpg.org/weepingwitch-weepingwitch.github.io/",
+    "upstreamStatus": "verified"
   },
   {
     "id": "tnguy510-split-4",
@@ -25887,7 +26147,20 @@
     "source": "github-code-search",
     "sourcePath": "Project3/index.html",
     "forkName": "WildCodeSchool-2022-03-js-laloupe-quadri-force-p2",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:48:48.083Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 67787,
+    "dataSize": 1277716,
+    "sourceRepo": "WildCodeSchool/2022-03-js-laloupe-quadri-force-p2",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "11d24e100d5325edeeda6b203c6be20d4b67e6b0",
+    "processedHeadSha": "7a4192a66e0244c1f79903cb1c814ba3cf9a10e5",
+    "upstreamPagesUrl": "https://webrpg.org/WildCodeSchool-2022-03-js-laloupe-quadri-force-p2/",
+    "upstreamCover": "https://webrpg.org/WildCodeSchool-2022-03-js-laloupe-quadri-force-p2/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "andredarcie-zero-to-one",
@@ -26447,7 +26720,20 @@
     "source": "github-code-search",
     "sourcePath": "ProjectMZ/index.html",
     "forkName": "unagiootoro-QuestSystemSample",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:46:32.553Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 17877,
+    "dataSize": 570957,
+    "sourceRepo": "unagiootoro/QuestSystemSample",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "f2fb7a4ee5e82fca6cee0981f420532d33432838",
+    "processedHeadSha": "c04c12d325450087eaee8141400963de9a604b5f",
+    "upstreamPagesUrl": "https://webrpg.org/unagiootoro-QuestSystemSample/",
+    "upstreamCover": "https://webrpg.org/unagiootoro-QuestSystemSample/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "savesub-slavetrader-en",
@@ -26557,7 +26843,20 @@
     "source": "github-code-search",
     "sourcePath": "index.html",
     "forkName": "watatarutaru-Kochobus",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:48:06.754Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 64076,
+    "dataSize": 2394862,
+    "sourceRepo": "watatarutaru/Kochobus",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "e3e29d180620bdd84eaa85e9c115bb41988e1265",
+    "processedHeadSha": "eadc10f8666128790c26eff7da801ae40c2860ff",
+    "upstreamPagesUrl": "https://webrpg.org/watatarutaru-Kochobus/",
+    "upstreamCover": "https://webrpg.org/watatarutaru-Kochobus/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "triacontane-novelgamesample",
@@ -26687,7 +26986,20 @@
     "source": "github-code-search",
     "sourcePath": "index.html",
     "forkName": "watatarutaru-TickleFantasia",
-    "upstreamStatus": "indexed"
+    "checkedAt": "2026-09-18T10:48:09.121Z",
+    "entryPath": "index.html",
+    "coverPath": "cover.png",
+    "verificationDeferred": true,
+    "validationScore": 108,
+    "totalSize": 163189,
+    "dataSize": 5689372,
+    "sourceRepo": "watatarutaru/TickleFantasia",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "61b097fe7cadfb3a648710fc36236573a94b98d9",
+    "processedHeadSha": "981890501cc4abc3e343421848a0a20605102486",
+    "upstreamPagesUrl": "https://webrpg.org/watatarutaru-TickleFantasia/",
+    "upstreamCover": "https://webrpg.org/watatarutaru-TickleFantasia/cover.png",
+    "upstreamStatus": "verified"
   },
   {
     "id": "munokura-dq-like-sample-mz",
