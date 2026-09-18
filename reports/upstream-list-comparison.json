@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T05:58:06.912Z",
+  "generatedAt": "2026-09-18T11:19:06.768Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 1157,
   "upstreamTotal": 1150,
@@ -227,6 +227,19 @@
       }
     },
     {
+      "sourceRepo": "yesenmidnight/2000sescape",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Yesenmidnight-2000sEscape/"
+        }
+      }
+    },
+    {
       "sourceRepo": "28lpotter/28lpotter.github.io",
       "differences": {
         "status": {
@@ -396,6 +409,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/isao0926-RPG-Maker-mzz/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "tylike/ai.labs",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/tylike-AI.Labs/"
         }
       }
     },
@@ -2198,6 +2224,32 @@
       }
     },
     {
+      "sourceRepo": "unboxingvideoreal/bambi-civ",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/UnboxingVideoReal-bambi-civ/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "unboxingvideoreal/bambi-civ-fangame-pc",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/UnboxingVideoReal-bambi-civ-fangame-pc/"
+        }
+      }
+    },
+    {
       "sourceRepo": "benjaminpants/benjaminpants.github.io",
       "differences": {
         "status": {
@@ -2468,11 +2520,38 @@
       }
     },
     {
+      "sourceRepo": "urnperiodic/urnperiodic.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "whosrogo/kronos-v1",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "xavier509/ugs-files",
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "indexed"
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "ymillan-2011/rickrolled-games-v3",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
         }
       }
     },
@@ -3570,6 +3649,19 @@
       }
     },
     {
+      "sourceRepo": "uppteam/uppteam.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/uppteam-uppteam.github.io/"
+        }
+      }
+    },
+    {
       "sourceRepo": "ruandersonvieira/educamais",
       "differences": {
         "status": {
@@ -3800,6 +3892,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/NoorinAsjad-Global-Gamejam-2018/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "ttoonnaa/dq3remake",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/ttoonnaa-DQ3Remake/"
         }
       }
     },
@@ -4121,6 +4226,19 @@
       }
     },
     {
+      "sourceRepo": "z9z9z9z9z9z9/tt",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/z9z9z9z9z9z9-tt/"
+        }
+      }
+    },
+    {
       "sourceRepo": "susobhang70/rpg_maze_runner",
       "differences": {
         "status": {
@@ -4378,6 +4496,15 @@
         "status": {
           "ours": "indexed",
           "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "uno-key/1key",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -5184,6 +5311,19 @@
       }
     },
     {
+      "sourceRepo": "vamyvamizy/vamyvamizy.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/VamyVamizy-VamyVamizy.github.io/"
+        }
+      }
+    },
+    {
       "sourceRepo": "dixonsolutions/potatoetomatoe3",
       "differences": {
         "status": {
@@ -5306,6 +5446,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/Pear104-hcm202/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "wookieematt/heirloom",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/WookieeMatt-Heirloom/"
         }
       }
     },
@@ -5458,6 +5611,15 @@
       }
     },
     {
+      "sourceRepo": "u-spe/spydr",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "web-ports/in-stars-and-time",
       "differences": {
         "status": {
@@ -5554,6 +5716,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/donjuanplatinum-irodorimidori-rpg-server/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "yumetsukiiii/irotoridorino_sekai_game",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/yumeTsukiiii-irotoridorino_sekai_game/"
         }
       }
     },
@@ -5714,7 +5889,11 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "indexed"
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/waycrosspublicmedia-assets/"
         }
       }
     },
@@ -5746,6 +5925,19 @@
         "status": {
           "ours": "indexed",
           "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "tranlamphuduc/game-zombie",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/tranlamphuduc-Game-Zombie/"
         }
       }
     },
@@ -5837,7 +6029,11 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "indexed"
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/wongcyrus-k8s-isekai/"
         }
       }
     },
@@ -6007,6 +6203,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/PritamSutradhar123-LibreQuestDayThree/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "yjjsw/lichuan",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Yjjsw-LiChuan/"
         }
       }
     },
@@ -6263,6 +6472,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/theartofme-rmmv-ink/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "wiktoryk/maciekthegame",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Wiktoryk-MaciektheGame/"
         }
       }
     },
@@ -7389,6 +7611,15 @@
       }
     },
     {
+      "sourceRepo": "yellowdevelopment/sienna",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "sype0/omori-on-android-version-fix",
       "differences": {
         "status": {
@@ -7603,6 +7834,32 @@
       }
     },
     {
+      "sourceRepo": "u-k-l/rpgame-patreon-example",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/U-K-L-RPGAME-Patreon-Example/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "wfay42/enemy-corruption",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/wfay42-enemy-corruption/"
+        }
+      }
+    },
+    {
       "sourceRepo": "hectovargas/repositoriozelda",
       "differences": {
         "status": {
@@ -7721,6 +7978,15 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/AAK581-Polkadot-Cats-Game/index.html",
           "upstream": "https://webrpg.org/AAK581-Polkadot-Cats-Game/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "wvdsh/examples",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "check_error"
         }
       }
     },
@@ -8458,6 +8724,15 @@
       }
     },
     {
+      "sourceRepo": "wangwangxingao/rmmv",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "invalid_structure"
+        }
+      }
+    },
+    {
       "sourceRepo": "sabakan03/mv",
       "differences": {
         "status": {
@@ -8862,6 +9137,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/matheusPereiraKrumm-rise-of-shinigami/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "yoshikizh/rpgmaker-world",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/yoshikizh-rpgmaker-world/"
         }
       }
     },
@@ -10759,6 +11047,19 @@
       }
     },
     {
+      "sourceRepo": "weepingwitch/weepingwitch.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/weepingwitch-weepingwitch.github.io/"
+        }
+      }
+    },
+    {
       "sourceRepo": "tnguy510/split-4",
       "differences": {
         "status": {
@@ -11467,6 +11768,19 @@
       }
     },
     {
+      "sourceRepo": "wildcodeschool/2022-03-js-laloupe-quadri-force-p2",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/WildCodeSchool-2022-03-js-laloupe-quadri-force-p2/"
+        }
+      }
+    },
+    {
       "sourceRepo": "andredarcie/zero-to-one",
       "differences": {
         "status": {
@@ -11732,6 +12046,19 @@
       }
     },
     {
+      "sourceRepo": "unagiootoro/questsystemsample",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/unagiootoro-QuestSystemSample/"
+        }
+      }
+    },
+    {
       "sourceRepo": "savesub/slavetrader_en",
       "differences": {
         "status": {
@@ -11780,6 +12107,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/john-smith-rpg-kuso/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "watatarutaru/kochobus",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/watatarutaru-Kochobus/"
         }
       }
     },
@@ -11837,6 +12177,19 @@
         "status": {
           "ours": "indexed",
           "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "watatarutaru/ticklefantasia",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/watatarutaru-TickleFantasia/"
         }
       }
     },
