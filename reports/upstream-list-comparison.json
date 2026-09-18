@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-17T21:29:21.817Z",
+  "generatedAt": "2026-09-18T00:22:41.779Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 1126,
-  "upstreamTotal": 1118,
-  "shared": 1118,
+  "localTotal": 1157,
+  "upstreamTotal": 1149,
+  "shared": 1149,
   "upstreamOnly": [],
   "localOnly": [
     {
@@ -295,6 +295,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/michaelpig0912-michaelpig0912.github.io/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "mandy321555/rpg",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/mandy321555-rpg/"
         }
       }
     },
@@ -1662,6 +1675,15 @@
       }
     },
     {
+      "sourceRepo": "sness128/sness128.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "check_error"
+        }
+      }
+    },
+    {
       "sourceRepo": "evafg/a-stormy-story",
       "differences": {
         "status": {
@@ -2365,6 +2387,15 @@
       }
     },
     {
+      "sourceRepo": "oriera25/unblocked-games",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "packjackisback/games",
       "differences": {
         "status": {
@@ -2544,6 +2575,19 @@
       }
     },
     {
+      "sourceRepo": "edneyreis999/jonny",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/edneyreis999-Jonny/"
+        }
+      }
+    },
+    {
       "sourceRepo": "winterdp/projectelfattorney",
       "differences": {
         "status": {
@@ -2674,6 +2718,32 @@
       }
     },
     {
+      "sourceRepo": "gyoannz/works",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/GyoannZ-works/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "saigurunagula/ik2",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/SaiguruNagula-ik2/"
+        }
+      }
+    },
+    {
       "sourceRepo": "koohdev/chronicles_of_arithmos",
       "differences": {
         "status": {
@@ -2757,6 +2827,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/yutom3-UCI-CKI-RPGMMO/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "sonata-chan/clubecaixao",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Sonata-chan-clubecaixao/"
         }
       }
     },
@@ -3009,6 +3092,19 @@
         "status": {
           "ours": "indexed",
           "upstream": "unavailable"
+        }
+      }
+    },
+    {
+      "sourceRepo": "hanr61/creative-journey-new",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/hanr61-Creative-Journey-New/"
         }
       }
     },
@@ -3945,6 +4041,28 @@
       }
     },
     {
+      "sourceRepo": "huanbieyuan/huanbieyuan.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/huanbieyuan-huanbieyuan.github.io/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "lokinious/rpg-maker-game-1",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "unavailable"
+        }
+      }
+    },
+    {
       "sourceRepo": "katai5plate/rpgmv-game-kanban",
       "differences": {
         "status": {
@@ -4574,6 +4692,19 @@
       }
     },
     {
+      "sourceRepo": "pzahutdwg/pzahutdwg.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/pzahutdwg-pzahutdwg.github.io/"
+        }
+      }
+    },
+    {
       "sourceRepo": "28dosei/28dosei.github.io",
       "differences": {
         "status": {
@@ -4583,6 +4714,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/28dosei-28dosei.github.io/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "28msnyder/28msnyder.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/28MSnyder-28MSnyder.github.io/"
         }
       }
     },
@@ -4678,6 +4822,32 @@
       }
     },
     {
+      "sourceRepo": "28lharnish/28lharnish.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/28lharnish-28lharnish.github.io/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "riley-girgenti/riley-girgenti.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Riley-Girgenti-Riley-Girgenti.github.io/"
+        }
+      }
+    },
+    {
       "sourceRepo": "28pmancenido-sys/28pmancenido-sys.github.io",
       "differences": {
         "status": {
@@ -4765,6 +4935,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/strelokhalfer-HGHU/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "gary26834947-eng/github_rpg_congroup_v1",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/gary26834947-eng-github_rpg_conGroup_v1/"
         }
       }
     },
@@ -5618,6 +5801,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/kenshindias-kenshindias.github.io/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "28mcross-prog/28mcross-prog.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/28mcross-prog-28mcross-prog.github.io/"
         }
       }
     },
@@ -6964,7 +7160,7 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "indexed"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -7170,6 +7366,32 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/U-K-L-ContentSupportExamples/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "hectovargas/repositoriozelda",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Hectovargas-repositorioZELDA/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "saluji/tsot",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/saluji-tsot/"
         }
       }
     },
@@ -7413,6 +7635,19 @@
       }
     },
     {
+      "sourceRepo": "kushpatel43/rpg_maker",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/kushpatel43-RPG_Maker/"
+        }
+      }
+    },
+    {
       "sourceRepo": "0ui0/owo_terminal_public",
       "differences": {
         "status": {
@@ -7426,6 +7661,19 @@
       }
     },
     {
+      "sourceRepo": "29abrenton-rgb/29abrenton-rgb.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/29abrenton-rgb-29abrenton-rgb.github.io/"
+        }
+      }
+    },
+    {
       "sourceRepo": "affonsoamendola/oldprojects",
       "differences": {
         "status": {
@@ -7435,6 +7683,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/affonsoamendola-oldprojects/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "akshatiyer/gamejam2025",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/AkshatIyer-GameJam2025/"
         }
       }
     },
@@ -7630,6 +7891,15 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/gzqyl-RPGEmu-MZ/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "hira1010/2nd-brain",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "unavailable"
         }
       }
     },
@@ -7977,6 +8247,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/Ananta-TI-Rpg-maker/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "monroees/lachambre",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Monroees-LaChambre/"
         }
       }
     },
@@ -8420,6 +8703,15 @@
       }
     },
     {
+      "sourceRepo": "lucianoapz/m07_uf3_fitesexercicis",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "rorythegame/roryrpg",
       "differences": {
         "status": {
@@ -8633,6 +8925,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/miegithub-Scholars_Journey/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "kelvintaco/gamedevrpg",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/kelvintaco-gamedevrpg/"
         }
       }
     },
@@ -8903,6 +9208,15 @@
       }
     },
     {
+      "sourceRepo": "dorphiaderp/rpg-test-project",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "check_error"
+        }
+      }
+    },
+    {
       "sourceRepo": "biud436/cefmv",
       "differences": {
         "status": {
@@ -9042,6 +9356,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/miguelarcjr-sombradalua/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "songsongxxx/dream",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/songsongxxx-dream/"
         }
       }
     },
@@ -9427,6 +9754,15 @@
       }
     },
     {
+      "sourceRepo": "bryce26550/rpg-maker-suff",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "check_error"
+        }
+      }
+    },
+    {
       "sourceRepo": "firekula/erogame",
       "differences": {
         "status": {
@@ -9553,6 +9889,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/bywuuu-lecWeb/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "koohdev/chronicles",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/koohdev-chronicles/"
         }
       }
     },
@@ -9844,6 +10193,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/vivekmedepalli-ThreeDungeonSneakPeak_Ver.2/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "somewhatcold/ocadgame",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/somewhatcold-OCADgame/"
         }
       }
     },
@@ -10156,6 +10518,19 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/mysterymagination-twilightning/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "skypad123/ntu_cz3003-ultraregin-mono",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/skypad123-ntu_cz3003-ultraregin-mono/"
         }
       }
     },
