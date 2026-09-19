@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T01:13:01.009Z",
+  "generatedAt": "2026-09-19T05:56:24.630Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 1160,
   "upstreamTotal": 1153,
@@ -618,11 +618,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/rfvtgbzxc-RMMZ-TS-Vite/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -1322,11 +1318,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/Ambiwlans-TooFastRPG/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -3404,11 +3396,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/poopsterbrown-schoolofrock/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -4841,11 +4829,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/ratchetgame-ratchetgame.github.io/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -6279,11 +6263,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/lriki-LN_AdvancedMapPuzzleSystem/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -7929,11 +7909,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/pokemon-essentials-pokemon-essentials/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -8651,11 +8627,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/rinne-grid-tkoolmv_plugin_RecollectionMode/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -8677,11 +8649,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/pascal-the-elf-Project-H5/"
+          "upstream": "invalid_structure"
         }
       }
     },
