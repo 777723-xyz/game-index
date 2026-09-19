@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T22:36:52.691Z",
+  "generatedAt": "2026-09-19T01:13:01.009Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 1160,
   "upstreamTotal": 1153,
@@ -62,11 +62,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/shaddockh-rmmv_ts_boilerplate/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -1113,11 +1109,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/ruan-cat-drill_plugins-fork-from-drill/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -1230,11 +1222,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/aqua012-aqua012.github.io/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -1697,9 +1685,17 @@
     {
       "sourceRepo": "aaixy/zzgl",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "invalid_structure"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/aaixy-zzgl/index.html",
-          "upstream": "https://webrpg.org/aaixy-zzgl/"
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
@@ -4466,11 +4462,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/ScorpGaming4432-fungerterminapl/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -8055,11 +8047,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/RyanBram-RPG-MV-Ace/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -8889,11 +8877,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/themabus-Get-the-Balance-Right/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -9350,11 +9334,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/taroxd-RPGMV-Taiko/"
+          "upstream": "invalid_structure"
         }
       }
     },
