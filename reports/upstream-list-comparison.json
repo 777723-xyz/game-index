@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T14:28:08.024Z",
+  "generatedAt": "2026-09-19T18:04:00.904Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 1161,
   "upstreamTotal": 1154,
@@ -8789,11 +8789,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/Arise-QMV-Master-Demo-DEV/"
+          "upstream": "invalid_structure"
         }
       }
     },
