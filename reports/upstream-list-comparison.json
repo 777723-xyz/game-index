@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-19T05:56:24.630Z",
+  "generatedAt": "2026-09-19T11:02:52.107Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 1160,
-  "upstreamTotal": 1153,
-  "shared": 1153,
+  "localTotal": 1161,
+  "upstreamTotal": 1154,
+  "shared": 1154,
   "upstreamOnly": [],
   "localOnly": [
     {
@@ -1205,11 +1205,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/shd101wyy-shd101wyy.github.io/"
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -7511,6 +7507,15 @@
       }
     },
     {
+      "sourceRepo": "meowcat767/spacecatgames",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "invalid_structure"
+        }
+      }
+    },
+    {
       "sourceRepo": "neoexm/kuakin",
       "differences": {
         "status": {
@@ -12195,11 +12200,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/hanakusogame-hanakusogame.github.io/"
+          "upstream": "invalid_structure"
         }
       }
     },
